@@ -6,16 +6,23 @@
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3"></a>
 </div>
 
-## Описание:
+## Описание
 Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Таких как система рангов на форуме и кастомные команды от комьюнити. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
 
-## Пример работы:
+## Пример работы
 ![Bot in Action](path/to/example/gif)
 
-## Баг репорт и предложение:
-Заполните issue и опишите проблему. Мы проверим её как можно скорее! Пожалуйста, заполните шаблон issue.
+## Баг репорт & Предложения
+1. Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
 
-## Как принять участие в разработке:
+2. Main Developer Discord : [@hellsas](https://discord.com/users/hellsas)
+
+3. Создай issue на гитхабе, и мы проверим её как можно скорее. 
+
+4. Main Developer Email: [thehellsas@gmail.com](mailto:thehellsas@gmail.com)
+
+
+## Как принять участие в разработке
 Изменения и улучшения приветствуются! ❤️ Вы можете форкнуть репозиторий и создать pull request. Пожалуйста, следуйте следующим шагам:
 1. Fork репозитория
 2. Создайте ветку для новой функциональности (под dev веткой)
@@ -26,12 +33,3 @@
 7. Обновите AUTHORS.md
 8. Добавьте своё имя в раздел # Другие участники #
 9. Подайте pull request в dev (пожалуйста, заполните шаблон pull request)
-
-## Баг репорт & Предложения
-1. Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
-
-2. Main Developer Discord : [@hellsas](https://discord.com/users/hellsas)
-
-3. Создай issue на гитхабе, и мы проверим её на столько быстро на сколько это возможно. 
-
-4. Main Developer Email: [thehellsas@gmail.com](mailto:thehellsas@gmail.com)
