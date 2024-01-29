@@ -16,5 +16,6 @@ colorama.init(autoreset=True)
 intents = discord.Intents.default()
 
 bot = commands.Bot(command_prefix=PREFIX, help_command=None, intents=discord.Intents.all())
+TOKEN = None
 
 ic(discord.__version__)
