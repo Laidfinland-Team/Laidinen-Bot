@@ -1,0 +1,40 @@
+import sys, os; sys.path.insert(0, os.path.join(os.getcwd(), ''))
+
+from __init__ import *
+from pytube import Channel
+from datetime import datetime
+
+CHANNEL_URL = "https://www.youtube.com/c/ProgrammingKnowledge"
+
+
+class LastVideoCog(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        info("LastVideoCog is ready")
+        
+    @commands.command()
+    async def lastvideo(self, ctx):
+        video_url, video_title, time_elapsed = get_latest_video_info()
+        message = f"Latest Video URL: {video_url}\nLatest Video Title: {video_title}\nTime Elapsed since Publish: {time_elapsed}"
+        await ctx.send(message)
+
+async def setup(bot):
+    await bot.add_cog(LastVideoCog(bot))
+    
+
+def get_latest_video_info():
+    channel = Channel(CHANNEL_URL)
+    channel.videos = sorted(channel.videos, key=lambda x: x.publish_date, reverse=True)
+    latest_video = channel.videos[0]
+    return str(latest_video), latest_video.watch_url, latest_video.title, datetime.now() - latest_video.publish_date
+    
+    
+# Example usage
+if __name__ == "__main__":
+    video_url, video_title, time_elapsed = get_latest_video_info()
+    print("Latest Video URL:", str(video_url))
+    print("Latest Video Title:", video_title)
+    print("Time Elapsed since Publish:", time_elapsed)

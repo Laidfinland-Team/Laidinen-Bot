@@ -1,6 +1,6 @@
 # Laidinen Bot Repository
 
-![Laidinen Bot Logo](path/to/centered/image.png)
+![Laidinen Bot Logo](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/otherfile/Bot_ava.png)
 
 ## Описание:
 Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Возможности включают в себя [пример 1], [пример 2]. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
