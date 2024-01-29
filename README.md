@@ -1,6 +1,6 @@
 # Laidinen Bot Repository
 <div align="center">
-<img src="https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/otherfile/Bot_ava.png)">
+<img src="https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/otherfile/Bot_ava.png">
 <br/>
 <br/>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3"></a>
