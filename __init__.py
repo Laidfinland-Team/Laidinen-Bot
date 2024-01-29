@@ -3,8 +3,8 @@ import colorama
 import asyncio
 import os
 
-
-from bot_params import TOKEN, PREFIX
+from TOKEN import TOKEN
+from bot_params import PREFIX
 from _con_message_base import *
 from _functions_base import *
 
