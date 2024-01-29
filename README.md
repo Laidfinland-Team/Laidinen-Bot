@@ -7,7 +7,7 @@
 </div>
 
 ## Описание:
-Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Возможности включают в себя [пример 1], [пример 2]. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
+Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Таких как система рангов на форуме и кастомные команды от комьюнити. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
 
 ## Пример работы:
 ![Bot in Action](path/to/example/gif)
@@ -27,8 +27,9 @@
 8. Добавьте своё имя в раздел # Другие участники #
 9. Подайте pull request в dev (пожалуйста, заполните шаблон pull request)
 
-## Main Developer Discord : [@hellsas](https://discord.com/users/hellsas)
+## Баг репорт & Предложения
+### Main Developer Discord : [@hellsas](https://discord.com/users/hellsas)
 
-## Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
+### Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
 
-## Email: [thehellsas@gmail.com](mailto:thehellsas@gmail.com)
+### Email: [thehellsas@gmail.com](mailto:thehellsas@gmail.com)

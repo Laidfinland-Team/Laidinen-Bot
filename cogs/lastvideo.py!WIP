@@ -1,7 +1,6 @@
 import sys, os; sys.path.insert(0, os.path.join(os.getcwd(), ''))
 
 from __init__ import *
-from pytube import Channel
 from datetime import datetime
 
 CHANNEL_URL = "https://www.youtube.com/c/ProgrammingKnowledge"
