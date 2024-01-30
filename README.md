@@ -10,7 +10,7 @@
 Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Таких как система рангов на форуме и кастомные команды от комьюнити. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
 
 ## Пример работы
-![Bot in Action]([path/to/example/gif](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/otherfile/gif.gif))
+![Bot in Action](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/otherfile/gif.gif)
 
 ## Баг репорт & Предложения
 1. Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
