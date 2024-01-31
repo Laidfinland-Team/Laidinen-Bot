@@ -6,7 +6,7 @@
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3"></a>
 </div>
 
-## Table of contents				
+## Оглавление								
    * [Описание](https://github.com/Laidfinland-Team/Laidinen-Bot#описание)
    * [Пример работы](https://github.com/Laidfinland-Team/Laidinen-Bot#Пример-работы)
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
