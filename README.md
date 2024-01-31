@@ -11,10 +11,11 @@
    * [Пример работы](https://github.com/Laidfinland-Team/Laidinen-Bot#Пример-работы)
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
    * [Как принять участие в разработке](https://github.com/Laidfinland-Team/Laidinen-Bot#как-принять-участие-в-разработке)
-   * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot#)
+   * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot#AUTHORS.md)
    <!--* [License](https://github.com/sepandhaghighi/art/blob/master/LICENSE) -->
    <!--* [Show Your Support](https://github.com/sepandhaghighi/art#show-your-support) -->
    <!--* [Changelog](https://github.com/sepandhaghighi/art/blob/master/CHANGELOG.md)-->
+   * [Поддержка](https://github.com/Laidfinland-Team/Laidinen-Bot#поддержка)
 
 ##
    * [Принципы сообщества](https://github.com/sepandhaghighi/art/blob/master/.github/CODE_OF_CONDUCT.md)
@@ -47,3 +48,6 @@
 8. Обнови README.md (если это необходимо)
 9. Обнови AUTHORS.md, Добавь своё имя в раздел # Другие участники #
 10. Создай pull request в dev ветку (пожалуйста, заполни шаблон pull request)
+
+# Поддержка 
+Поставь ⭐ этому репозиторию на гитхабе, если он показался тебе интересным! 
