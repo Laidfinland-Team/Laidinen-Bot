@@ -11,7 +11,7 @@
    * [Пример работы](https://github.com/Laidfinland-Team/Laidinen-Bot#Пример-работы)
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
    * [Как принять участие в разработке](https://github.com/Laidfinland-Team/Laidinen-Bot#как-принять-участие-в-разработке)
-   * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot#AUTHORS.md)
+   * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/AUTHORS.MD)
    <!--* [License](https://github.com/sepandhaghighi/art/blob/master/LICENSE) -->
    <!--* [Show Your Support](https://github.com/sepandhaghighi/art#show-your-support) -->
    <!--* [Changelog](https://github.com/sepandhaghighi/art/blob/master/CHANGELOG.md)-->
