@@ -19,7 +19,7 @@
    * [Поддержка](https://github.com/Laidfinland-Team/Laidinen-Bot#поддержка)
 
 ##
-   * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CODE_OF_CONDUCT.md)
+   * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
    * [Лицензия](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE)
        * [Копия лицензии на русском](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE_RU.md)
 
@@ -54,8 +54,8 @@
 
 ## Для разработчиков
 Перед тем как принять участие ознакомься с этими мануалами! 
-* [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CODE_OF_CONDUCT.md)
-* [Наши конвенции](https://github.com/HellSAS/PyAlc/new/master/.github) 
+* [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
+* [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md) 
 * [Документация по проекту]
 * Установка
 * Отправка запроса на добавление нового функционала 
