@@ -18,7 +18,7 @@
    * [Поддержка](https://github.com/Laidfinland-Team/Laidinen-Bot#поддержка)
 
 ##
-   * [Принципы сообщества](https://github.com/sepandhaghighi/art/blob/master/.github/CODE_OF_CONDUCT.md)
+   * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CODE_OF_CONDUCT.md)
 
 ## Описание
 Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Таких как система рангов на форуме и кастомные команды от комьюнити. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
