@@ -11,6 +11,7 @@
    * [Пример работы](https://github.com/Laidfinland-Team/Laidinen-Bot#Пример-работы)
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
    * [Как принять участие в разработке](https://github.com/Laidfinland-Team/Laidinen-Bot#как-принять-участие-в-разработке)
+   * [Для разработчиков](https://github.com/Laidfinland-Team/Laidinen-Bot#для-разработчиков)
    * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/AUTHORS.MD)
    <!--* [License](https://github.com/sepandhaghighi/art/blob/master/LICENSE) -->
    <!--* [Show Your Support](https://github.com/sepandhaghighi/art#show-your-support) -->
@@ -19,6 +20,8 @@
 
 ##
    * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CODE_OF_CONDUCT.md)
+   * [Лицензия](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE)
+       * [Копия лицензии на русском](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE_RU.md)
 
 ## Описание
 Этот репозиторий представляет собой открытый исходный код Discord бота "Laidinen Bot". Бот разрабатывается для облегчения работы на сервере, предоставляя ряд полезных функций. Таких как система рангов на форуме и кастомные команды от комьюнити. Laidinen Bot является открытым проектом, и каждый может принять участие в его разработке.
@@ -38,7 +41,7 @@
 
 ## Как принять участие в разработке
 Хочешь добавить свою команду и стать соавтором? ❤️ Ты можешь форкнуть репозиторий, а после создать push-request своей ветки. Для этого следуй этим шагам:
-1. Прочти все мануалы из раздела "Правила проекта"
+1. Прочти все мануалы из раздела "Для разработчиков"
 2. Предложи свою команду (читай Баг репорт & Предложения)
 3. Получи добро на добавление нового функционала
 4. Форкни себе репозиторий
@@ -49,5 +52,8 @@
 9. Обнови AUTHORS.md, Добавь своё имя в раздел # Другие участники #
 10. Создай pull request в dev ветку (пожалуйста, заполни шаблон pull request)
 
-# Поддержка 
+## Для разработчиков
+Перед тем как принять участие ознакомься с этими мануалами! 
+* 
+## Поддержка 
 Поставь ⭐ этому репозиторию на гитхабе, если он показался тебе интересным! 
