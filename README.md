@@ -20,7 +20,7 @@
 ##
    * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
    * [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md)
-   * [Документация по проекту]()
+   * [Документация по проекту](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/BASE_DOCUMENTATION.md)
    * [Журнал изменений](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CHANGELOG.md)
    * [Лицензия](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE)
        * [Копия лицензии на русском](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE_RU.md)
