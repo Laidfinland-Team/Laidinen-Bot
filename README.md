@@ -20,6 +20,8 @@
 
 ##
    * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
+   * [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md)
+   * [Документация по проекту]()
    * [Лицензия](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE)
        * [Копия лицензии на русском](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE_RU.md)
 

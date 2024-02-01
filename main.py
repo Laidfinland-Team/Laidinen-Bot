@@ -27,9 +27,9 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=activity)
 
         
-@bot.command()
-async def test(ctx, arg):
-    await ctx.send(arg)
+@bot.command() 
+async def ping(ctx):
+    await ctx.send(f'Pong! {round(bot.latency * 1000)}ms')
     
 
 #        

@@ -5,8 +5,7 @@ from __init__ import *
 import discord
 
 
-
-class TheBestChannelCog(commands.Cog):
+class TheChannelCog(commands.Cog, name="Channel commands"):
     def __init__(self, bot):
         self.bot = bot
 
@@ -14,18 +13,15 @@ class TheBestChannelCog(commands.Cog):
     async def on_ready(self):
         info("TheBestChannelCog cog is ready")
         
-    @commands.command()
+    @commands.command(brief="Лучший канал про отношения")
     async def thebestchannel(self, ctx):
         file = discord.File(os.getcwd() +  "\\botfiles\\banner.jpg", filename="banner.jpg")
         
-        embed = discord.Embed(title="The Best Channel", description="# Зацени самый чёткий канальчик про отношения!", url="https://www.youtube.com/@Laidfin", color=discord.Color.pink())
+        embed = discord.Embed(title="The Best Channel", description="# Зацени самый чёткий канальчик про отношения!", url="https://www.youtube.com/@Laidfin", color=MAIN_COLOR)
         embed.set_image(url="attachment://banner.jpg")
         embed.add_field(name="Ссылочка", value="https://www.youtube.com/@Laidfin", inline=False)
-        try:
-            await ctx.send(file=file, embed=embed)
-        except:
-            error(e)
-            info("Приносим свои извинения, но произошла ошибка при отправке сообщения. Попробуйте позже.")
+        
+        await ctx.send(file=file, embed=embed)
         
 async def setup(bot):
-    await bot.add_cog(TheBestChannelCog(bot))
+    await bot.add_cog(TheChannelCog(bot))

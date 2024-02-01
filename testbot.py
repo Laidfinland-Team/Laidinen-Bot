@@ -1,5 +1,4 @@
-import discord
-from discord.ext import commands
+from __init__ import *
 
 
 bot = commands.Bot(command_prefix='?', help_command=None, intents=discord.Intents.all())
@@ -13,4 +12,4 @@ async def test(ctx, arg):
     await ctx.send(arg)
     
 
-bot.run('MTE4NDU5NjA0NDUwODU2NTY1NA.GIkofI.PCTaz67cBgl1-vMa5lrxjx8FvhPYcFlszL7wic')
+bot.run(TOKEN)
