@@ -5,7 +5,7 @@
 **СТИЛЬ НАПИСАНИЯ КОДА ПРИМЕРНО СООТВЕТСТВУЕТ СТАНДАРТУ [PEP8](https://peps.python.org/pep-0008/), ЭТО МИНИМУМ К КОТОРОМУ НУЖНО СТРЕМИТСЯ ПРИ НАПИСАНИИ КОДА!**
 
 # Наши стандарты
-Формат изменений [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/)
+Формат изменений [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/) (Push request)
 
 Проект придерживается [семантической системы версий](https://semver.org/lang/ru/).
 
