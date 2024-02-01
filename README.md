@@ -61,6 +61,6 @@
 * [Установка](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/INSTALLATION.md)
 * [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md) 
 * [Документация по проекту](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/BASE_DOCUMENTATION.md)
-* Отправка запроса на добавление нового функционала 
+* [Отправка запроса на добавление нового функционала](https://discord.com/channels/1156871394173407283/1202641194488954901)
 ## Поддержка 
 Поставь ⭐ этому репозиторию на гитхабе, если он показался тебе интересным! 
