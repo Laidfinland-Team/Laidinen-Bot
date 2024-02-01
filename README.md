@@ -12,7 +12,6 @@
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
    * [Как принять участие в разработке](https://github.com/Laidfinland-Team/Laidinen-Bot#как-принять-участие-в-разработке)
    * [Для разработчиков](https://github.com/Laidfinland-Team/Laidinen-Bot#для-разработчиков)
-
    * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/AUTHORS.MD)
    </br></br>
    * [Поддержка](https://github.com/Laidfinland-Team/Laidinen-Bot#поддержка)
