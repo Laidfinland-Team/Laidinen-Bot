@@ -12,16 +12,16 @@
    * [Баг репорт & Предложения](https://github.com/Laidfinland-Team/Laidinen-Bot#Баг-репорт--Предложения)
    * [Как принять участие в разработке](https://github.com/Laidfinland-Team/Laidinen-Bot#как-принять-участие-в-разработке)
    * [Для разработчиков](https://github.com/Laidfinland-Team/Laidinen-Bot#для-разработчиков)
+
    * [Авторы](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/AUTHORS.MD)
-   <!--* [License](https://github.com/sepandhaghighi/art/blob/master/LICENSE) -->
-   <!--* [Show Your Support](https://github.com/sepandhaghighi/art#show-your-support) -->
-   <!--* [Changelog](https://github.com/sepandhaghighi/art/blob/master/CHANGELOG.md)-->
+   </br></br>
    * [Поддержка](https://github.com/Laidfinland-Team/Laidinen-Bot#поддержка)
 
 ##
    * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
    * [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md)
    * [Документация по проекту]()
+   * [Журнал изменений](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/CHANGELOG.md)
    * [Лицензия](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE)
        * [Копия лицензии на русском](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/LICENSE_RU.md)
 
