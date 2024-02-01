@@ -58,9 +58,9 @@
 ## Для разработчиков
 Перед тем как принять участие ознакомься с этими мануалами! 
 * [Принципы сообщества](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CODE_OF_CONDUCT.md)
+* [Установка](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/INSTALLATION.md)
 * [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md) 
-* [Документация по проекту]
-* Установка
+* [Документация по проекту](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/BASE_DOCUMENTATION.md)
 * Отправка запроса на добавление нового функционала 
 ## Поддержка 
 Поставь ⭐ этому репозиторию на гитхабе, если он показался тебе интересным! 
