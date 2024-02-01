@@ -10,4 +10,4 @@
 ## Добавлено
 - 2 новые команды 
     1. `help`
-    2. `thebestchannel`
+    2. `thebestchannel` 
