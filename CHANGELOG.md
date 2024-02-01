@@ -4,10 +4,10 @@
 
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/), а сам проект придерживается [семантической системы версий](https://semver.org/lang/ru/).
 
-[Unreleased]
+# [Unreleased]
 
-[0.1] - 2024-02-01
+# [0.1] - 2024-02-01
 ## Добавлено
 - 2 новые команды 
-    1. `help`
-    2. `thebestchannel` 
+    1.  `help`
+    2.  `thebestchannel` 
