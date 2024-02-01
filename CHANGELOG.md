@@ -11,3 +11,6 @@
 - 2 новые команды 
     1.  `help`
     2.  `thebestchannel` 
+
+[Unreleased]: https://github.com/Laidfinland-Team/Laidinen-Bot/compare/v0.1...master
+[0.1]: https://github.com/Laidfinland-Team/Laidinen-Bot/compare/0be6e0ca...v0.1
