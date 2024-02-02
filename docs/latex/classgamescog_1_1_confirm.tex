@@ -1,0 +1,89 @@
+\doxysection{Класс gamescog.\+Confirm}
+\hypertarget{classgamescog_1_1_confirm}{}\label{classgamescog_1_1_confirm}\index{gamescog.Confirm@{gamescog.Confirm}}
+Граф наследования\+:gamescog.\+Confirm\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgamescog_1_1_confirm}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_a98c5ad228b4ae6aee0559771cd536d3f}\label{classgamescog_1_1_confirm_a98c5ad228b4ae6aee0559771cd536d3f} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, ctx)
+\item 
+\Hypertarget{classgamescog_1_1_confirm_a34c394f3dac6212ee3d8c62f91d5a260}\label{classgamescog_1_1_confirm_a34c394f3dac6212ee3d8c62f91d5a260} 
+{\bfseries shoot} (self, discord.\+Interaction interaction, discord.\+ui.\+Button button)
+\begin{DoxyCompactList}\small\item\em shoot -\/ Функция для обработки нажатия кнопки "{}Спуск"{} \end{DoxyCompactList}\item 
+\Hypertarget{classgamescog_1_1_confirm_a280297afb146bd4b75b2b93ae0086223}\label{classgamescog_1_1_confirm_a280297afb146bd4b75b2b93ae0086223} 
+{\bfseries cancel} (self, discord.\+Interaction interaction, discord.\+ui.\+Button button)
+\begin{DoxyCompactList}\small\item\em cancel -\/ Функция для обработки нажатия кнопки "{}Зассал"{} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_adef4a0825dabccac0737bea2da1854cd}\label{classgamescog_1_1_confirm_adef4a0825dabccac0737bea2da1854cd} 
+{\bfseries value}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_a9e4a6a83854cd52cae4411196043042f}\label{classgamescog_1_1_confirm_a9e4a6a83854cd52cae4411196043042f} 
+{\bfseries died}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_a7bc1b6421ce296d70954c093fbe0c1c5}\label{classgamescog_1_1_confirm_a7bc1b6421ce296d70954c093fbe0c1c5} 
+{\bfseries ctx}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Статические открытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_af9b206b818e0f3f4bbcb08498cfa653d}\label{classgamescog_1_1_confirm_af9b206b818e0f3f4bbcb08498cfa653d} 
+list {\bfseries success\+\_\+messages} = \mbox{[}"{}Сегодня тебе везёт \+:)"{}, "{}Ты выжил"{}, "{}Ты победил"{}\mbox{]}
+\item 
+\Hypertarget{classgamescog_1_1_confirm_a613b95d5c17ec6819df1634071bc7725}\label{classgamescog_1_1_confirm_a613b95d5c17ec6819df1634071bc7725} 
+list {\bfseries failure\+\_\+messages} = \mbox{[}"{}БУМ и ты отлетаешь!"{}, "{}\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}YOU DIED\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}"{}, "{}Пока-\/пока!)"{}, "{}Да ты снайпер! Точно в цель)"{}, \mbox{]}
+\item 
+\mbox{\hyperlink{classgamescog_1_1_confirm_afe33907f8e9b1a4482efeb5a186f11d7}{success\+\_\+embed}}
+\begin{DoxyCompactList}\small\item\em Эмбеды для сообщений при осечке \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamescog_1_1_confirm_a4256f12ad057092f5533b1ae6c84f3b7}{failure\+\_\+embed}}
+\begin{DoxyCompactList}\small\item\em Эмбеды для сообщений при выстреле \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Данные класса}
+\Hypertarget{classgamescog_1_1_confirm_a4256f12ad057092f5533b1ae6c84f3b7}\label{classgamescog_1_1_confirm_a4256f12ad057092f5533b1ae6c84f3b7} 
+\index{gamescog.Confirm@{gamescog.Confirm}!failure\_embed@{failure\_embed}}
+\index{failure\_embed@{failure\_embed}!gamescog.Confirm@{gamescog.Confirm}}
+\doxysubsubsection{\texorpdfstring{failure\_embed}{failure\_embed}}
+{\footnotesize\ttfamily gamescog.\+Confirm.\+failure\+\_\+embed\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Инициализатор}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ discord.Embed(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ title=\textcolor{stringliteral}{"{}ВЫСТРЕЛ!!!"{}},\ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ color=discord.Color.red()}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ )}
+
+\end{DoxyCode}
+
+
+Эмбеды для сообщений при выстреле 
+
+\Hypertarget{classgamescog_1_1_confirm_afe33907f8e9b1a4482efeb5a186f11d7}\label{classgamescog_1_1_confirm_afe33907f8e9b1a4482efeb5a186f11d7} 
+\index{gamescog.Confirm@{gamescog.Confirm}!success\_embed@{success\_embed}}
+\index{success\_embed@{success\_embed}!gamescog.Confirm@{gamescog.Confirm}}
+\doxysubsubsection{\texorpdfstring{success\_embed}{success\_embed}}
+{\footnotesize\ttfamily gamescog.\+Confirm.\+success\+\_\+embed\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Инициализатор}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ discord.Embed(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ title=\textcolor{stringliteral}{"{}ПУСТО"{}},\ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ color=discord.Color.lighter\_grey()}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ )}
+
+\end{DoxyCode}
+
+
+Эмбеды для сообщений при осечке 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Ponom/\+One\+Drive/\+Desktop/\+Laidfinland/\+Laidinen-\/\+Bot/cogs/gamescog.\+py\end{DoxyCompactItemize}

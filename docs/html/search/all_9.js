@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['master_20unreleased_20a_0',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/v0.1...master&quot; &gt;Unreleased&lt;/a&gt;',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md7',1,'']]]
+  ['thebestchannel_0',['thebestchannel',['../classthechannelcog_1_1_the_channel_cog.html#a563c853393cb8e62ca6c357f6c512b10',1,'thechannelcog::TheChannelCog']]],
+  ['thechannelcog_1',['TheChannelCog',['../classthechannelcog_1_1_the_channel_cog.html',1,'thechannelcog']]]
 ];

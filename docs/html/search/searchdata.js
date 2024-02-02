@@ -1,9 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "lot",
-  1: "t",
+  0: "bcfglmorst",
+  1: "bcgmt",
   2: "l",
-  3: "ot"
+  3: "corst",
+  4: "fs"
 };
 
 var indexSectionNames =
@@ -11,7 +12,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "functions"
+  3: "functions",
+  4: "variables"
 };
 
 var indexSectionLabels =
@@ -19,6 +21,7 @@ var indexSectionLabels =
   0: "Указатель",
   1: "Классы",
   2: "Пространства имен",
-  3: "Функции"
+  3: "Функции",
+  4: "Переменные"
 };
 

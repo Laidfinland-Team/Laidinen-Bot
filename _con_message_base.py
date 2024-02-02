@@ -1,5 +1,7 @@
 
+
 from colorama import Fore, Back, Style
+
 
 def error(message):
     print(Fore.RED + Style.BRIGHT + "[ERROR] " + Style.DIM + message + Style.RESET_ALL)
@@ -9,6 +11,10 @@ def info(message):
     
 def warning(message):
     print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + Style.DIM  + message + Style.RESET_ALL)
+    
+
+def output(channel, message):
+    print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] " + f"{channel.name}: " + Style.DIM + message + Style.RESET_ALL)
     
 if __name__ == "__main__":
     print("\n")
