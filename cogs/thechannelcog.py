@@ -11,7 +11,6 @@ class TheChannelCog(commands.Cog, name="Channel commands"):
     def __init__(self, bot):
         self.bot = bot
 
-
     @commands.Cog.listener()
     async def on_ready(self):
         

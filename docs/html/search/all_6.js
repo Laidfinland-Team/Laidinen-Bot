@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['github_20com_20laidfinland_20team_20laidinen_20bot_20compare_200be6e0ca_20v0_201_200_201_20a_202024_2002_2001_0',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/0be6e0ca...v0.1&quot; &gt;0.1&lt;/a&gt; - 2024-02-01',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md8',1,'']]],
-  ['github_20com_20laidfinland_20team_20laidinen_20bot_20compare_20v0_201_20master_20unreleased_20a_1',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/v0.1...master&quot; &gt;Unreleased&lt;/a&gt;',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md7',1,'']]]
+  ['on_5fready_0',['on_ready',['../classgamescog_1_1_games_cog.html#a70173cd0f51ee889436feeee59ea86e6',1,'gamescog.GamesCog.on_ready()'],['../classthechannelcog_1_1_the_channel_cog.html#a250832c7307a8a5fb9c7ffc7d07a5910',1,'thechannelcog.TheChannelCog.on_ready()']]]
 ];
