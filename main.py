@@ -43,6 +43,9 @@ async def ping(ctx):
 async def load_cogs():
     for filename in os.listdir("./cogs"):
         if filename.endswith(".py"):
-            await bot.load_extension(f"cogs.{filename[:-3]}")
+            try:
+                await bot.load_extension(f"cogs.{filename[:-3]}")
+            except Exception as e:
+                error(f"Failed to load extension {filename}: {e}")
 
 bot.run(TOKEN)
