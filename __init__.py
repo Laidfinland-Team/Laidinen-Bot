@@ -1,9 +1,16 @@
-import discord
-import colorama 
-import asyncio
-import importlib.util
 import os
 import sys
+
+import importlib.util
+import psycopg2
+
+
+import discord
+import asyncio
+import colorama
+ 
+
+import database._db_commands as db
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
@@ -15,6 +22,7 @@ from pretty_help import PrettyHelp
 from accessify import protected, private
 from colorama import Fore, Style, Back
 from icecream import ic
+from datetime import datetime
 
 
 __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '\TOKEN.py'
