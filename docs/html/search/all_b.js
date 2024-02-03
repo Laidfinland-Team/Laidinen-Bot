@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['team_20laidinen_20bot_20compare_200be6e0ca_20v0_201_200_201_20a_202024_2002_2001_0',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/0be6e0ca...v0.1&quot; &gt;0.1&lt;/a&gt; - 2024-02-01',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md8',1,'']]],
-  ['team_20laidinen_20bot_20compare_20v0_201_20master_20unreleased_20a_1',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/v0.1...master&quot; &gt;Unreleased&lt;/a&gt;',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md7',1,'']]]
+  ['teammatecog_0',['TeammateCog',['../classteammatecog_1_1_teammate_cog.html',1,'teammatecog']]],
+  ['thebestchannel_1',['thebestchannel',['../classthechannelcog_1_1_the_channel_cog.html#a563c853393cb8e62ca6c357f6c512b10',1,'thechannelcog::TheChannelCog']]],
+  ['thechannelcog_2',['TheChannelCog',['../classthechannelcog_1_1_the_channel_cog.html',1,'thechannelcog']]]
 ];
