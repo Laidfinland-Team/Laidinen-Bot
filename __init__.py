@@ -1,3 +1,6 @@
+import discord
+import colorama 
+import asyncio
 import os
 import sys
 
