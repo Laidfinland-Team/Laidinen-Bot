@@ -21,8 +21,11 @@ def run_tk():
             asyncio.run_coroutine_threadsafe(MyBot.message(channel_id, text.get("1.0", 'end-1c')), loop)
         except Exception as e:
             error(f"Send error: {e}")
+
         
     root = tk.Tk()  # Создание главного окна
+    
+    root.bind('<Return>', lambda event: on_button_click())
     
     root.bind('<Control-v>', lambda event: text_selected.insert(tk.END, pyperclip.paste()))
     
@@ -83,6 +86,7 @@ class MyBot():
 
         activity = discord.Activity(type=discord.ActivityType.watching, name="видео от Laidfin")
         await bot.change_presence(status=discord.Status.online, activity=activity)
+        
 
     # Асинхронная функция для отправки сообщения в указанный канал
     async def message(id, message):
