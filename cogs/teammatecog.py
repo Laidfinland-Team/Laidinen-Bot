@@ -65,11 +65,12 @@ class TeammateCog(commands.Cog, name="Find teammates commands"):
         exit_time = str((datetime.now() + timedelta(hours=time)).strftime("%H:%M"))
         db.add_gamer(ctx.message.author.id, args[0], args[1], exit_time,
                      str((datetime.now() + timedelta(hours=time))))
-        TeammateCog.send_ready_gamers(self, ctx, args, search)
+        await TeammateCog.send_ready_gamers(self, ctx, args, search)
 
     async def send_ready_gamers(self, ctx, args, search):
         """! send_ready_gamers - Отправка готовых игроков"""
         gamers = db.get_gamers(args[1])
+        gamers.remove((ctx.message.author.id,))
 
         if gamers is not None:
             new_gamers = self.filter_and_update_gamers(gamers)

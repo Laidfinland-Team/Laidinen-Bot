@@ -16,7 +16,7 @@ class Opinion(commands.Cog, name="Opinion command"):
     async def on_ready(self):
         """! on_ready - Событие, которое вызывается при готовности кога
         @return Сообщение о готовности кога"""
-        info(f"TeammateCog cog is ready")
+        info(f"Opinion Cog cog is ready")
 
     @commands.command(brief="Высказать мнение")
     async def opinion(self, ctx, *args):
