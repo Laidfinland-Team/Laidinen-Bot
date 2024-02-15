@@ -18,6 +18,7 @@ from _con_message_base import *
 from _functions_base import *
 
 from discord.ext import commands
+from discord import app_commands
 from pretty_help import PrettyHelp
 from accessify import protected, private
 from colorama import Fore, Style, Back

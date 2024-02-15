@@ -31,6 +31,10 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send(f'Pong! {round(bot.latency * 1000)}ms')
     
+@bot.command()
+async def invite(ctx, member : discord.Member = None):
+    await ctx.send(f"<@{member.id}>")
+    await ctx.send(embed=discord.Embed(description="**Привет путник, я вижу ты шаришь за прогерские штучки, не хочешь принять участие в разработке серверного бота?**\n\nЕсли да, тебе сюда: <#1201633718985572352>!", color=discord.Color.green()))
 
 #        
 #
