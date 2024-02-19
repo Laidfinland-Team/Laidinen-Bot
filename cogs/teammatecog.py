@@ -70,7 +70,6 @@ class TeammateCog(commands.Cog, name="Find teammates commands"):
     async def send_ready_gamers(self, ctx, args, search):
         """! send_ready_gamers - Отправка готовых игроков"""
         gamers = db.get_gamers(args[1])
-        gamers.remove((ctx.message.author.id,))
 
         if gamers is not None:
             new_gamers = self.filter_and_update_gamers(gamers)
