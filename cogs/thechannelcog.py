@@ -6,7 +6,7 @@ import discord
 
 class TheChannelCog(commands.Cog, name="Channel commands"):
     
-    """! TheBestChannelCog - Ког с командами про канал"""
+    """! Ког с командами про канал"""
     
     def __init__(self, bot):
         self.bot = bot

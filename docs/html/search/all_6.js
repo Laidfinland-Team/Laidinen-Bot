@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['on_5fready_0',['on_ready',['../classgamescog_1_1_games_cog.html#a70173cd0f51ee889436feeee59ea86e6',1,'gamescog.GamesCog.on_ready()'],['../classthechannelcog_1_1_the_channel_cog.html#a250832c7307a8a5fb9c7ffc7d07a5910',1,'thechannelcog.TheChannelCog.on_ready()']]]
+  ['mybot_0',['MyBot',['../class_laidinen-_bot_1_1messagefrombot_1_1_my_bot.html',1,'Laidinen-Bot::messagefrombot']]],
+  ['myclient_1',['MyClient',['../class_laidinen-_bot_1_1testbot_1_1_my_client.html',1,'Laidinen-Bot::testbot']]]
 ];

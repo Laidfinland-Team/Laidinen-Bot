@@ -44,3 +44,7 @@ __spec.loader.exec_module(__auth)
 TOKEN = __auth.TOKEN
 
 ic(discord.__version__)
+
+if __name__ == '__main__':
+    pythonLibPath = sys.executable.replace("\\python.exe", "\\Lib\\site-packages\\")
+    print(pythonLibPath)

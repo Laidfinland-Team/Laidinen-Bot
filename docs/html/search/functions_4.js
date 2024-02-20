@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['thebestchannel_0',['thebestchannel',['../classthechannelcog_1_1_the_channel_cog.html#a563c853393cb8e62ca6c357f6c512b10',1,'thechannelcog::TheChannelCog']]]
+  ['process_5fvalid_5fprofile_0',['process_valid_profile',['../classteammatecog_1_1_teammate_cog.html#a30c7923b5e53e2003627749aee89deef',1,'teammatecog::TeammateCog']]]
 ];

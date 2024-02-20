@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bot_0',['Bot',['../class_laidinen-_bot_1_1testbot_1_1_bot.html',1,'Laidinen-Bot::testbot']]]
+  ['advicecog_0',['AdviceCog',['../classadvice_cog_1_1_advice_cog.html',1,'adviceCog']]]
 ];

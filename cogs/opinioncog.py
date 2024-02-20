@@ -8,6 +8,7 @@ opinion = ["Ну я понимаю такое увлечение, но не ос
 
 
 class Opinion(commands.Cog, name="Opinion command"):
+    """! Ког с командами с мнением Артёма"""
 
     def __init__(self, bot):
         self.bot = bot
