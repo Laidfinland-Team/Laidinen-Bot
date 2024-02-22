@@ -5,6 +5,7 @@ from __init__ import *
 
 
 class TeammateCog(commands.Cog, name="Find teammates commands"):
+    """! Команды для поиска игроков"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -28,7 +29,7 @@ class TeammateCog(commands.Cog, name="Find teammates commands"):
             await search.edit(content=f"{args[2]} не является числом")
         elif len(args) != 3:
             await search.edit(
-                content=f"Команда должна быть введена с 3 аргументами\n?findteammate `ссылка на steam` `ссылка на игру в steam` `время в часах`")
+                content=f"Команда должна быть введена с 3 аргументами\n?find_teammate `ссылка на steam` `ссылка на игру в steam` `время в часах`")
         else:
             await search.edit(content="Ссылка на игру не действительна")
 

@@ -69,8 +69,8 @@ class Confirm(discord.ui.View):
         await interaction.message.edit(view=None)
 
 
-class GamesCog(commands.Cog, name="Games"):
-    """! GamesCog - Ког с командами для игры"""
+class RussianRouletteCog(commands.Cog, name="Games"):
+    """! Команды для игры в русскую рулетку"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -126,4 +126,4 @@ class GamesCog(commands.Cog, name="Games"):
 
 
 async def setup(bot):
-    await bot.add_cog(GamesCog(bot))
+    await bot.add_cog(RussianRouletteCog(bot))

@@ -3,7 +3,7 @@ from __init__ import *
 
 
 class LinksCog(commands.Cog, name="Links commands"):
-    """! Ког с ссылками на соцсети Артёма"""
+    """! Команды с ссылками на соцсети Артёма"""
 
     def __init__(self, bot):
         self.bot = bot

@@ -7,6 +7,7 @@ advices = ["Банан большой но кожура еще больше", "�
 
 
 class AdviceCog(commands.Cog, name="Advice commands"):
+    """! Команды чтоб спросить совет у Артёма """
 
     def __init__(self, bot):
         self.bot = bot
