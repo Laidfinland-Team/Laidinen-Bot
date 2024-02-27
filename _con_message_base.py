@@ -12,6 +12,9 @@ def info(message):
 def warning(message):
     print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + Style.DIM  + message + Style.RESET_ALL)
     
+def security(message):
+    print(Fore.RED + Style.BRIGHT + f"[{Fore.YELLOW}SECURITY{Fore.RED}] " + Style.DIM  + message + Style.RESET_ALL)
+    
 
 def output(channel, message):
     print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] " + f"{channel.name}: " + Style.DIM + message + Style.RESET_ALL)

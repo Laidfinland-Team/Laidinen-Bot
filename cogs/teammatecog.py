@@ -14,7 +14,7 @@ class TeammateCog(commands.Cog, name="Find teammates commands"):
     async def on_ready(self):
         """! on_ready - Событие, которое вызывается при готовности кога
         @return Сообщение о готовности кога"""
-        info(f"TeammateCog cog is ready")
+        info(f"Teammate cog is ready")
 
     @commands.command(brief="Поиск тиммейта")
     async def find_teammate(self, ctx, *args):

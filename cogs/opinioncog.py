@@ -8,7 +8,7 @@ opinion = ["Ну я понимаю такое увлечение, но не ос
 
 
 class Opinion(commands.Cog, name="Opinion command"):
-    """! Командамы с мнением Артёма"""
+    """! Команды с мнением Артёма"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -17,7 +17,7 @@ class Opinion(commands.Cog, name="Opinion command"):
     async def on_ready(self):
         """! on_ready - Событие, которое вызывается при готовности кога
         @return Сообщение о готовности кога"""
-        info(f"Opinion Cog cog is ready")
+        info(f"Opinion cog is ready")
 
     @commands.command(brief="Высказать мнение")
     async def opinion(self, ctx, *args):

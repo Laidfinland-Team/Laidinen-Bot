@@ -95,3 +95,43 @@ except Exception as e:
             error(f"Connecting to the database: {e}")
         case _: 
             error(f"Connecting to the database: {e}")
+            
+try:
+        with psycopg2.connect(
+            host=host,
+            user=user,
+            password=password,
+            dbname=db_name,
+            port=port
+        ) as conn:
+            conn.autocommit = True
+            with conn.cursor() as cursor:
+                # Create the tables
+                create_table_query = '''
+                CREATE TABLE gameword_users (
+                    id SERIAL PRIMARY KEY,
+                    user_id BIGINT NOT NULL, 
+                    found_words BIGINT NOT NULL,
+                    spelling_mistakes BIGINT NOT NULL,
+                    last_three_worlds TEXT NOT NULL
+                )
+                '''
+                try:
+                    cursor.execute(create_table_query)
+                    conn.commit()
+                except Exception as e:
+                    match e:
+                        case psycopg2.errors.DuplicateTable:
+                            error("Table already exists.")
+                        case psycopg2.errors.InFailedSqlTransaction:
+                            error(f"Error while creating table: {e}")
+                        case _:
+                            error(f"Error while creating table: {e}")
+                else:
+                    info("Users table created successfully.")
+except Exception as e:
+    match e:
+        case psycopg2.Error:
+            error(f"Connecting to the database: {e}")
+        case _: 
+            error(f"Connecting to the database: {e}")

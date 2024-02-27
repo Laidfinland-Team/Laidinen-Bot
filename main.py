@@ -27,11 +27,11 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=activity)
 
         
-@bot.command() 
+@bot.command(brief = "Проверка задержки с ботом") 
 async def ping(ctx):
     await ctx.send(f'Pong! {round(bot.latency * 1000)}ms')
     
-@bot.command()
+@bot.command(brief = "Пригласить участвовать в разработке бота")
 async def invite(ctx, member : discord.Member = None):
     await ctx.send(f"<@{member.id}>")
     await ctx.send(embed=discord.Embed(description="**Привет путник, я вижу ты шаришь за прогерские штучки, не хочешь принять участие в разработке серверного бота?**\n\nЕсли да, тебе сюда: <#1201633718985572352>!", color=discord.Color.green()))

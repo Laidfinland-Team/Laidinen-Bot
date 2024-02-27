@@ -80,7 +80,7 @@ class RussianRouletteCog(commands.Cog, name="Games"):
 
         """! Событие, которое вызывается при готовности кога"""
 
-        info("GamesCog cog is ready")
+        info("Games cog is ready")
 
     @commands.command(brief="Русская рулетка")
     async def russian_roulette(self, ctx, member: discord.Member = None):

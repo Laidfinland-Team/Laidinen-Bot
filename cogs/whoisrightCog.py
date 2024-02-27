@@ -7,7 +7,8 @@ replies = ["Ну у user сразу видно что iq больше а зна�
            "Ребят хуйней маетесь, идите посмотрите поней и отвлекитесь"]
 
 
-class WhoIsRightCog(commands.Cog, name="WIR commands"):
+class WhoIsRightCog(commands.Cog, name="Who is right commands"):
+    """Команды для решения споров"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -17,7 +18,7 @@ class WhoIsRightCog(commands.Cog, name="WIR commands"):
         """! on_ready - Событие, которое вызывается при готовности кога
         @return Сообщение о готовности кога"""
 
-        info(f"WIR cog is ready")
+        info(f"WhoIsRight cog is ready")
 
     @commands.command(brief="Кто прав")
     async def whoright(self, ctx, user1: discord.Member, user2: discord.Member):

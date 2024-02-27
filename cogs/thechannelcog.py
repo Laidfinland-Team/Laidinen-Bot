@@ -6,7 +6,7 @@ import discord
 
 class TheChannelCog(commands.Cog, name="Channel commands"):
     
-    """! Ког с командами про канал"""
+    """! Команды про канал"""
     
     def __init__(self, bot):
         self.bot = bot
@@ -17,7 +17,7 @@ class TheChannelCog(commands.Cog, name="Channel commands"):
         """! on_ready - Событие, которое вызывается при готовности кога
         @return Сообщение о готовности кога"""
         
-        info("TheBestChannelCog cog is ready")
+        info("TheBestChannel cog is ready")
         
         
     @commands.command(brief="Лучший канал про отношения")
