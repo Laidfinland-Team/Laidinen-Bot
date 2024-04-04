@@ -1,0 +1,1 @@
+{"profiles": {"378620623649243138": "https://steamcommunity.com/id/suchkaa/", "436238287410167809": "https://steamcommunity.com/profiles/76561198418844701/"}}
