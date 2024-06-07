@@ -1,5 +1,6 @@
 var searchData=
 [
   ['game_0',['Game',['../classds__poker_1_1_game.html',1,'ds_poker.Game'],['../classsimple__poker_1_1_game.html',1,'simple_poker.Game']]],
-  ['gamescog_1',['GamesCog',['../classgamescog_1_1_games_cog.html',1,'gamescog']]]
+  ['gamescog_1',['GamesCog',['../classgamescog_1_1_games_cog.html',1,'gamescog']]],
+  ['get_5fcombo_2',['get_combo',['../classds__poker_1_1_combo.html#a401fc84c766af16ab8f82d7d34eb47c4',1,'ds_poker::Combo']]]
 ];

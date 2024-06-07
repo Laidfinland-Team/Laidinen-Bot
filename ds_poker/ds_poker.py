@@ -20,12 +20,26 @@ def poker_input(prompt, answers, table):
             print("Invalid input")
             
 class Combo():
+    """!
+    Класс который реализовывает комбинации карт.
+    @details Сначала получает 7 карт, последующие методы реализовывают эти карты.
+    @param [in] cards список из 7 карт (5 на столе и 2 в руке)
+    
+    """
     def __init__(self, cards):
         self.cards = cards
 
     def get_combo(self):
+        """! Возвращает лучшую комбинацию из 5 карт (3 на столе и 2 в руке)
+        @return <PokerPy.Hand> - list[PokerPy.Card] - список из 5 карт
+        """
         return PokerPy.get_best_hand(self.cards)
+    
     def hand_heuristic(self):
+        """! Возвращает числовое представление силы комбинации
+        @details Используется для сравнения комбинаций и выявления победителя
+        @return <int> - числовое представление силы комбинации
+        """
         return PokerPy.get_best_hand(self.cards).hand_heuristic()
 
 class Player:

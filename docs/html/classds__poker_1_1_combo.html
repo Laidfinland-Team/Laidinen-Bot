@@ -95,17 +95,20 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">Класс ds_poker.Combo</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс который реализовывает комбинации карт.  
+ <a href="#details">Подробнее...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a7107cc0035bf3a73a4f323081c0edd2b" id="r_a7107cc0035bf3a73a4f323081c0edd2b"><td class="memItemLeft" align="right" valign="top"><a id="a7107cc0035bf3a73a4f323081c0edd2b" name="a7107cc0035bf3a73a4f323081c0edd2b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, cards)</td></tr>
 <tr class="separator:a7107cc0035bf3a73a4f323081c0edd2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401fc84c766af16ab8f82d7d34eb47c4" id="r_a401fc84c766af16ab8f82d7d34eb47c4"><td class="memItemLeft" align="right" valign="top"><a id="a401fc84c766af16ab8f82d7d34eb47c4" name="a401fc84c766af16ab8f82d7d34eb47c4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>get_combo</b> (self)</td></tr>
+<tr class="memitem:a401fc84c766af16ab8f82d7d34eb47c4" id="r_a401fc84c766af16ab8f82d7d34eb47c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a401fc84c766af16ab8f82d7d34eb47c4">get_combo</a> (self)</td></tr>
+<tr class="memdesc:a401fc84c766af16ab8f82d7d34eb47c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает лучшую комбинацию из 5 карт (3 на столе и 2 в руке)  <br /></td></tr>
 <tr class="separator:a401fc84c766af16ab8f82d7d34eb47c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33145029eb0cbc3ab12eb4d3f4789d98" id="r_a33145029eb0cbc3ab12eb4d3f4789d98"><td class="memItemLeft" align="right" valign="top"><a id="a33145029eb0cbc3ab12eb4d3f4789d98" name="a33145029eb0cbc3ab12eb4d3f4789d98"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>hand_heuristic</b> (self)</td></tr>
+<tr class="memitem:a33145029eb0cbc3ab12eb4d3f4789d98" id="r_a33145029eb0cbc3ab12eb4d3f4789d98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33145029eb0cbc3ab12eb4d3f4789d98">hand_heuristic</a> (self)</td></tr>
+<tr class="memdesc:a33145029eb0cbc3ab12eb4d3f4789d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает числовое представление силы комбинации  <br /></td></tr>
 <tr class="separator:a33145029eb0cbc3ab12eb4d3f4789d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -114,6 +117,55 @@ $(function(){ initResizable(false); });
 &#160;</td><td class="memItemRight" valign="bottom"><b>cards</b></td></tr>
 <tr class="separator:ab32cfb5997fba499ede77c173fb9591b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс который реализовывает комбинации карт. </p>
+<p>Сначала получает 7 карт, последующие методы реализовывают эти карты. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cards</td><td>список из 7 карт (5 на столе и 2 в руке) </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a401fc84c766af16ab8f82d7d34eb47c4" name="a401fc84c766af16ab8f82d7d34eb47c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401fc84c766af16ab8f82d7d34eb47c4">&#9670;&#160;</a></span>get_combo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ds_poker.Combo.get_combo </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает лучшую комбинацию из 5 карт (3 на столе и 2 в руке) </p>
+<dl class="section return"><dt>Возвращает</dt><dd>&lt;PokerPy.Hand&gt; - list[PokerPy.Card] - список из 5 карт </dd></dl>
+
+</div>
+</div>
+<a id="a33145029eb0cbc3ab12eb4d3f4789d98" name="a33145029eb0cbc3ab12eb4d3f4789d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33145029eb0cbc3ab12eb4d3f4789d98">&#9670;&#160;</a></span>hand_heuristic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ds_poker.Combo.hand_heuristic </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает числовое представление силы комбинации </p>
+<p>Используется для сравнения комбинаций и выявления победителя </p><dl class="section return"><dt>Возвращает</dt><dd>&lt;int&gt; - числовое представление силы комбинации </dd></dl>
+
+</div>
+</div>
 <hr/>Объявления и описания членов класса находятся в файле:<ul>
 <li>C:/Users/Alena/Desktop/Laidfinland/Laidinen-Bot/ds_poker/<b>ds_poker.py</b></li>
 </ul>

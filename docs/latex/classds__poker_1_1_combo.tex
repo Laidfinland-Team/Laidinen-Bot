@@ -1,23 +1,65 @@
 \doxysection{Класс ds\+\_\+poker.\+Combo}
 \hypertarget{classds__poker_1_1_combo}{}\label{classds__poker_1_1_combo}\index{ds\_poker.Combo@{ds\_poker.Combo}}
+
+
+Класс который реализовывает комбинации карт.  
+
+
 \doxysubsubsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
 \Hypertarget{classds__poker_1_1_combo_a7107cc0035bf3a73a4f323081c0edd2b}\label{classds__poker_1_1_combo_a7107cc0035bf3a73a4f323081c0edd2b} 
 {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, cards)
 \item 
-\Hypertarget{classds__poker_1_1_combo_a401fc84c766af16ab8f82d7d34eb47c4}\label{classds__poker_1_1_combo_a401fc84c766af16ab8f82d7d34eb47c4} 
-{\bfseries get\+\_\+combo} (self)
-\item 
-\Hypertarget{classds__poker_1_1_combo_a33145029eb0cbc3ab12eb4d3f4789d98}\label{classds__poker_1_1_combo_a33145029eb0cbc3ab12eb4d3f4789d98} 
-{\bfseries hand\+\_\+heuristic} (self)
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{classds__poker_1_1_combo_a401fc84c766af16ab8f82d7d34eb47c4}{get\+\_\+combo}} (self)
+\begin{DoxyCompactList}\small\item\em Возвращает лучшую комбинацию из 5 карт (3 на столе и 2 в руке) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classds__poker_1_1_combo_a33145029eb0cbc3ab12eb4d3f4789d98}{hand\+\_\+heuristic}} (self)
+\begin{DoxyCompactList}\small\item\em Возвращает числовое представление силы комбинации \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Открытые атрибуты}
 \begin{DoxyCompactItemize}
 \item 
 \Hypertarget{classds__poker_1_1_combo_ab32cfb5997fba499ede77c173fb9591b}\label{classds__poker_1_1_combo_ab32cfb5997fba499ede77c173fb9591b} 
 {\bfseries cards}
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс который реализовывает комбинации карт. 
+
+Сначала получает 7 карт, последующие методы реализовывают эти карты. 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em cards} & список из 7 карт (5 на столе и 2 в руке) \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\Hypertarget{classds__poker_1_1_combo_a401fc84c766af16ab8f82d7d34eb47c4}\index{ds\_poker.Combo@{ds\_poker.Combo}!get\_combo@{get\_combo}}
+\index{get\_combo@{get\_combo}!ds\_poker.Combo@{ds\_poker.Combo}}
+\doxysubsubsection{\texorpdfstring{get\_combo()}{get\_combo()}}
+{\footnotesize\ttfamily \label{classds__poker_1_1_combo_a401fc84c766af16ab8f82d7d34eb47c4} 
+ds\+\_\+poker.\+Combo.\+get\+\_\+combo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+
+
+Возвращает лучшую комбинацию из 5 карт (3 на столе и 2 в руке) 
+
+\begin{DoxyReturn}{Возвращает}
+\texorpdfstring{$<$}{<}Poker\+Py.\+Hand\texorpdfstring{$>$}{>} -\/ list\mbox{[}Poker\+Py.\+Card\mbox{]} -\/ список из 5 карт 
+\end{DoxyReturn}
+\Hypertarget{classds__poker_1_1_combo_a33145029eb0cbc3ab12eb4d3f4789d98}\index{ds\_poker.Combo@{ds\_poker.Combo}!hand\_heuristic@{hand\_heuristic}}
+\index{hand\_heuristic@{hand\_heuristic}!ds\_poker.Combo@{ds\_poker.Combo}}
+\doxysubsubsection{\texorpdfstring{hand\_heuristic()}{hand\_heuristic()}}
+{\footnotesize\ttfamily \label{classds__poker_1_1_combo_a33145029eb0cbc3ab12eb4d3f4789d98} 
+ds\+\_\+poker.\+Combo.\+hand\+\_\+heuristic (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+
+
+Возвращает числовое представление силы комбинации 
+
+Используется для сравнения комбинаций и выявления победителя \begin{DoxyReturn}{Возвращает}
+$<$int$>$ -\/ числовое представление силы комбинации 
+\end{DoxyReturn}
 
 
 Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
