@@ -14,18 +14,22 @@ import database._db_commands as db
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
-from _con_message_base import *
+from modules.logger.commands import error, info, warning, output
 from _functions_base import *
-
+from colorama import Fore, Style, Back
 from discord.ext import commands
 from pretty_help import PrettyHelp
 from accessify import protected, private
-from colorama import Fore, Style, Back
 from icecream import ic
 from datetime import datetime
+import os
 
 
-__AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '\TOKEN.py'
+if os.name == "nt":
+    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '\TOKEN.py'
+elif "posix":
+    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '/TOKEN.py'
+
 
 MAIN_COLOR = discord.Color.purple()
 
