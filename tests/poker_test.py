@@ -1,9 +1,10 @@
-from ds_poker.ds_poker import Game, Player
+import sys, os; sys.path.insert(0, os.path.join(os.getcwd(), ''))
+from ds_poker.simple_poker import Game, Player
 from icecream import ic
 import poker
 import PokerPy
 
-global_players = [Player("SB"), Player("BB"), Player("BTN"), Player("UTG"), Player("UTG+1")]
+global_players = [Player("SB"), Player("BB")]
 
 
             
@@ -17,7 +18,6 @@ def test():
     game.next_round()
     game.next_round()
     game.next_round()
-    print(game.table.board)
  
     
     

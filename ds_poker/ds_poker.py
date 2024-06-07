@@ -82,6 +82,25 @@ class Table:
         self.river = deck.pop()
         self.board = []
         
+        
+
+class Game:
+
+    def __init__(self, players, big_blind):
+        self.small_blind = big_blind / 2
+        self.big_blind = big_blind
+        self.players = players
+        self.rating: list[int]
+        self.winners: list[Player]
+        
+        deck = list(poker.Card)
+        for i, card in enumerate(deck):
+            card = str(card)
+            deck[i] = PokerPy.Card(card.replace("♠", "S").replace("♥", "H").replace("♣", "C").replace("♦", "D").replace("T", "10"))
+        random.shuffle(deck)
+        self.deck = deck
+        
+        self.round = 0
 class Game:
     def __init__(self, players, big_blind):
         self.small_blind = big_blind / 2
@@ -153,7 +172,8 @@ class Game:
     def next_round(self):
         for player in self.players:
             player.round_chips = 0
-            self.table.last_raiser = None
+        self.table.last_bet = 0
+        self.table.last_raiser = None
         match self.round:
             case 0:
                 pass
@@ -197,8 +217,7 @@ class Game:
                     winners.append(player)
             self.rating = rating
             self.winners = winners
-            print(winners)
-            self.eng_game()
+            self.end_game()
         
     def end_game(self):
         winned_chips = 0

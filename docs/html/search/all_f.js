@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['баг_20репорт_20предложения_0',['Баг репорт &amp; Предложения',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_r_e_a_d_m_e.html#autotoc_md15',1,'']]],
-  ['благородность_1',['### Благородность',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_a_u_t_h_o_r_s.html#autotoc_md5',1,'']]]
+  ['table_0',['Table',['../classds__poker_1_1_table.html',1,'ds_poker.Table'],['../classsimple__poker_1_1_table.html',1,'simple_poker.Table']]],
+  ['teammatecog_1',['TeammateCog',['../classteammatecog_1_1_teammate_cog.html',1,'teammatecog']]],
+  ['thebestchannel_2',['thebestchannel',['../classthechannelcog_1_1_the_channel_cog.html#a563c853393cb8e62ca6c357f6c512b10',1,'thechannelcog::TheChannelCog']]],
+  ['thechannelcog_3',['TheChannelCog',['../classthechannelcog_1_1_the_channel_cog.html',1,'thechannelcog']]]
 ];

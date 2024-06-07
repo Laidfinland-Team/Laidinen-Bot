@@ -18,7 +18,7 @@ def run_tk():
         try:
             channel_id = int(entry.get()) if entry.get() else CHANNEL_ID  # Получение ID канала из поля ввода
 
-            asyncio.run_coroutine_threadsafe(MyBot.message(channel_id, text.get("1.0", 'end-1c')), loop)
+            asyncio.run_coroutine_threadsafe(MyBot.message(channel_id, text.get(1.0, tk.END)), loop)
         except Exception as e:
             error(f"Send error: {e}")
         

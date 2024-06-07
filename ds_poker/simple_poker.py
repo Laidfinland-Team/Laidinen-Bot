@@ -32,7 +32,7 @@ class Player:
         self.name = name
         self.hand = []
         self.combo : PokerPy.Hand
-        self.combo_heuristic : int
+        self.combo_heuristic : int = 0
         self.fold = False
             
         self.stack = 0
@@ -149,6 +149,8 @@ class Game:
     def next_round(self):
         for player in self.players:
             player.round_chips = 0
+        self.table.last_bet = 0
+        self.table.last_raiser = None
         match self.round:
             case 0:
                 pass
@@ -182,7 +184,8 @@ class Game:
                     continue
                 player_combo = Combo(list(player.hand) + self.table.board).get_combo()
                 player.combo = ic(player_combo)
-                player.combo_heuristic = ic(player_combo.hand_heuristic())
+                player.combo = ic(player_combo.hand_heuristic())
+            ic(player)
             winners = [player.combo_heuristic for player in self.players if not player.fold]
             winner = max(winners)
             rating = winners.sort()
@@ -192,8 +195,8 @@ class Game:
                     winners.append(player)
             self.rating = rating
             self.winners = winners
-            print(winners)
-            self.eng_game()
+            ic(winners)
+            self.end_game()
         
     def end_game(self):
         winned_chips = 0

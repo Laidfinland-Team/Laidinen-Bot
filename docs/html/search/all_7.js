@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['on_5fready_0',['on_ready',['../classgamescog_1_1_games_cog.html#a70173cd0f51ee889436feeee59ea86e6',1,'gamescog.GamesCog.on_ready()'],['../classteammatecog_1_1_teammate_cog.html#a23b8321a9e7fb73f83d40226296896a3',1,'teammatecog.TeammateCog.on_ready()'],['../classthechannelcog_1_1_the_channel_cog.html#a250832c7307a8a5fb9c7ffc7d07a5910',1,'thechannelcog.TheChannelCog.on_ready()']]]
+  ['hand_0',['Hand',['../classcards__connector_1_1_hand.html',1,'cards_connector']]],
+  ['hand_5fview_1',['Hand_view',['../classpokercog_1_1_hand__view.html',1,'pokercog']]],
+  ['handle_5fexisting_5fuser_2',['handle_existing_user',['../classteammatecog_1_1_teammate_cog.html#a9716cbd52092c9a96af5fddb2966eaee',1,'teammatecog::TeammateCog']]],
+  ['handle_5fnew_5fuser_3',['handle_new_user',['../classteammatecog_1_1_teammate_cog.html#a993aeadf4e904bcc3d0a6cd1e62b3755',1,'teammatecog::TeammateCog']]],
+  ['handle_5fvalid_5finput_4',['handle_valid_input',['../classteammatecog_1_1_teammate_cog.html#a3360a926cff9a36669ef72d5b371e229',1,'teammatecog::TeammateCog']]]
 ];

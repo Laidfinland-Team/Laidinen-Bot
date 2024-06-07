@@ -41,8 +41,7 @@ class Buttons():
                 if str(player) == str(interaction.user.id):
                     global_players.remove(player)
             await interaction.response.defer()
-            await interaction.delete_original_response(
-            )
+            await interaction.delete_original_response()
             
     class Start_button(discord.ui.Button):
         def __init__(self):

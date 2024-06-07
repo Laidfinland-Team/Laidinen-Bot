@@ -1,7 +1,16 @@
   % Handle batch mode
   % to overcome problems with too many open files
   \let\mypdfximage\pdfximage\def\pdfximage{\immediate\mypdfximage}
-  \pdfminorversion=7
+  \RequirePackage{iftex}
+  \ifLuaTeX
+    \directlua{pdf.setminorversion(7)}
+  \fi
+  \ifXeTeX
+    \special{pdf:minorversion 7}
+  \fi
+  \ifPDFTeX
+    \pdfminorversion=7
+  \fi
   % Set document class depending on configuration
   \documentclass[twoside]{book}
   %% moved from doxygen.sty due to workaround for LaTex 2019 version and unmaintained tabu package
@@ -22,10 +31,18 @@
   \let\protected@wlog\@@protected@wlog
   \makeatother
   \IfFormatAtLeastTF{2016/01/01}{}{\usepackage{fixltx2e}} % for \textsubscript
-  \IfFormatAtLeastTF{2015/01/01}{\pdfsuppresswarningpagegroup=1}{}
+  \ifPDFTeX
+    \IfFormatAtLeastTF{2015/01/01}{\pdfsuppresswarningpagegroup=1}{}
+  \fi
   \usepackage{doxygen}
   \usepackage{graphicx}
-  \usepackage[utf8]{inputenc}
+  \iftutex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Ligatures={TeX}}
+    \usepackage{unicode-math}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
   \usepackage{makeidx}
   \PassOptionsToPackage{warn}{textcomp}
   \usepackage{textcomp}
@@ -36,7 +53,10 @@
 \usepackage[russian]{babel}
   % Define default fonts
   % Font selection
-  \usepackage[T1]{fontenc}
+  \iftutex
+  \else
+    \usepackage[T1]{fontenc}
+  \fi
   % set main and monospaced font
   \usepackage[scaled=.90]{helvet}
 \usepackage{courier}
@@ -123,7 +143,8 @@
   \setcounter{secnumdepth}{5}
   % creating indexes
   \makeindex
-  \usepackage{newunicodechar}
+  \ifPDFTeX
+\usepackage{newunicodechar}
   \makeatletter
     \def\doxynewunicodechar#1#2{%
     \@tempswafalse
@@ -142,15 +163,20 @@
   \doxynewunicodechar{⁻}{${}^{-}$}% Superscript minus
   \doxynewunicodechar{²}{${}^{2}$}% Superscript two
   \doxynewunicodechar{³}{${}^{3}$}% Superscript three
+\fi
   % Hyperlinks
     % Hyperlinks (required, but should be loaded last)
-    \ifpdf
+    \ifPDFTeX
       \usepackage[pdftex,pagebackref=true]{hyperref}
     \else
-      \ifxetex
-        \usepackage[pagebackref=true]{hyperref}
+      \ifXeTeX
+        \usepackage[xetex,pagebackref=true]{hyperref}
       \else
-        \usepackage[ps2pdf,pagebackref=true]{hyperref}
+        \ifLuaTeX
+          \usepackage[luatex,pagebackref=true]{hyperref}
+        \else
+          \usepackage[ps2pdf,pagebackref=true]{hyperref}
+        \fi
       \fi
     \fi
     \hypersetup{%
@@ -197,7 +223,7 @@
   \begin{center}%
   {\Large Laidinen Bot}\\
   \vspace*{1cm}
-  {\large Создано системой Doxygen 1.10.0}\\
+  {\large Создано системой Doxygen 1.11.0}\\
   \end{center}
   \end{titlepage}
   \clearemptydoublepage
@@ -217,13 +243,39 @@
 \chapter{Пространства имен}
 \input{namespace_laidinen}
 \chapter{Классы}
+\input{classtest_1_1_a}
+\input{classcards__connector_1_1_board}
 \input{class_laidinen-_bot_1_1testbot_1_1_bot}
+\input{classbutton__test_1_1disable__buttons_1_1button__disable}
+\input{classpokercog_1_1_buttons}
+\input{classpokercog_1_1_buttons_1_1_call__button}
+\input{classpokercog_1_1_buttons_1_1_check__button}
+\input{classds__poker_1_1_combo}
+\input{classsimple__poker_1_1_combo}
 \input{classgamescog_1_1_confirm}
 \input{class_laidinen-_bot_1_1testbot_1_1_confirm}
+\input{classbutton__test_1_1disable__buttons}
+\input{classpokercog_1_1_buttons_1_1_exit__button}
+\input{classpokercog_1_1_buttons_1_1_fold__button}
+\input{classds__poker_1_1_game}
+\input{classsimple__poker_1_1_game}
 \input{classgamescog_1_1_games_cog}
+\input{classcards__connector_1_1_hand}
+\input{classpokercog_1_1_hand__view}
+\input{classpokercog_1_1_buttons_1_1_join__button}
+\input{classpokercog_1_1_joined__view}
 \input{class_laidinen-_bot_1_1messagefrombot_1_1_my_bot}
+\input{classds__poker_1_1_player}
+\input{classsimple__poker_1_1_player}
+\input{classpokercog_1_1_poker_cog}
+\input{classpokercog_1_1_buttons_1_1_raise__button}
+\input{classpokercog_1_1_round__view}
+\input{classpokercog_1_1_buttons_1_1_start__button}
+\input{classds__poker_1_1_table}
+\input{classsimple__poker_1_1_table}
 \input{classteammatecog_1_1_teammate_cog}
 \input{classthechannelcog_1_1_the_channel_cog}
+\input{classpokercog_1_1_unjoined__view}
 %--- End generated contents ---
 % Index
   \backmatter

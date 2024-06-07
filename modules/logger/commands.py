@@ -1,11 +1,10 @@
 from datetime import datetime
 from colorama import Fore, Back, Style
+import discord
 
 
-def custom_print(message: str):
+def custom_print(message : str):
     print(message)
-    with open("../../log.log", "w") as file:
-        file.write(message)
 
 def formatted_datetime():
     formatted_datetime = datetime.now().strftime('%d/%m/%y %H:%M:%S')
@@ -21,5 +20,5 @@ def warning(message):
     custom_print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{formatted_datetime()} " + Style.DIM  + message + Style.RESET_ALL)
     
 
-def output(message: str, channel: str = "None"):
+def output(channel : discord.channel, message : str):
     custom_print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + Style.RESET_ALL)

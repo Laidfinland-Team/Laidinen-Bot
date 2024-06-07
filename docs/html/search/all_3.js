@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gamescog_0',['GamesCog',['../classgamescog_1_1_games_cog.html',1,'gamescog']]]
+  ['disable_5fbuttons_0',['disable_buttons',['../classbutton__test_1_1disable__buttons.html',1,'button_test']]]
 ];

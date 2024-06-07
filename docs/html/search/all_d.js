@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['v0_201_200_201_20a_202024_2002_2001_0',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/0be6e0ca...v0.1&quot; &gt;0.1&lt;/a&gt; - 2024-02-01',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md8',1,'']]],
-  ['v0_201_20master_20unreleased_20a_1',['&lt;a href=&quot;https://github.com/Laidfinland-Team/Laidinen-Bot/compare/v0.1...master&quot; &gt;Unreleased&lt;/a&gt;',['../md__c_1_2_users_2_ponom_2_one_drive_2_desktop_2_laidfinland_2_laidinen-_bot_2_c_h_a_n_g_e_l_o_g.html#autotoc_md7',1,'']]]
+  ['raise_5fbutton_0',['Raise_button',['../classpokercog_1_1_buttons_1_1_raise__button.html',1,'pokercog::Buttons']]],
+  ['round_5fview_1',['Round_view',['../classpokercog_1_1_round__view.html',1,'pokercog']]],
+  ['russian_5froulette_2',['russian_roulette',['../classgamescog_1_1_games_cog.html#a810a130bae186f3788b8b156487611b9',1,'gamescog::GamesCog']]]
 ];
