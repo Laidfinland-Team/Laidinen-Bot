@@ -51,7 +51,11 @@ class Buttons():
         async def callback(self, interaction: discord.Interaction):
             game = Game(global_players, 100)
             game.new_game()
-            board = discord.File(rf"ds_poker\images\boards\{Board(game.table.board)()}.png") 
+            game.next_round()
+            game.next_round()
+            game.next_round()
+            game.next_round()
+            board = discord.File(ic(rf"ds_poker\images\boards\{Board(game.table.board)()}.png"))
             await interaction.response.defer()
             await interaction.delete_original_response()
             await interaction.channel.send(file=board, embed=Round_view(game).embed, view=Round_view(game))
@@ -119,12 +123,15 @@ class Round_view(discord.ui.View):
         self.game = game
         self.embed = discord.Embed()
         board_id = Board(game.table.board)()
-        self.embed.set_image(url=f"attachment://{board_id}.png")
-        bet_or_raise = "bet" if game.table.last_raiser == None else "raise"
-        self.add_item(Buttons.Check_button())
-        self.add_item(Buttons.Fold_button())
-        self.add_item(Buttons.Raise_button(bet_or_raise))
-        self.add_item(Buttons.Call_button())
+        self.embed.set_image(url=ic(f"attachment://{board_id}.png"))
+
+class Hand_view(discord.ui.View):
+    def __init__(self, player : Player):
+        super().__init__()
+        self.player = player
+        self.embed = discord.Embed()
+        self.embed.set_image(url=ic(f"attachment://{player.hand[0]}.png"))
+        self.embed.set_image(url=ic(f"attachment://{player.hand[1]}.png"))
         
         
 class PokerCog(commands.Cog):
