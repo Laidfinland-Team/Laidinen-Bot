@@ -3,14 +3,12 @@ import sys
 
 import importlib.util
 import psycopg2
-
+import sqlite3
+import database.db as db
 
 import discord
 import asyncio
 import colorama
- 
-
-import database._db_commands as db
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
@@ -25,10 +23,11 @@ from datetime import datetime
 import os
 
 
-if os.name == "nt":
-    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '\TOKEN.py'
-elif "posix":
-    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '/TOKEN.py'
+match os.name:
+    case "nt":
+        __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + "\TOKEN.py"
+    case "posix":
+        __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '/TOKEN.py'
 
 
 MAIN_COLOR = discord.Color.purple()
