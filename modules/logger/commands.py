@@ -20,12 +20,14 @@ class Logger:
 
         @param path (str): The path to the log file.
         """
+        
         self.file = open(path, "a", errors="ignore")
     
     def __del__(self):
         """
         @brief Destructor to close the log file and write a newline character.
         """
+
         self.write("\n")
         self.file.close()
     
@@ -37,6 +39,7 @@ class Logger:
 
         @param message (str): The message to be written to the log file.
         """
+
         self.file.write(message + "\n")
         self.file.flush()
 
@@ -47,6 +50,7 @@ class Logger:
 
         @param message (str): The message to be printed.
         """
+
         print(message)
         self.write(message)
 
@@ -58,17 +62,28 @@ class Logger:
 
         @return formatted_datetime (str): The current date and time in a formatted way.
         """
+
         formatted_datetime = datetime.now().strftime('%d/%m/%y %H:%M:%S')
         return formatted_datetime
 
-    def error(self, message : str):
+    def error(self, message : str, exec: Exception = None):
         """
-        @brief Method to print an error message.
+        @brief Logs an error message to the console and file.
 
-        @param message (str): The error message to be printed.
+        @details This method prints an error message to the console with appropriate color formatting.
+        It also writes the error message to a log file, along with an optional exception traceback.
+
+        @param message (str): The error message to be logged.
+        @param exec (Exception, optional): The exception that caused the error. Defaults to None.
         """
-        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + "\n" + Style.DIM + traceback.format_exc() + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + " " + traceback.format_exc())
+
+        # Output detailed error only if an error is reported
+        exec_msg = ""
+        if isinstance(exec, Exception):
+            exec_msg = traceback.format_exc()
+
+        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + "\n" + Style.DIM + exec_msg + Style.RESET_ALL)
+        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + " " + exec_msg)
         
     def info(self, message: str):
         """
@@ -76,6 +91,7 @@ class Logger:
 
         @param message (str): The informational message to be printed.
         """
+
         print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + Style.RESET_ALL)
         self.write("[INFO] " + f"{self.formatted_datetime()} " + message)
         
@@ -85,6 +101,7 @@ class Logger:
 
         @param message (str): The warning message to be printed.
         """
+
         print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + Style.RESET_ALL)
         self.write("[WARNING] " + f"{self.formatted_datetime()} " + message)
         
