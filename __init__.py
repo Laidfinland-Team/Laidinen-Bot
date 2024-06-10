@@ -21,6 +21,18 @@ from icecream import ic
 from datetime import datetime
 import os
 
+def info(message):
+    log.info(message)
+    
+def error(message, e=None):
+    log.error(message, e)
+
+def warning(message):
+    log.warning(message)
+
+def output(message):
+    log.output(message)
+
 
 match os.name:
     case "nt":
