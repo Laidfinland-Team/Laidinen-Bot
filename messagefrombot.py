@@ -20,7 +20,7 @@ def run_tk():
 
             asyncio.run_coroutine_threadsafe(MyBot.message(channel_id, text.get(1.0, tk.END)), loop)
         except Exception as e:
-            error(f"Send error: {e}")
+            error(f"Send error click: {e}")
         
     root = tk.Tk()  # Создание главного окна
     
@@ -86,12 +86,12 @@ class MyBot():
 
     # Асинхронная функция для отправки сообщения в указанный канал
     async def message(id, message):
-        try:
-            channel = bot.get_channel(id)
-            output(channel, message)
-            await channel.send(message)
-        except Exception as e:
-            error(f"Send error: {e}")
+        #try:
+        channel = bot.get_channel(id)
+        output(channel, message)
+        await channel.send(message)
+        #except Exception as e:
+        #    error(f"Send error: {e}")
 
     # Асинхронная функция для запуска бота
     async def start():

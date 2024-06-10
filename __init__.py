@@ -3,18 +3,15 @@ import sys
 
 import importlib.util
 import psycopg2
-
-
+import sqlite3
+import database.db as db
 import discord
 import asyncio
 import colorama
- 
-
-import database._db_commands as db
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
-from modules.logger.commands import error, info, warning, output
+from modules.logger.commands import Logger
 from _functions_base import *
 from colorama import Fore, Style, Back
 from discord.ext import commands
@@ -38,6 +35,7 @@ MAIN_COLOR = discord.Color.purple()
 colorama.init(autoreset=True)
 intents = discord.Intents.default()
 
+log = Logger("log.log")
 
 
 bot = commands.Bot(command_prefix=PREFIX, help_command=PrettyHelp(color=MAIN_COLOR, no_category="Technical Commands"), intents=discord.Intents.all())

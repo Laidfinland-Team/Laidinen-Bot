@@ -6,7 +6,7 @@ import sys, os; sys.path.insert(0, os.path.join(os.getcwd(), ''))
 from __init__ import *
 
 from colorama import Fore, Back, Style
-from db_config import host, user, password, db_name, port
+from db_config import host, user, password, port
 from time import sleep
 PATH_TO_SQL_FILE = "PyAlc/database/tables.sql"
 PATH_TO_JSON_FILE = "PyAlc/database/tables.json"
@@ -15,13 +15,14 @@ PATH_TO_JSON_FILE = "PyAlc/database/tables.json"
 CREATE TABLE IF NOT EXISTS users # SQL команда для создания таблицы если она не существует
 """ 
 
+db_name="games"
 
 try:
     conn = psycopg2.connect(
     host=host,
     port=port,
     user=user,
-    password=password
+    password=passworddatabase
 )
 
     # Create a new database
