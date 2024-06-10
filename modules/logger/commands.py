@@ -1,8 +1,10 @@
 from datetime import datetime
 from colorama import Fore, Back, Style
 import discord
+import traceback
 from accessify import private
 import os
+import sys
 
 class Logger:
     """
@@ -24,19 +26,9 @@ class Logger:
         """
         @brief Destructor to close the log file and write a newline character.
         """
-        self.write(self.newline())
+        self.write("\n")
         self.file.close()
     
-
-    @private
-    @staticmethod
-    def newline():
-        """
-        @brief Private static method to get the newline character based on the operating system.
-
-        @return newline (str): The newline character ("\r" for Unix-based systems, "\n" for Windows).
-        """
-        return "/n" if os.name == "nt" else "\r"
 
     @private
     def write(self, message : str):
@@ -69,14 +61,14 @@ class Logger:
         formatted_datetime = datetime.now().strftime('%d/%m/%y %H:%M:%S')
         return formatted_datetime
 
-    def error(self, message: str):
+    def error(self, message : str):
         """
         @brief Method to print an error message.
 
         @param message (str): The error message to be printed.
         """
-        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " + Style.DIM + message + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message)
+        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + "\n" + Style.DIM + traceback.format_exc() + Style.RESET_ALL)
+        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + " " + traceback.format_exc())
         
     def info(self, message: str):
         """
@@ -85,7 +77,7 @@ class Logger:
         @param message (str): The informational message to be printed.
         """
         print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message)
+        self.write("[INFO] " + f"{self.formatted_datetime()} " + message)
         
     def warning(self, message: str):
         """
@@ -94,7 +86,7 @@ class Logger:
         @param message (str): The warning message to be printed.
         """
         print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message)
+        self.write("[WARNING] " + f"{self.formatted_datetime()} " + message)
         
 
     def output(self, channel : discord.channel, message : str):
@@ -104,5 +96,6 @@ class Logger:
         @param channel (discord.channel): The Discord channel to send the message to.
         @param message (str): The message to be printed and logged.
         """
-        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message)
+
+        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + " "  + Style.RESET_ALL)
+        self.write("[OUTPUT] " + f"{self.formatted_datetime()} " + message)
