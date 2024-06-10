@@ -25,10 +25,12 @@ from datetime import datetime
 import os
 
 
-if os.name == "nt":
-    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '\TOKEN.py'
-elif "posix":
-    __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + '/TOKEN.py'
+match os.name:
+    case "nt":
+        __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + r'\TOKEN.py'
+    case "posix":
+        __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + r'/TOKEN.py'
+
 
 
 MAIN_COLOR = discord.Color.purple()

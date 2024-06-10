@@ -2,7 +2,55 @@ import poker
 import PokerPy
 import random
 import discord
+import time
+import asyncio
+import socket
+import threading
+
 from icecream import ic
+
+answer = None
+def start_server(host='localhost', port=8000):
+    global answer
+    # Create a TCP/IP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    
+    # Bind the socket to the address and port
+    server_socket.bind((host, port))
+    
+    # Listen for incoming connections
+    server_socket.listen(1)
+    print(f"Server started and listening on {host}:{port}")
+    
+    while True:
+        # Wait for a connection
+        print("Waiting for a connection...")
+        connection, client_address = server_socket.accept()
+        
+        try:
+            print(f"Connection from {client_address}")
+            
+            # Receive the data in small chunks and print it
+            while True:
+                data = connection.recv(1024)
+                if data:
+                    answer = data.decode('utf-8')
+                    print(f"Received: {data.decode('utf-8')}")
+                    # Send a response back to the client (optional)
+                    connection.sendall(b"Message received")
+                    # Clean up the connection
+                    connection.close()
+                    connection = None
+                    # Stop the server and release the address
+                    server_socket.close()
+                    return
+                else:
+                    break
+        finally:
+            # Clean up the connection
+            if connection != None:
+                connection.close()
 
 def poker_input(prompt, answers, table):
     while True:
@@ -56,17 +104,27 @@ class Player:
         
         """Discord"""
         self.interaction : discord.Interaction = None
+        self.message : discord.InteractionMessage = None
+        self.my_turn : bool = False
+        self.action : str = None
     
     def __repr__(self):
         return self.name
     
-    def wait_for_action(self, game):
-        table = game.table
-        if self.round_chips < table.last_bet:
-            action = poker_input(f"{self.name}, amount to call {table.last_bet - self.round_chips} enter your action:[fold/call/raise]", ["fold", "call","raise"], game)
-        else:
-            action = poker_input(f"{self.name}, enter your action:[fold/check/raise]", ["fold", "check","raise"], game)
-        match action.split()[0]:
+    async def wait_for_action(self, game):
+        global answer
+        threading.Thread(target=start_server).start()
+        
+        self.my_turn = True
+        while answer == None:
+            await asyncio.sleep(0.5)
+            
+        self.my_turn = False
+            
+        self.action = answer
+        answer = None
+        
+        match self.action.split()[0]:
             case "fold":
                 self.fold = True
                 return "fold"
@@ -75,11 +133,10 @@ class Player:
             case "call":
                 return "call", float(game.table.last_bet - self.round_chips)
             case "raise":
-                return "raise", float(action.split()[1])
+                return "raise", float(self.action.split()[1])
             case _:
                 print("Invalid action")
                 return self.wait_for_action()
-    
     def bet(self, amount):
         self.stack -= amount
         self.nested_chips += amount
@@ -100,7 +157,7 @@ class Table:
 
 class Game:
 
-    def __init__(self, players, big_blind):
+    def __init__(self, players: list[Player], big_blind):
         self.small_blind = big_blind / 2
         self.big_blind = big_blind
         self.players = players
@@ -120,6 +177,7 @@ class Game:
         self.small_blind = big_blind / 2
         self.big_blind = big_blind
         self.players = players
+        self.round_over: bool = False
         self.rating : list[int]
         self.winners : list[Player]
         
@@ -145,7 +203,7 @@ class Game:
     def is_one_players_left(self):
         return len([player for player in self.players if player.fold]) == len(self.players) - 1
     
-    def round_cycle(self):
+    async def round_cycle(self):
         first_cycle = True
         
         while not all(player.round_chips == self.table.last_bet for player in self.players if not player.fold) or first_cycle:
@@ -160,17 +218,18 @@ class Game:
                     continue
                 if self.round == 0 and first_cycle:
                     if i == 0:
-                        self.bet(player, self.small_blind)
+                        #self.bet(player, self.small_blind) 
                         continue
                     elif i == 1:
-                        self.bet(player, self.big_blind)
+                        #self.bet(player, self.big_blind)
                         continue
                 elif self.round == 0 and not first_cycle:
                     if i > 1:
                         break
                     
-                        
-                action = player.wait_for_action(self)
+                print(f"Player {player} turn")
+                action = await player.wait_for_action(self)
+                    
                 match action[0]:
                     case "fold":
                         continue
@@ -182,29 +241,29 @@ class Game:
                         self.bet(player, action[1])
                         self.table.last_raiser = player
             first_cycle = False
+        print("Round end")
+        self.round_over = True
         
-    def next_round(self):
-        for player in self.players:
-            player.round_chips = 0
-        self.table.last_bet = 0
-        self.table.last_raiser = None
+    async def next_round(self):
+        if self.round != 0:
+            for player in self.players:
+                player.round_chips = 0
+            self.table.last_bet = 0
+            self.table.last_raiser = None
         match self.round:
             case 0:
                 pass
             case 1:
                 for card in self.table.flop:
                     self.table.board.append(card)
-                print(self.table.board)
             case 2:
                 self.table.board.append(self.table.turn)
-                print(self.table.board)
             case 3:
                 self.table.board.append(self.table.river)
-                print(self.table.board)
             case _:
                 return self.determinate_winner()
                 
-        self.round_cycle()
+        await self.round_cycle()
         self.round += 1
         
     def determinate_winner(self):
@@ -220,8 +279,8 @@ class Game:
                 if player.fold:
                     continue
                 player_combo = Combo(list(player.hand) + self.table.board).get_combo()
-                player.combo = ic(player_combo)
-                player.combo_heuristic = ic(player_combo.hand_heuristic())
+                player.combo = player_combo
+                player.combo_heuristic = player_combo.hand_heuristic()
             winners = [player.combo_heuristic for player in self.players if not player.fold]
             winner = max(winners)
             rating = winners.sort()
