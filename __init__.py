@@ -8,6 +8,7 @@ import database.db as db
 import discord
 import asyncio
 import colorama
+from spellchecker import SpellChecker
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
@@ -20,6 +21,7 @@ from accessify import protected, private
 from icecream import ic
 from datetime import datetime
 import os
+
 
 def info(message):
     log.info(message)

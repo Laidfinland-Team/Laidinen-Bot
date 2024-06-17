@@ -85,7 +85,7 @@ class GamesCog(commands.Cog, name="Games"):
             embed.set_footer(text=f"Игра с {ctx.message.author.name}")
             
             await ctx.send(content=f"<@{member.id}>", embed=embed)
-            await ctx.send( content=f"https://media1.tenor.com/m/lm8iTuh1lRIAAAAd/gun-weapon.gif")
+            await ctx.send( content=f"https://c.tenor.com/lm8iTuh1lRIAAAAd/tenor.gif")
         
         else:
             embed = discord.Embed(title="Русская Рулетка", description=f"У тебя лишь одна жизнь.\nЕсли погибнешь получишь мут на {MUTE} минут", color=discord.Color.red())
