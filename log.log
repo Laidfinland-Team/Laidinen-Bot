@@ -2,3 +2,1335 @@
 [INFO] 10/06/24 16:39:59 Poker cog is ready
 [INFO] 10/06/24 16:39:59 TeammateCog cog is ready
 [INFO] 10/06/24 16:39:59 TheBestChannelCog cog is ready
+
+
+
+
+[ERROR] 14/06/24 16:29:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 16:29:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 16:29:09 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: CommandRegistrationError: The command ping is already an existing command or alias. 
+[INFO] 14/06/24 16:29:11 GamesCog cog is ready
+[INFO] 14/06/24 16:29:11 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 16:29:41 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 16:29:41 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 16:29:43 GamesCog cog is ready
+[INFO] 14/06/24 16:29:43 TheBestChannelCog cog is ready
+[INFO] 14/06/24 16:29:43 Help cog is ready
+
+
+[ERROR] 14/06/24 16:33:21 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 16:33:21 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 16:33:23 GamesCog cog is ready
+[INFO] 14/06/24 16:33:23 TheBestChannelCog cog is ready
+[INFO] 14/06/24 16:33:23 Help cog is ready
+[INFO] 14/06/24 16:35:11 ��������: Russian Roulette:  Confirmed
+[INFO] 14/06/24 16:35:25 ��������: Russian Roulette:  Confirmed
+
+
+[ERROR] 14/06/24 17:20:55 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:20:55 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:20:55 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: NameError: name 'command' is not defined 
+[INFO] 14/06/24 17:20:57 GamesCog cog is ready
+[INFO] 14/06/24 17:20:57 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:22:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:22:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:22:09 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: NameError: name 'command' is not defined 
+[INFO] 14/06/24 17:22:11 GamesCog cog is ready
+[INFO] 14/06/24 17:22:11 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:22:30 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:22:30 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 17:22:32 GamesCog cog is ready
+[INFO] 14/06/24 17:22:32 TheBestChannelCog cog is ready
+[INFO] 14/06/24 17:22:32 Word game cog is ready
+
+
+[ERROR] 14/06/24 17:25:30 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:25:30 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 17:25:32 GamesCog cog is ready
+[INFO] 14/06/24 17:25:32 TheBestChannelCog cog is ready
+[INFO] 14/06/24 17:25:32 Word game cog is ready
+
+
+[ERROR] 14/06/24 17:25:52 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:25:52 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 17:25:54 GamesCog cog is ready
+[INFO] 14/06/24 17:25:54 TheBestChannelCog cog is ready
+[INFO] 14/06/24 17:25:54 Word game cog is ready
+[INFO] 14/06/24 17:25:58 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 17:44:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:44:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:44:56 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'word_game' 
+[INFO] 14/06/24 17:44:58 GamesCog cog is ready
+[INFO] 14/06/24 17:44:58 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:45:50 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:45:50 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:45:50 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'word_game' 
+[INFO] 14/06/24 17:45:52 GamesCog cog is ready
+[INFO] 14/06/24 17:45:52 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:46:31 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:46:31 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:46:31 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'word_game' 
+[INFO] 14/06/24 17:46:33 GamesCog cog is ready
+[INFO] 14/06/24 17:46:33 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:47:22 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:47:22 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:47:22 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'word_game' 
+[INFO] 14/06/24 17:47:24 GamesCog cog is ready
+[INFO] 14/06/24 17:47:24 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:47:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:47:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:47:39 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'cogs.word_game.message'; 'cogs.word_game' is not a package 
+[INFO] 14/06/24 17:47:41 GamesCog cog is ready
+[INFO] 14/06/24 17:47:41 TheBestChannelCog cog is ready
+[ERROR] 14/06/24 17:48:20 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:48:20 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:48:20 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'word_game' 
+[INFO] 14/06/24 17:48:22 GamesCog cog is ready
+[INFO] 14/06/24 17:48:22 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:49:43 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:49:43 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:49:44 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ImportError: cannot import name 'message' from 'cogs.word_game' (D:\Projects\Laidinen-Bot\cogs\word_game.py) 
+[INFO] 14/06/24 17:49:46 GamesCog cog is ready
+[INFO] 14/06/24 17:49:46 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:50:14 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:50:14 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:50:14 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'cogs.word_game.message'; 'cogs.word_game' is not a package 
+[INFO] 14/06/24 17:50:16 GamesCog cog is ready
+[INFO] 14/06/24 17:50:16 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:51:35 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 935, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Projects\Laidinen-Bot\cogs\pokercog.py", line 7, in <module>
+    from ds_poker.ds_poker import Game, Player
+  File "D:\Projects\Laidinen-Bot\ds_poker\ds_poker.py", line 1, in <module>
+    import poker
+ModuleNotFoundError: No module named 'poker'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 938, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker'
+
+[ERROR] 14/06/24 17:51:35 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 935, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Projects\Laidinen-Bot\cogs\teammatecog.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 938, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests'
+
+[ERROR] 14/06/24 17:51:35 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'cogs.word_game.message'; 'cogs.word_game' is not a package Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 935, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Projects\Laidinen-Bot\cogs\word_game.py", line 5, in <module>
+    from cogs.word_game.message import message as ms
+ModuleNotFoundError: No module named 'cogs.word_game.message'; 'cogs.word_game' is not a package
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 938, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'cogs.word_game.message'; 'cogs.word_game' is not a package
+
+[INFO] 14/06/24 17:51:37 GamesCog cog is ready
+[INFO] 14/06/24 17:51:37 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:52:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 935, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Projects\Laidinen-Bot\cogs\pokercog.py", line 7, in <module>
+    from ds_poker.ds_poker import Game, Player
+  File "D:\Projects\Laidinen-Bot\ds_poker\ds_poker.py", line 1, in <module>
+    import poker
+ModuleNotFoundError: No module named 'poker'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 938, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker'
+
+[ERROR] 14/06/24 17:52:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 935, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\Projects\Laidinen-Bot\cogs\teammatecog.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 938, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests'
+
+[ERROR] 14/06/24 17:52:09 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. Traceback (most recent call last):
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 941, in _load_from_module_spec
+    setup = getattr(lib, 'setup')
+            ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cogs.word_game' has no attribute 'setup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Laidinen-Bot\main.py", line 47, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 1013, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\pavel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\ext\commands\bot.py", line 944, in _load_from_module_spec
+    raise errors.NoEntryPointError(key)
+discord.ext.commands.errors.NoEntryPointError: Extension 'cogs.word_game' has no 'setup' function.
+
+[INFO] 14/06/24 17:52:11 GamesCog cog is ready
+[INFO] 14/06/24 17:52:11 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:52:33 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:52:33 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:52:33 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. 
+[INFO] 14/06/24 17:52:35 GamesCog cog is ready
+[INFO] 14/06/24 17:52:35 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:53:08 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:53:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:53:09 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. 
+[INFO] 14/06/24 17:53:11 GamesCog cog is ready
+[INFO] 14/06/24 17:53:11 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:53:48 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:53:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:53:48 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. 
+[INFO] 14/06/24 17:53:50 GamesCog cog is ready
+[INFO] 14/06/24 17:53:50 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:56:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:56:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:56:40 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. 
+[INFO] 14/06/24 17:56:42 GamesCog cog is ready
+[INFO] 14/06/24 17:56:42 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:57:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:57:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 17:57:23 Failed to load extension word_game.py: Extension 'cogs.word_game' has no 'setup' function. 
+[INFO] 14/06/24 17:57:25 GamesCog cog is ready
+[INFO] 14/06/24 17:57:25 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 17:59:52 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 17:59:52 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 17:59:54 GamesCog cog is ready
+[INFO] 14/06/24 17:59:54 TheBestChannelCog cog is ready
+[INFO] 14/06/24 17:59:54 Word game cog is ready
+
+
+[ERROR] 14/06/24 18:00:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:00:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:00:13 GamesCog cog is ready
+[INFO] 14/06/24 18:00:13 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:00:13 Word game cog is ready
+[INFO] 14/06/24 18:00:26 The elimovpavel has started the game.
+[INFO] 14/06/24 18:03:17 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:03:25 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:03:25 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:03:27 GamesCog cog is ready
+[INFO] 14/06/24 18:03:27 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:03:27 Word game cog is ready
+[INFO] 14/06/24 18:03:37 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:19:28 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:19:28 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:19:30 GamesCog cog is ready
+[INFO] 14/06/24 18:19:30 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:19:30 Word game cog is ready
+[INFO] 14/06/24 18:20:00 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:21:00 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:21:00 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:21:02 GamesCog cog is ready
+[INFO] 14/06/24 18:21:02 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:21:02 Word game cog is ready
+[INFO] 14/06/24 18:21:07 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:21:35 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:21:35 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:21:37 GamesCog cog is ready
+[INFO] 14/06/24 18:21:37 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:21:37 Word game cog is ready
+[INFO] 14/06/24 18:21:39 The elimovpavel has started the game.
+[INFO] 14/06/24 18:21:41 The elimovpavel has started the game.
+[INFO] 14/06/24 18:21:43 The elimovpavel has started the game.
+[INFO] 14/06/24 18:21:44 The elimovpavel has started the game.
+[INFO] 14/06/24 18:21:44 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:23:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:23:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:23:58 GamesCog cog is ready
+[INFO] 14/06/24 18:23:58 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:23:58 Word game cog is ready
+[INFO] 14/06/24 18:24:00 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:24:44 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:24:44 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:24:46 GamesCog cog is ready
+[INFO] 14/06/24 18:24:46 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:24:46 Word game cog is ready
+[INFO] 14/06/24 18:24:56 The elimovpavel has started the game.
+[INFO] 14/06/24 18:25:19 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:25:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:25:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:25:47 GamesCog cog is ready
+[INFO] 14/06/24 18:25:47 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:25:47 Word game cog is ready
+[INFO] 14/06/24 18:25:52 The elimovpavel has started the game.
+[INFO] 14/06/24 18:26:00 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:26:25 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:26:25 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:26:27 GamesCog cog is ready
+[INFO] 14/06/24 18:26:27 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:26:27 Word game cog is ready
+[INFO] 14/06/24 18:26:30 The elimovpavel has started the game.
+[INFO] 14/06/24 18:26:33 The elimovpavel has started the game.
+[INFO] 14/06/24 18:26:42 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:28:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:28:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:28:15 GamesCog cog is ready
+[INFO] 14/06/24 18:28:15 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:28:15 Word game cog is ready
+[INFO] 14/06/24 18:28:19 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:28:33 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:28:33 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:28:35 GamesCog cog is ready
+[INFO] 14/06/24 18:28:35 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:28:35 Word game cog is ready
+[INFO] 14/06/24 18:28:37 The elimovpavel has started the game.
+[INFO] 14/06/24 18:28:46 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:29:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:29:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:29:25 GamesCog cog is ready
+[INFO] 14/06/24 18:29:25 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:29:25 Word game cog is ready
+[INFO] 14/06/24 18:29:35 The elimovpavel has started the game.
+[INFO] 14/06/24 18:29:40 The elimovpavel has started the game.
+[INFO] 14/06/24 18:29:47 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:30:20 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:30:20 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:30:22 GamesCog cog is ready
+[INFO] 14/06/24 18:30:22 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:30:22 Word game cog is ready
+[INFO] 14/06/24 18:30:30 The elimovpavel has started the game.
+[INFO] 14/06/24 18:30:37 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:31:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:31:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:31:38 The elimovpavel has started the game.
+[INFO] 14/06/24 18:31:38 GamesCog cog is ready
+[INFO] 14/06/24 18:31:38 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:31:38 Word game cog is ready
+[INFO] 14/06/24 18:31:44 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:32:38 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:32:38 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:32:40 GamesCog cog is ready
+[INFO] 14/06/24 18:32:40 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:32:40 Word game cog is ready
+[INFO] 14/06/24 18:32:41 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:33:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:33:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:33:15 GamesCog cog is ready
+[INFO] 14/06/24 18:33:15 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:33:15 Word game cog is ready
+[INFO] 14/06/24 18:33:24 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 18:33:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 18:33:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 18:33:38 GamesCog cog is ready
+[INFO] 14/06/24 18:33:38 TheBestChannelCog cog is ready
+[INFO] 14/06/24 18:33:38 Word game cog is ready
+[INFO] 14/06/24 18:33:41 The elimovpavel has started the game.
+[INFO] 14/06/24 18:33:46 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 19:00:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:00:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:00:16 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+[INFO] 14/06/24 19:00:18 GamesCog cog is ready
+[INFO] 14/06/24 19:00:18 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 19:02:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:02:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:02:23 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+[INFO] 14/06/24 19:02:25 GamesCog cog is ready
+[INFO] 14/06/24 19:02:25 TheBestChannelCog cog is ready
+
+
+
+
+[ERROR] 14/06/24 19:07:52 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:07:52 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:07:52 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+[INFO] 14/06/24 19:07:54 GamesCog cog is ready
+[INFO] 14/06/24 19:07:54 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 19:09:44 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:09:44 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:09:44 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+[INFO] 14/06/24 19:09:46 GamesCog cog is ready
+[INFO] 14/06/24 19:09:46 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 19:12:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:12:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:12:36 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: NameError: name 'SpellChecker' is not defined 
+
+
+[ERROR] 14/06/24 19:12:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:12:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:12:46 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+[INFO] 14/06/24 19:12:48 GamesCog cog is ready
+[INFO] 14/06/24 19:12:48 TheBestChannelCog cog is ready
+
+
+[ERROR] 14/06/24 19:14:50 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:14:50 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 19:14:50 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: ModuleNotFoundError: No module named 'spellchecker' 
+
+
+[ERROR] 14/06/24 19:45:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:45:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 19:45:26 GamesCog cog is ready
+[INFO] 14/06/24 19:45:26 TheBestChannelCog cog is ready
+[INFO] 14/06/24 19:45:26 Word game cog is ready
+[INFO] 14/06/24 19:45:41 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 19:56:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 19:56:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 19:56:26 GamesCog cog is ready
+[INFO] 14/06/24 19:56:26 TheBestChannelCog cog is ready
+[INFO] 14/06/24 19:56:26 Word game cog is ready
+[INFO] 14/06/24 19:56:35 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:00:21 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:00:21 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:00:23 GamesCog cog is ready
+[INFO] 14/06/24 20:00:23 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:00:23 Word game cog is ready
+[INFO] 14/06/24 20:00:34 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:01:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:01:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:01:20 GamesCog cog is ready
+[INFO] 14/06/24 20:01:20 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:01:20 Word game cog is ready
+[INFO] 14/06/24 20:01:23 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:02:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:02:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:02:16 GamesCog cog is ready
+[INFO] 14/06/24 20:02:16 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:02:16 Word game cog is ready
+[INFO] 14/06/24 20:02:16 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:03:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:03:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:03:29 GamesCog cog is ready
+[INFO] 14/06/24 20:03:29 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:03:29 Word game cog is ready
+[INFO] 14/06/24 20:03:30 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:10:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:10:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:10:19 The elimovpavel has started the game.
+[INFO] 14/06/24 20:10:21 GamesCog cog is ready
+[INFO] 14/06/24 20:10:21 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:10:21 Word game cog is ready
+
+
+[ERROR] 14/06/24 20:10:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:10:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:11:00 GamesCog cog is ready
+[INFO] 14/06/24 20:11:00 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:11:00 Word game cog is ready
+[INFO] 14/06/24 20:11:00 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:11:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:11:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:11:58 The elimovpavel has started the game.
+[INFO] 14/06/24 20:11:59 GamesCog cog is ready
+[INFO] 14/06/24 20:11:59 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:11:59 Word game cog is ready
+
+
+[ERROR] 14/06/24 20:14:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:14:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:14:16 The elimovpavel has started the game.
+[INFO] 14/06/24 20:14:18 GamesCog cog is ready
+[INFO] 14/06/24 20:14:18 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:14:18 Word game cog is ready
+
+
+[ERROR] 14/06/24 20:14:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:14:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:14:42 GamesCog cog is ready
+[INFO] 14/06/24 20:14:42 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:14:42 Word game cog is ready
+[INFO] 14/06/24 20:14:44 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:15:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:15:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:15:25 The elimovpavel has started the game.
+[INFO] 14/06/24 20:15:25 GamesCog cog is ready
+[INFO] 14/06/24 20:15:25 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:15:25 Word game cog is ready
+
+
+[ERROR] 14/06/24 20:16:29 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:16:29 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:16:30 The elimovpavel has started the game.
+[INFO] 14/06/24 20:16:31 GamesCog cog is ready
+[INFO] 14/06/24 20:16:31 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:16:31 Word game cog is ready
+[INFO] 14/06/24 20:16:50 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:17:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:17:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:17:12 The elimovpavel has started the game.
+[INFO] 14/06/24 20:17:13 GamesCog cog is ready
+[INFO] 14/06/24 20:17:13 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:17:13 Word game cog is ready
+
+
+[ERROR] 14/06/24 20:17:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:17:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:17:58 The elimovpavel has started the game.
+[INFO] 14/06/24 20:17:59 GamesCog cog is ready
+[INFO] 14/06/24 20:17:59 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:17:59 Word game cog is ready
+[INFO] 14/06/24 20:19:16 The elimovpavel has started the game.
+
+
+[ERROR] 14/06/24 20:19:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:19:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/06/24 20:19:47 GamesCog cog is ready
+[INFO] 14/06/24 20:19:47 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:19:47 Word game cog is ready
+[INFO] 14/06/24 20:19:49 The elimovpavel has started the game.
+[ERROR] 14/06/24 20:24:28 Failed to load extension gamescog.py: Extension 'cogs.gamescog' is already loaded. 
+[ERROR] 14/06/24 20:24:28 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/06/24 20:24:28 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/06/24 20:24:28 Failed to load extension thechannelcog.py: Extension 'cogs.thechannelcog' is already loaded. 
+[ERROR] 14/06/24 20:24:28 Failed to load extension word_game.py: Extension 'cogs.word_game' is already loaded. 
+[INFO] 14/06/24 20:24:30 GamesCog cog is ready
+[INFO] 14/06/24 20:24:30 TheBestChannelCog cog is ready
+[INFO] 14/06/24 20:24:30 Word game cog is ready
+[ERROR] 15/06/24 14:44:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 14:44:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 14:44:13 GamesCog cog is ready
+[INFO] 15/06/24 14:44:13 TheBestChannelCog cog is ready
+[INFO] 15/06/24 14:44:13 Word game cog is ready
+[INFO] 15/06/24 14:44:15 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 14:45:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 14:45:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 14:45:29 GamesCog cog is ready
+[INFO] 15/06/24 14:45:29 TheBestChannelCog cog is ready
+[INFO] 15/06/24 14:45:29 Word game cog is ready
+[INFO] 15/06/24 14:45:31 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 14:46:02 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 14:46:02 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 14:46:04 GamesCog cog is ready
+[INFO] 15/06/24 14:46:04 TheBestChannelCog cog is ready
+[INFO] 15/06/24 14:46:04 Word game cog is ready
+[INFO] 15/06/24 14:46:07 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 14:48:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 14:48:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 14:48:17 The elimovpavel has started the game.
+[INFO] 15/06/24 14:48:18 GamesCog cog is ready
+[INFO] 15/06/24 14:48:18 TheBestChannelCog cog is ready
+[INFO] 15/06/24 14:48:18 Word game cog is ready
+[INFO] 15/06/24 14:48:21 The elimovpavel has started the game.
+[INFO] 15/06/24 14:48:40 The elimovpavel has started the game.
+[INFO] 15/06/24 14:48:59 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:07:49 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:07:49 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:07:52 GamesCog cog is ready
+[INFO] 15/06/24 15:07:52 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:07:52 Word game cog is ready
+[INFO] 15/06/24 15:08:50 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:09:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:09:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:09:48 GamesCog cog is ready
+[INFO] 15/06/24 15:09:48 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:09:48 Word game cog is ready
+[INFO] 15/06/24 15:09:48 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:10:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:10:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:10:26 GamesCog cog is ready
+[INFO] 15/06/24 15:10:26 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:10:26 Word game cog is ready
+[INFO] 15/06/24 15:10:28 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:11:03 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:11:03 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:11:06 GamesCog cog is ready
+[INFO] 15/06/24 15:11:06 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:11:06 Word game cog is ready
+[INFO] 15/06/24 15:11:06 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:11:44 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:11:44 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:11:44 The elimovpavel has started the game.
+[INFO] 15/06/24 15:11:46 GamesCog cog is ready
+[INFO] 15/06/24 15:11:46 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:11:46 Word game cog is ready
+
+
+[ERROR] 15/06/24 15:12:53 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:12:53 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:12:55 GamesCog cog is ready
+[INFO] 15/06/24 15:12:55 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:12:55 Word game cog is ready
+[INFO] 15/06/24 15:12:57 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 15:13:55 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:13:55 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 15/06/24 15:13:55 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' (word_game.py, line 35) 
+[INFO] 15/06/24 15:13:57 GamesCog cog is ready
+[INFO] 15/06/24 15:13:57 TheBestChannelCog cog is ready
+
+
+[ERROR] 15/06/24 15:14:26 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 15:14:26 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 15:14:28 GamesCog cog is ready
+[INFO] 15/06/24 15:14:28 TheBestChannelCog cog is ready
+[INFO] 15/06/24 15:14:28 Word game cog is ready
+[INFO] 15/06/24 15:14:30 The elimovpavel has started the game.
+[ERROR] 15/06/24 19:58:19 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 19:58:19 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 19:58:22 GamesCog cog is ready
+[INFO] 15/06/24 19:58:22 TheBestChannelCog cog is ready
+[INFO] 15/06/24 19:58:22 Word game cog is ready
+[INFO] 15/06/24 19:58:26 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:01:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:01:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:01:20 GamesCog cog is ready
+[INFO] 15/06/24 20:01:20 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:01:20 Word game cog is ready
+
+
+[ERROR] 15/06/24 20:01:37 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:01:37 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:01:39 GamesCog cog is ready
+[INFO] 15/06/24 20:01:39 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:01:39 Word game cog is ready
+[INFO] 15/06/24 20:01:46 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:05:49 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:05:49 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:05:51 GamesCog cog is ready
+[INFO] 15/06/24 20:05:51 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:05:51 Word game cog is ready
+[INFO] 15/06/24 20:05:54 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:11:47 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:11:47 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:11:49 GamesCog cog is ready
+[INFO] 15/06/24 20:11:49 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:11:49 Word game cog is ready
+[INFO] 15/06/24 20:11:54 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:12:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:12:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:12:42 GamesCog cog is ready
+[INFO] 15/06/24 20:12:42 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:12:42 Word game cog is ready
+[INFO] 15/06/24 20:12:45 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:13:29 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:13:29 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:13:31 GamesCog cog is ready
+[INFO] 15/06/24 20:13:31 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:13:31 Word game cog is ready
+[INFO] 15/06/24 20:13:35 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:14:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:14:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:14:48 GamesCog cog is ready
+[INFO] 15/06/24 20:14:48 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:14:48 Word game cog is ready
+[INFO] 15/06/24 20:14:50 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:16:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:16:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:16:29 GamesCog cog is ready
+[INFO] 15/06/24 20:16:29 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:16:29 Word game cog is ready
+[INFO] 15/06/24 20:16:32 The elimovpavel has started the game.
+[INFO] 15/06/24 20:16:37 GG
+
+
+[ERROR] 15/06/24 20:17:01 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:17:01 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:17:03 GamesCog cog is ready
+[INFO] 15/06/24 20:17:03 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:17:03 Word game cog is ready
+[INFO] 15/06/24 20:17:06 The elimovpavel has started the game.
+[INFO] 15/06/24 20:17:09 GG
+
+
+[ERROR] 15/06/24 20:18:05 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:18:05 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:18:07 GamesCog cog is ready
+[INFO] 15/06/24 20:18:07 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:18:07 Word game cog is ready
+[INFO] 15/06/24 20:18:27 The elimovpavel has started the game.
+[INFO] 15/06/24 20:18:30 GG
+
+
+[ERROR] 15/06/24 20:19:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:19:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:19:20 GamesCog cog is ready
+[INFO] 15/06/24 20:19:20 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:19:20 Word game cog is ready
+[INFO] 15/06/24 20:19:23 The elimovpavel has started the game.
+[INFO] 15/06/24 20:19:52 GG
+
+
+[ERROR] 15/06/24 20:20:20 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:20:20 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:20:22 GamesCog cog is ready
+[INFO] 15/06/24 20:20:22 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:20:22 Word game cog is ready
+[INFO] 15/06/24 20:20:27 The elimovpavel has started the game.
+[INFO] 15/06/24 20:20:31 GG
+
+
+[ERROR] 15/06/24 20:29:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:29:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:29:34 GamesCog cog is ready
+[INFO] 15/06/24 20:29:34 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:29:34 Word game cog is ready
+[INFO] 15/06/24 20:29:46 The elimovpavel has started the game.
+[INFO] 15/06/24 20:29:50 GG
+
+
+[ERROR] 15/06/24 20:37:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:37:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:37:18 GamesCog cog is ready
+[INFO] 15/06/24 20:37:18 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:37:18 Word game cog is ready
+[INFO] 15/06/24 20:38:05 The elimovpavel has started the game.
+[INFO] 15/06/24 20:38:08 GG
+
+
+[ERROR] 15/06/24 20:39:52 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:39:52 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:39:54 GamesCog cog is ready
+[INFO] 15/06/24 20:39:54 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:39:54 Word game cog is ready
+[INFO] 15/06/24 20:40:14 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:41:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:41:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:41:58 GamesCog cog is ready
+[INFO] 15/06/24 20:41:58 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:41:58 Word game cog is ready
+[INFO] 15/06/24 20:42:05 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:42:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:42:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:42:29 GamesCog cog is ready
+[INFO] 15/06/24 20:42:29 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:42:29 Word game cog is ready
+[INFO] 15/06/24 20:42:32 The elimovpavel has started the game.
+[INFO] 15/06/24 20:42:36 GG
+
+
+[ERROR] 15/06/24 20:44:37 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:44:37 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:44:39 GamesCog cog is ready
+[INFO] 15/06/24 20:44:39 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:44:39 Word game cog is ready
+[INFO] 15/06/24 20:44:44 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:45:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:45:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:45:18 GamesCog cog is ready
+[INFO] 15/06/24 20:45:18 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:45:18 Word game cog is ready
+[INFO] 15/06/24 20:45:25 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:47:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:47:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:47:42 GamesCog cog is ready
+[INFO] 15/06/24 20:47:42 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:47:42 Word game cog is ready
+[INFO] 15/06/24 20:47:47 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:49:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:49:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:49:38 GamesCog cog is ready
+[INFO] 15/06/24 20:49:38 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:49:38 Word game cog is ready
+[INFO] 15/06/24 20:50:27 The elimovpavel has started the game.
+
+
+[ERROR] 15/06/24 20:51:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/06/24 20:51:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/06/24 20:51:11 GamesCog cog is ready
+[INFO] 15/06/24 20:51:11 TheBestChannelCog cog is ready
+[INFO] 15/06/24 20:51:11 Word game cog is ready
+[INFO] 15/06/24 20:51:42 The elimovpavel has started the game.
+[INFO] 15/06/24 20:51:46 GG
+[ERROR] 16/06/24 16:00:05 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:00:05 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:00:07 GamesCog cog is ready
+[INFO] 16/06/24 16:00:07 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:00:07 Word game cog is ready
+[INFO] 16/06/24 16:01:23 The elimovpavel has started the game.
+[INFO] 16/06/24 16:01:27 GG
+
+
+[ERROR] 16/06/24 16:02:35 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:02:35 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:02:37 GamesCog cog is ready
+[INFO] 16/06/24 16:02:37 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:02:37 Word game cog is ready
+[INFO] 16/06/24 16:02:38 The elimovpavel has started the game.
+[INFO] 16/06/24 16:04:25 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:05:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:05:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:05:58 GamesCog cog is ready
+[INFO] 16/06/24 16:05:58 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:05:58 Word game cog is ready
+[INFO] 16/06/24 16:06:06 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:07:03 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:07:03 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:07:05 GamesCog cog is ready
+[INFO] 16/06/24 16:07:05 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:07:05 Word game cog is ready
+[INFO] 16/06/24 16:07:38 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:08:22 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:08:22 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:08:24 GamesCog cog is ready
+[INFO] 16/06/24 16:08:24 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:08:24 Word game cog is ready
+[INFO] 16/06/24 16:08:29 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:08:50 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:08:50 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:08:52 GamesCog cog is ready
+[INFO] 16/06/24 16:08:52 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:08:52 Word game cog is ready
+[INFO] 16/06/24 16:10:51 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:11:34 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:11:34 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:11:36 GamesCog cog is ready
+[INFO] 16/06/24 16:11:36 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:11:36 Word game cog is ready
+[INFO] 16/06/24 16:11:54 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:13:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:13:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:13:34 GamesCog cog is ready
+[INFO] 16/06/24 16:13:34 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:13:34 Word game cog is ready
+[INFO] 16/06/24 16:13:48 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:14:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:14:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:14:12 GamesCog cog is ready
+[INFO] 16/06/24 16:14:12 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:14:12 Word game cog is ready
+[INFO] 16/06/24 16:14:20 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:15:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:15:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:15:13 GamesCog cog is ready
+[INFO] 16/06/24 16:15:13 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:15:13 Word game cog is ready
+[INFO] 16/06/24 16:15:17 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:16:05 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:16:05 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:16:07 GamesCog cog is ready
+[INFO] 16/06/24 16:16:07 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:16:07 Word game cog is ready
+[INFO] 16/06/24 16:16:15 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:24:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:24:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:25:00 GamesCog cog is ready
+[INFO] 16/06/24 16:25:00 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:25:00 Word game cog is ready
+[INFO] 16/06/24 16:25:07 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:26:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:26:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:26:15 GamesCog cog is ready
+[INFO] 16/06/24 16:26:15 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:26:15 Word game cog is ready
+
+
+[ERROR] 16/06/24 16:32:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:32:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:33:00 GamesCog cog is ready
+[INFO] 16/06/24 16:33:00 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:33:00 Word game cog is ready
+[INFO] 16/06/24 16:33:07 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:33:50 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:33:50 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:33:52 GamesCog cog is ready
+[INFO] 16/06/24 16:33:52 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:33:52 Word game cog is ready
+[INFO] 16/06/24 16:33:53 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:35:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:35:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:35:58 GamesCog cog is ready
+[INFO] 16/06/24 16:35:58 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:35:58 Word game cog is ready
+
+
+[ERROR] 16/06/24 16:36:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:36:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:36:11 GamesCog cog is ready
+[INFO] 16/06/24 16:36:11 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:36:11 Word game cog is ready
+
+
+[ERROR] 16/06/24 16:40:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:40:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:40:19 GamesCog cog is ready
+[INFO] 16/06/24 16:40:19 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:40:19 Word game cog is ready
+[INFO] 16/06/24 16:40:34 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:41:42 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:41:42 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:41:44 GamesCog cog is ready
+[INFO] 16/06/24 16:41:44 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:41:44 Word game cog is ready
+[INFO] 16/06/24 16:41:52 The elimovpavel has started the game.
+[INFO] 16/06/24 16:41:56 GG
+
+
+[ERROR] 16/06/24 16:43:14 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:43:14 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:43:17 GamesCog cog is ready
+[INFO] 16/06/24 16:43:17 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:43:17 Word game cog is ready
+[INFO] 16/06/24 16:43:22 The elimovpavel has started the game.
+[INFO] 16/06/24 16:43:26 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:43:48 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:43:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:43:50 GamesCog cog is ready
+[INFO] 16/06/24 16:43:50 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:43:50 Word game cog is ready
+[INFO] 16/06/24 16:43:52 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 16:50:00 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:50:00 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 16/06/24 16:50:00 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: SyntaxError: invalid syntax (word_game.py, line 37) 
+[INFO] 16/06/24 16:50:02 GamesCog cog is ready
+[INFO] 16/06/24 16:50:02 TheBestChannelCog cog is ready
+
+
+[ERROR] 16/06/24 16:50:25 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:50:25 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:50:27 GamesCog cog is ready
+[INFO] 16/06/24 16:50:27 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:50:27 Word game cog is ready
+[INFO] 16/06/24 16:50:30 The elimovpavel has started the game.
+[INFO] 16/06/24 16:50:34 GG
+
+
+[ERROR] 16/06/24 16:53:37 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:53:37 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:53:39 GamesCog cog is ready
+[INFO] 16/06/24 16:53:39 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:53:39 Word game cog is ready
+[INFO] 16/06/24 16:53:46 The elimovpavel has started the game.
+[INFO] 16/06/24 16:53:50 GG
+
+
+[ERROR] 16/06/24 16:55:59 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 16:55:59 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 16:56:01 GamesCog cog is ready
+[INFO] 16/06/24 16:56:01 TheBestChannelCog cog is ready
+[INFO] 16/06/24 16:56:01 Word game cog is ready
+[INFO] 16/06/24 16:56:12 The elimovpavel has started the game.
+[INFO] 16/06/24 16:56:23 GG
+
+
+[ERROR] 16/06/24 17:01:38 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:01:38 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:01:40 GamesCog cog is ready
+[INFO] 16/06/24 17:01:40 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:01:40 Word game cog is ready
+[INFO] 16/06/24 17:01:46 The elimovpavel has started the game.
+
+
+[ERROR] 16/06/24 17:03:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:03:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 16/06/24 17:03:40 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: IndentationError: expected an indented block after 'else' statement on line 30 (main.py, line 31) 
+[INFO] 16/06/24 17:03:42 GamesCog cog is ready
+[INFO] 16/06/24 17:03:42 TheBestChannelCog cog is ready
+
+
+[ERROR] 16/06/24 17:09:05 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:09:05 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:09:07 GamesCog cog is ready
+[INFO] 16/06/24 17:09:07 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:09:07 Word game cog is ready
+[INFO] 16/06/24 17:09:08 The elimovpavel has started the game.
+[INFO] 16/06/24 17:09:12 GG
+
+
+[ERROR] 16/06/24 17:09:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:09:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:09:58 GamesCog cog is ready
+[INFO] 16/06/24 17:09:58 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:09:58 Word game cog is ready
+[INFO] 16/06/24 17:10:01 The elimovpavel has started the game.
+[INFO] 16/06/24 17:10:04 GG
+
+
+[ERROR] 16/06/24 17:13:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:13:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:13:13 GamesCog cog is ready
+[INFO] 16/06/24 17:13:13 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:13:13 Word game cog is ready
+[INFO] 16/06/24 17:13:29 The elimovpavel has started the game.
+[INFO] 16/06/24 17:13:33 GG
+
+
+[ERROR] 16/06/24 17:14:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:14:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:14:11 GamesCog cog is ready
+[INFO] 16/06/24 17:14:11 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:14:11 Word game cog is ready
+[INFO] 16/06/24 17:14:14 The elimovpavel has started the game.
+[INFO] 16/06/24 17:14:17 GG
+
+
+[ERROR] 16/06/24 17:14:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:14:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:14:41 GamesCog cog is ready
+[INFO] 16/06/24 17:14:41 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:14:41 Word game cog is ready
+[INFO] 16/06/24 17:14:45 The elimovpavel has started the game.
+[INFO] 16/06/24 17:14:49 GG
+
+
+[ERROR] 16/06/24 17:15:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:15:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:15:13 GamesCog cog is ready
+[INFO] 16/06/24 17:15:13 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:15:13 Word game cog is ready
+[INFO] 16/06/24 17:15:14 The elimovpavel has started the game.
+[INFO] 16/06/24 17:15:23 GG
+
+
+[ERROR] 16/06/24 17:15:53 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:15:53 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:15:55 GamesCog cog is ready
+[INFO] 16/06/24 17:15:55 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:15:55 Word game cog is ready
+[INFO] 16/06/24 17:15:58 The elimovpavel has started the game.
+[INFO] 16/06/24 17:16:01 GG
+
+
+[ERROR] 16/06/24 17:16:30 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 16/06/24 17:16:30 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 16/06/24 17:16:32 GamesCog cog is ready
+[INFO] 16/06/24 17:16:32 TheBestChannelCog cog is ready
+[INFO] 16/06/24 17:16:32 Word game cog is ready
+[INFO] 16/06/24 17:16:33 The elimovpavel has started the game.
+[INFO] 16/06/24 17:16:38 GG
+[ERROR] 17/06/24 12:00:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:00:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:00:58 GamesCog cog is ready
+[INFO] 17/06/24 12:00:58 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:00:58 Word game cog is ready
+[INFO] 17/06/24 12:01:06 The elimovpavel has started the game.
+[INFO] 17/06/24 12:01:15 GG
+
+
+[ERROR] 17/06/24 12:07:43 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:07:43 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:07:45 GamesCog cog is ready
+[INFO] 17/06/24 12:07:45 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:07:45 Word game cog is ready
+[INFO] 17/06/24 12:07:48 The elimovpavel has started the game.
+
+
+[ERROR] 17/06/24 12:14:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:14:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:14:12 GamesCog cog is ready
+[INFO] 17/06/24 12:14:12 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:14:12 Word game cog is ready
+
+
+[ERROR] 17/06/24 12:15:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:15:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:15:38 GamesCog cog is ready
+[INFO] 17/06/24 12:15:38 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:15:38 Word game cog is ready
+[INFO] 17/06/24 12:15:41 The elimovpavel has started the game.
+
+
+[ERROR] 17/06/24 12:16:03 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:16:03 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:16:05 GamesCog cog is ready
+[INFO] 17/06/24 12:16:05 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:16:05 Word game cog is ready
+[INFO] 17/06/24 12:16:14 The elimovpavel has started the game.
+[INFO] 17/06/24 12:16:18 GG
+[INFO] 17/06/24 12:16:31 GG
+
+
+[ERROR] 17/06/24 12:25:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:25:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+
+
+[ERROR] 17/06/24 12:28:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:28:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:28:34 GamesCog cog is ready
+[INFO] 17/06/24 12:28:34 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:28:34 Word game cog is ready
+[INFO] 17/06/24 12:28:42 The elimovpavel has started the game.
+
+
+[ERROR] 17/06/24 12:33:52 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:33:52 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:33:54 GamesCog cog is ready
+[INFO] 17/06/24 12:33:54 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:33:54 Word game cog is ready
+[INFO] 17/06/24 12:33:59 The elimovpavel has started the game.
+[INFO] 17/06/24 12:34:02 Add new word: Слава
+
+
+[ERROR] 17/06/24 12:35:49 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:35:49 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:35:51 GamesCog cog is ready
+[INFO] 17/06/24 12:35:51 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:35:51 Word game cog is ready
+[INFO] 17/06/24 12:35:53 The elimovpavel has started the game.
+[INFO] 17/06/24 12:36:13 Add new word: тест
+
+
+[ERROR] 17/06/24 12:37:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:37:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:37:12 GamesCog cog is ready
+[INFO] 17/06/24 12:37:12 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:37:12 Word game cog is ready
+[INFO] 17/06/24 12:37:21 The elimovpavel has started the game.
+
+
+[ERROR] 17/06/24 12:38:01 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:38:01 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:38:03 GamesCog cog is ready
+[INFO] 17/06/24 12:38:03 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:38:03 Word game cog is ready
+[INFO] 17/06/24 12:38:05 The elimovpavel has started the game.
+[INFO] 17/06/24 12:38:10 Add new word: мама
+[INFO] 17/06/24 12:38:33 Add new word: стул
+
+
+[ERROR] 17/06/24 12:39:34 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:39:34 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 17/06/24 12:39:34 Failed to load extension word_game.py: Extension 'cogs.word_game' raised an error: SyntaxError: expected ':' (main.py, line 23) 
+[INFO] 17/06/24 12:39:36 GamesCog cog is ready
+[INFO] 17/06/24 12:39:36 TheBestChannelCog cog is ready
+
+
+[ERROR] 17/06/24 12:40:33 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:40:33 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:40:35 GamesCog cog is ready
+[INFO] 17/06/24 12:40:35 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:40:35 Word game cog is ready
+[INFO] 17/06/24 12:40:39 The elimovpavel has started the game.
+[INFO] 17/06/24 12:41:43 Add new word: бочка
+
+
+[ERROR] 17/06/24 12:43:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:43:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:43:34 GamesCog cog is ready
+[INFO] 17/06/24 12:43:34 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:43:34 Word game cog is ready
+
+
+[ERROR] 17/06/24 12:45:33 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:45:33 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:45:35 GamesCog cog is ready
+[INFO] 17/06/24 12:45:35 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:45:35 Word game cog is ready
+[INFO] 17/06/24 12:47:17 The elimovpavel has started the game.
+[INFO] 17/06/24 12:47:21 Add new word: лампа
+
+
+[ERROR] 17/06/24 12:49:26 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 17/06/24 12:49:26 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 17/06/24 12:49:28 GamesCog cog is ready
+[INFO] 17/06/24 12:49:28 TheBestChannelCog cog is ready
+[INFO] 17/06/24 12:49:28 Word game cog is ready
+[INFO] 17/06/24 12:49:37 The elimovpavel has started the game.
+[INFO] 17/06/24 12:50:26 Add new word: африка
+
+
