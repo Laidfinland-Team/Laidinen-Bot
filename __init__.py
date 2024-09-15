@@ -57,5 +57,6 @@ __spec = importlib.util.spec_from_file_location('AUTH', __AUTH_FILE_PATH)
 __auth = importlib.util.module_from_spec(__spec)
 __spec.loader.exec_module(__auth)
 TOKEN = __auth.TOKEN
+HELLCAT_ID = 518516627629801494
 
 ic(discord.__version__)

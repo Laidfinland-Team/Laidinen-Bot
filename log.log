@@ -2,3 +2,529 @@
 [INFO] 10/06/24 16:39:59 Poker cog is ready
 [INFO] 10/06/24 16:39:59 TeammateCog cog is ready
 [INFO] 10/06/24 16:39:59 TheBestChannelCog cog is ready
+
+
+
+
+
+
+[ERROR] 14/09/24 09:01:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:01:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:02:00 GamesCog cog is ready
+[INFO] 14/09/24 09:02:00 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:07:48 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:07:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:07:50 GamesCog cog is ready
+[INFO] 14/09/24 09:07:50 TheBestChannelCog cog is ready
+[INFO] 14/09/24 09:08:05 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:19 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:34 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:48 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:56 основной: Russian Roulette:  Cancelled
+[INFO] 14/09/24 09:09:06 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:18 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:29 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:29 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:35 основной: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:51 основной: Russian Roulette:  Confirmed
+[ERROR] 14/09/24 09:10:47 Send error click: invalid literal for int() with base 10: 'ва' 
+[ERROR] 14/09/24 09:20:12 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:20:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:20:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:20:15 GamesCog cog is ready
+[INFO] 14/09/24 09:20:15 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:24:13 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:24:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:24:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:24:15 GamesCog cog is ready
+[INFO] 14/09/24 09:24:15 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:26:54 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:26:54 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:26:54 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:26:57 GamesCog cog is ready
+[INFO] 14/09/24 09:26:57 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:28:39 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:28:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:28:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:28:42 GamesCog cog is ready
+[INFO] 14/09/24 09:28:42 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:29:17 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:29:17 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:29:17 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:29:20 GamesCog cog is ready
+[INFO] 14/09/24 09:29:20 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:30:50 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:30:50 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:30:50 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:30:53 GamesCog cog is ready
+[INFO] 14/09/24 09:30:53 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:33:02 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
+[ERROR] 14/09/24 09:33:02 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:33:02 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:33:04 GamesCog cog is ready
+[INFO] 14/09/24 09:33:04 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:33:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:33:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:33:41 GamesCog cog is ready
+[INFO] 14/09/24 09:33:41 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:35:47 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:35:47 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:35:49 GamesCog cog is ready
+[INFO] 14/09/24 09:35:49 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:37:25 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:37:25 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:37:28 GamesCog cog is ready
+[INFO] 14/09/24 09:37:28 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:38:08 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:38:08 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:38:10 GamesCog cog is ready
+[INFO] 14/09/24 09:38:11 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:39:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:39:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:39:14 GamesCog cog is ready
+[INFO] 14/09/24 09:39:14 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:40:28 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:40:28 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:40:31 GamesCog cog is ready
+[INFO] 14/09/24 09:40:31 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:41:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:41:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:41:48 GamesCog cog is ready
+[INFO] 14/09/24 09:41:48 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:43:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:43:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:43:58 GamesCog cog is ready
+[INFO] 14/09/24 09:43:58 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:45:19 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:45:19 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:45:21 GamesCog cog is ready
+[INFO] 14/09/24 09:45:21 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:50:44 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:50:44 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:50:46 GamesCog cog is ready
+[INFO] 14/09/24 09:50:46 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:52:10 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: Client.get_channel() got some positional-only arguments passed as keyword arguments: 'id' 
+[ERROR] 14/09/24 09:52:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:52:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:52:13 GamesCog cog is ready
+[INFO] 14/09/24 09:52:13 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 09:52:35 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:52:35 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 14/09/24 09:52:49 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 09:52:49 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 09:52:51 GamesCog cog is ready
+[INFO] 14/09/24 09:52:51 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:00:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:00:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:00:43 GamesCog cog is ready
+[INFO] 14/09/24 10:00:43 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:01:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:01:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:01:59 GamesCog cog is ready
+[INFO] 14/09/24 10:01:59 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:02:26 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:02:26 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:02:29 GamesCog cog is ready
+[INFO] 14/09/24 10:02:29 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:04:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:04:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:04:12 GamesCog cog is ready
+[INFO] 14/09/24 10:04:12 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:05:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:05:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:05:20 GamesCog cog is ready
+[INFO] 14/09/24 10:05:20 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:07:22 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:07:22 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:07:25 GamesCog cog is ready
+[INFO] 14/09/24 10:07:25 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:08:26 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:08:26 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:08:29 GamesCog cog is ready
+[INFO] 14/09/24 10:08:29 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:11:01 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:11:01 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:11:03 GamesCog cog is ready
+[INFO] 14/09/24 10:11:03 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:11:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:11:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:11:42 GamesCog cog is ready
+[INFO] 14/09/24 10:11:42 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:13:11 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: BotBase.listen() missing 1 required positional argument: 'self' 
+[ERROR] 14/09/24 10:13:11 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:13:11 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:13:14 GamesCog cog is ready
+[INFO] 14/09/24 10:13:14 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:13:42 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:13:42 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:13:44 GamesCog cog is ready
+[INFO] 14/09/24 10:13:44 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:14:47 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:14:47 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:14:50 GamesCog cog is ready
+[INFO] 14/09/24 10:14:50 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:15:42 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:15:42 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:15:45 GamesCog cog is ready
+[INFO] 14/09/24 10:15:45 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:16:47 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:16:47 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:16:50 GamesCog cog is ready
+[INFO] 14/09/24 10:16:50 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:18:40 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:18:40 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:18:43 GamesCog cog is ready
+[INFO] 14/09/24 10:18:43 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:19:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:19:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:19:14 GamesCog cog is ready
+[INFO] 14/09/24 10:19:14 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:22:05 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:22:05 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:22:08 GamesCog cog is ready
+[INFO] 14/09/24 10:22:08 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:22:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:22:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:22:48 GamesCog cog is ready
+[INFO] 14/09/24 10:22:48 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:28:59 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:28:59 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:29:02 GamesCog cog is ready
+[INFO] 14/09/24 10:29:02 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:31:29 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:31:29 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:31:32 GamesCog cog is ready
+[INFO] 14/09/24 10:31:32 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:31:59 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:31:59 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:32:02 GamesCog cog is ready
+[INFO] 14/09/24 10:32:02 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:35:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:35:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:35:19 GamesCog cog is ready
+[INFO] 14/09/24 10:35:19 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:36:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:36:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:36:13 GamesCog cog is ready
+[INFO] 14/09/24 10:36:13 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:37:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:37:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:37:49 GamesCog cog is ready
+[INFO] 14/09/24 10:37:49 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:39:42 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:39:42 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:39:45 GamesCog cog is ready
+[INFO] 14/09/24 10:39:45 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 10:40:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 10:40:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 10:40:17 GamesCog cog is ready
+[INFO] 14/09/24 10:40:17 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:13:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:13:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:13:48 GamesCog cog is ready
+[INFO] 14/09/24 11:13:48 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:14:19 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:14:19 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:14:21 GamesCog cog is ready
+[INFO] 14/09/24 11:14:21 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:14:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:14:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:14:34 GamesCog cog is ready
+[INFO] 14/09/24 11:14:34 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:16:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:16:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:16:34 GamesCog cog is ready
+[INFO] 14/09/24 11:16:34 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:22:44 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (anonmessagecog.py, line 9) 
+[ERROR] 14/09/24 11:22:44 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:22:44 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:22:47 GamesCog cog is ready
+[INFO] 14/09/24 11:22:47 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:25:07 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:25:07 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:25:10 GamesCog cog is ready
+[INFO] 14/09/24 11:25:10 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:26:39 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:26:39 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:26:41 GamesCog cog is ready
+[INFO] 14/09/24 11:26:41 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:27:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:27:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:27:12 GamesCog cog is ready
+[INFO] 14/09/24 11:27:12 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:28:42 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:28:42 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:28:45 GamesCog cog is ready
+[INFO] 14/09/24 11:28:45 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:30:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:30:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:30:34 GamesCog cog is ready
+[INFO] 14/09/24 11:30:34 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:50:09 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:50:09 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:50:11 GamesCog cog is ready
+[INFO] 14/09/24 11:50:11 TheBestChannelCog cog is ready
+[ERROR] 14/09/24 11:51:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 14/09/24 11:51:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 14/09/24 11:52:00 GamesCog cog is ready
+[INFO] 14/09/24 11:52:00 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:07:07 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' is already loaded. 
+[ERROR] 15/09/24 10:07:07 Failed to load extension gamescog.py: Extension 'cogs.gamescog' is already loaded. 
+[ERROR] 15/09/24 10:07:07 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:07:07 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[ERROR] 15/09/24 10:07:07 Failed to load extension thechannelcog.py: Extension 'cogs.thechannelcog' is already loaded. 
+[INFO] 15/09/24 10:07:10 GamesCog cog is ready
+[INFO] 15/09/24 10:07:10 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:31:48 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:31:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:31:51 GamesCog cog is ready
+[INFO] 15/09/24 10:31:51 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:36:59 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:36:59 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:37:01 GamesCog cog is ready
+[INFO] 15/09/24 10:37:01 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:41:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:41:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:41:48 GamesCog cog is ready
+[INFO] 15/09/24 10:41:48 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:43:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:43:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:43:27 GamesCog cog is ready
+[INFO] 15/09/24 10:43:27 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:44:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:44:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:44:29 GamesCog cog is ready
+[INFO] 15/09/24 10:44:29 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:44:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:44:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:44:59 GamesCog cog is ready
+[INFO] 15/09/24 10:44:59 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:45:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:45:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:46:00 GamesCog cog is ready
+[INFO] 15/09/24 10:46:00 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:46:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:46:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:46:26 GamesCog cog is ready
+[INFO] 15/09/24 10:46:26 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:47:03 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:47:03 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:47:06 GamesCog cog is ready
+[INFO] 15/09/24 10:47:06 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:49:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:49:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:49:15 GamesCog cog is ready
+[INFO] 15/09/24 10:49:15 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:51:08 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: SyntaxError: unmatched ')' (anonmessagecog.py, line 36) 
+[ERROR] 15/09/24 10:51:08 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:51:08 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:51:11 GamesCog cog is ready
+[INFO] 15/09/24 10:51:11 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 10:51:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 10:51:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 10:51:27 GamesCog cog is ready
+[INFO] 15/09/24 10:51:27 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:38:02 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:38:02 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:38:04 Anon cog is ready
+[INFO] 15/09/24 11:38:04 GamesCog cog is ready
+[INFO] 15/09/24 11:38:04 Reactions cog is ready
+[INFO] 15/09/24 11:38:04 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:39:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:39:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:39:48 Anon cog is ready
+[INFO] 15/09/24 11:39:48 GamesCog cog is ready
+[INFO] 15/09/24 11:39:48 Reactions cog is ready
+[INFO] 15/09/24 11:39:48 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:41:47 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:41:47 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:41:50 Anon cog is ready
+[INFO] 15/09/24 11:41:50 GamesCog cog is ready
+[INFO] 15/09/24 11:41:50 Reactions cog is ready
+[INFO] 15/09/24 11:41:50 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:44:17 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:44:17 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:44:19 Anon cog is ready
+[INFO] 15/09/24 11:44:19 GamesCog cog is ready
+[INFO] 15/09/24 11:44:19 Reactions cog is ready
+[INFO] 15/09/24 11:44:19 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:45:31 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:45:31 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:45:33 Anon cog is ready
+[INFO] 15/09/24 11:45:33 GamesCog cog is ready
+[INFO] 15/09/24 11:45:33 Reactions cog is ready
+[INFO] 15/09/24 11:45:33 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:47:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:47:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:47:34 Anon cog is ready
+[INFO] 15/09/24 11:47:34 GamesCog cog is ready
+[INFO] 15/09/24 11:47:34 Reactions cog is ready
+[INFO] 15/09/24 11:47:34 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:47:57 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:47:57 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:47:59 Anon cog is ready
+[INFO] 15/09/24 11:47:59 GamesCog cog is ready
+[INFO] 15/09/24 11:47:59 Reactions cog is ready
+[INFO] 15/09/24 11:47:59 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:49:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:49:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:50:01 Anon cog is ready
+[INFO] 15/09/24 11:50:01 GamesCog cog is ready
+[INFO] 15/09/24 11:50:01 Reactions cog is ready
+[INFO] 15/09/24 11:50:01 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:52:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:52:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:52:12 Anon cog is ready
+[INFO] 15/09/24 11:52:12 GamesCog cog is ready
+[INFO] 15/09/24 11:52:12 Reactions cog is ready
+[INFO] 15/09/24 11:52:12 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:56:48 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:56:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:56:50 Anon cog is ready
+[INFO] 15/09/24 11:56:50 GamesCog cog is ready
+[INFO] 15/09/24 11:56:50 Reactions cog is ready
+[INFO] 15/09/24 11:56:50 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:58:26 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:58:26 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:58:28 Anon cog is ready
+[INFO] 15/09/24 11:58:28 GamesCog cog is ready
+[INFO] 15/09/24 11:58:28 Reactions cog is ready
+[INFO] 15/09/24 11:58:28 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 11:58:58 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 11:58:58 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 11:59:01 Anon cog is ready
+[INFO] 15/09/24 11:59:01 GamesCog cog is ready
+[INFO] 15/09/24 11:59:01 Reactions cog is ready
+[INFO] 15/09/24 11:59:01 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:02:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:02:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:02:12 Anon cog is ready
+[INFO] 15/09/24 12:02:12 GamesCog cog is ready
+[INFO] 15/09/24 12:02:12 Reactions cog is ready
+[INFO] 15/09/24 12:02:12 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:05:32 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:05:32 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:05:35 Anon cog is ready
+[INFO] 15/09/24 12:05:35 GamesCog cog is ready
+[INFO] 15/09/24 12:05:35 Reactions cog is ready
+[INFO] 15/09/24 12:05:35 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:31:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:31:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:31:13 Anon cog is ready
+[INFO] 15/09/24 12:31:13 GamesCog cog is ready
+[INFO] 15/09/24 12:31:13 Reactions cog is ready
+[INFO] 15/09/24 12:31:13 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:34:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:34:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:34:18 Anon cog is ready
+[INFO] 15/09/24 12:34:18 GamesCog cog is ready
+[INFO] 15/09/24 12:34:18 Reactions cog is ready
+[INFO] 15/09/24 12:34:18 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:35:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:35:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:35:18 Anon cog is ready
+[INFO] 15/09/24 12:35:18 GamesCog cog is ready
+[INFO] 15/09/24 12:35:18 Reactions cog is ready
+[INFO] 15/09/24 12:35:18 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:37:21 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:37:21 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:37:23 Anon cog is ready
+[INFO] 15/09/24 12:37:23 GamesCog cog is ready
+[INFO] 15/09/24 12:37:23 Reactions cog is ready
+[INFO] 15/09/24 12:37:23 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:38:37 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:38:37 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:38:40 Anon cog is ready
+[INFO] 15/09/24 12:38:40 GamesCog cog is ready
+[INFO] 15/09/24 12:38:40 Reactions cog is ready
+[INFO] 15/09/24 12:38:40 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:38:59 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:38:59 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:39:02 Anon cog is ready
+[INFO] 15/09/24 12:39:02 GamesCog cog is ready
+[INFO] 15/09/24 12:39:02 Reactions cog is ready
+[INFO] 15/09/24 12:39:02 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:42:23 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:42:23 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:42:25 Anon cog is ready
+[INFO] 15/09/24 12:42:25 GamesCog cog is ready
+[INFO] 15/09/24 12:42:25 Reactions cog is ready
+[INFO] 15/09/24 12:42:25 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:44:49 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:44:49 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:44:51 Anon cog is ready
+[INFO] 15/09/24 12:44:51 GamesCog cog is ready
+[INFO] 15/09/24 12:44:51 Reactions cog is ready
+[INFO] 15/09/24 12:44:51 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:45:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:45:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:45:30 Anon cog is ready
+[INFO] 15/09/24 12:45:30 GamesCog cog is ready
+[INFO] 15/09/24 12:45:30 Reactions cog is ready
+[INFO] 15/09/24 12:45:30 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:46:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:46:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:46:16 Anon cog is ready
+[INFO] 15/09/24 12:46:16 GamesCog cog is ready
+[INFO] 15/09/24 12:46:16 Reactions cog is ready
+[INFO] 15/09/24 12:46:16 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:46:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:46:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:46:47 Anon cog is ready
+[INFO] 15/09/24 12:46:47 GamesCog cog is ready
+[INFO] 15/09/24 12:46:47 Reactions cog is ready
+[INFO] 15/09/24 12:46:47 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:47:13 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:47:13 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:47:16 Anon cog is ready
+[INFO] 15/09/24 12:47:16 GamesCog cog is ready
+[INFO] 15/09/24 12:47:16 Reactions cog is ready
+[INFO] 15/09/24 12:47:16 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:47:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:47:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:47:49 Anon cog is ready
+[INFO] 15/09/24 12:47:49 GamesCog cog is ready
+[INFO] 15/09/24 12:47:49 Reactions cog is ready
+[INFO] 15/09/24 12:47:49 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:52:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:52:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:52:13 Anon cog is ready
+[INFO] 15/09/24 12:52:13 GamesCog cog is ready
+[INFO] 15/09/24 12:52:13 Reactions cog is ready
+[INFO] 15/09/24 12:52:13 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:56:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:56:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:56:29 Anon cog is ready
+[INFO] 15/09/24 12:56:29 GamesCog cog is ready
+[INFO] 15/09/24 12:56:29 Reactions cog is ready
+[INFO] 15/09/24 12:56:29 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:58:27 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:58:27 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:58:30 Anon cog is ready
+[INFO] 15/09/24 12:58:30 GamesCog cog is ready
+[INFO] 15/09/24 12:58:30 Reactions cog is ready
+[INFO] 15/09/24 12:58:30 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 12:58:53 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 12:58:54 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 12:58:56 Anon cog is ready
+[INFO] 15/09/24 12:58:56 GamesCog cog is ready
+[INFO] 15/09/24 12:58:56 Reactions cog is ready
+[INFO] 15/09/24 12:58:56 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 13:00:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 13:00:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 13:00:15 Anon cog is ready
+[INFO] 15/09/24 13:00:15 GamesCog cog is ready
+[INFO] 15/09/24 13:00:15 Reactions cog is ready
+[INFO] 15/09/24 13:00:15 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 13:00:36 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 13:00:36 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 13:00:38 Anon cog is ready
+[INFO] 15/09/24 13:00:38 GamesCog cog is ready
+[INFO] 15/09/24 13:00:38 Reactions cog is ready
+[INFO] 15/09/24 13:00:38 TheBestChannelCog cog is ready
+[ERROR] 15/09/24 13:03:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
+[ERROR] 15/09/24 13:03:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
+[INFO] 15/09/24 13:03:27 Anon cog is ready
+[INFO] 15/09/24 13:03:27 GamesCog cog is ready
+[INFO] 15/09/24 13:03:27 Reactions cog is ready
+[INFO] 15/09/24 13:03:27 TheBestChannelCog cog is ready

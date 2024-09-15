@@ -1,3 +1,4 @@
+import discord.context_managers
 from __init__ import *
 
 
@@ -29,7 +30,12 @@ async def on_ready():
         
 @bot.command() 
 async def ping(ctx):
-    await ctx.send(f'Pong! {round(bot.latency * 1000)}ms')
+    await ctx.send(f'Pong! {round(bot.latency * 1000)}ms\n')
+    
+@bot.command()
+async def text(ctx, *, text):
+    if ctx.author.id == HELLCAT_ID:
+        await ctx.send(text)
     
 
 #        
