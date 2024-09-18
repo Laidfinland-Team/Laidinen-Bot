@@ -1,6 +1,9 @@
-import discord.context_managers
+import discord.ext.commands
 from __init__ import *
+import discord.ext
 
+class Ctx(discord.ext.commands.Context):
+    pass
 
 @bot.event
 async def on_connect():
@@ -30,12 +33,23 @@ async def on_ready():
         
 @bot.command() 
 async def ping(ctx):
+    print(type(ctx))
     await ctx.send(f'Pong! {round(bot.latency * 1000)}ms\n')
     
 @bot.command()
-async def text(ctx, *, text):
+async def t(ctx: Ctx, *, the_text):
+    await bot.get_command('text').callback(ctx, text=the_text)
+
+@bot.command()
+async def text(ctx: Ctx, *, text):
     if ctx.author.id == HELLCAT_ID:
-        await ctx.send(text)
+        await ctx.message.delete()
+        if ctx.message.reference:
+            message = await ctx.fetch_message(ctx.message.reference.message_id)
+            await message.reply(text)
+        else:
+            await ctx.send(text)
+        
     
 
 #        

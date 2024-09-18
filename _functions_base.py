@@ -72,5 +72,3 @@ def cfcs(args, arg):
 def hide (string):
     return string.replace(string, '■' * len(string))
 
-
-
