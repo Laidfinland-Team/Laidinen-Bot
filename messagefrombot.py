@@ -9,7 +9,7 @@ CHANNEL_ID = 1156941990672466020 # id канала "『🌐』основной"
 
 # Функция для запуска графического интерфейса
 def run_tk():
-    text_selected = tk.Text()  # Define text_selected
+    #text_selected = tk.Text()  # Define text_selected
 
     # Функция для обработки нажатия кнопки "Отправить"
     def on_button_click():
@@ -47,13 +47,15 @@ def run_tk():
 
     paste_text_button = tk.Button(root, text="Вставить", command=lambda: text.insert(tk.END, pyperclip.paste()))  # Создание кнопки "Вставить" для текстового поля
     paste_text_button.pack(pady=5,padx=10) 
+    
     root.mainloop()  # Запуск главного цикла обработки событий
-
 # Функция для запуска графического интерфейса в асинхронном режиме
 async def tk_main():
     global loop
     loop = asyncio.get_running_loop()
-    threading.Thread(target=run_tk, daemon=True).start()
+    
+    if threading.current_thread().is_alive():
+        threading.Thread(target=run_tk, daemon=True).start()
 
 class MyBot():
     # Обработчик события подключения к Discord
@@ -84,12 +86,12 @@ class MyBot():
 
     # Асинхронная функция для отправки сообщения в указанный канал
     async def message(id, message):
-        #try:
-        channel = bot.get_channel(id)
-        output(channel, message)
-        await channel.send(message)
-        #except Exception as e:
-        #    error(f"Send error: {e}")
+        try:
+            channel = bot.get_channel(id)
+            output(channel, message)
+            await channel.send(message)
+        except Exception as e:
+            error(f"Send error: {e}")
 
     # Асинхронная функция для запуска бота
     async def start():

@@ -2,8 +2,6 @@ import discord.ext.commands
 from __init__ import *
 import discord.ext
 
-class Ctx(discord.ext.commands.Context):
-    pass
 
 @bot.event
 async def on_connect():
