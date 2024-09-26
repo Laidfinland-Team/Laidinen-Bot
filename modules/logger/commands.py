@@ -2,6 +2,7 @@ from datetime import datetime
 from colorama import Fore, Back, Style
 import discord
 import traceback
+import inspect
 from accessify import private
 import os
 import sys
@@ -66,6 +67,28 @@ class Logger:
         formatted_datetime = datetime.now().strftime('%d/%m/%y %H:%M:%S')
         return formatted_datetime
 
+    def white(self, message : str):
+        """
+        @brief Method to print a white message.
+
+        @param message (str): The message to be printed.
+        """
+
+        return Fore.WHITE + Style.NORMAL + message
+    
+    def system(self, message : str):
+        """
+        @brief Method to print a system message.
+
+        @param message (str): The message to be printed.
+        """
+
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        
+        print(Fore.CYAN + Style.BRIGHT + "[SYSTEM] " + f"{self.formatted_datetime()} " + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        self.write("[SYSTEM] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
+    
     def error(self, message : str, exec: Exception = None):
         """
         @brief Logs an error message to the console and file.
@@ -81,9 +104,11 @@ class Logger:
         exec_msg = ""
         if isinstance(exec, Exception):
             exec_msg = traceback.format_exc()
-
-        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + "\n" + Style.DIM + exec_msg + Style.RESET_ALL)
-        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + " " + exec_msg)
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        
+        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + self.white(f" [{name}]") + Style.DIM + exec_msg + Style.RESET_ALL)
+        self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + f" [{name}]" + exec_msg)
         
     def info(self, message: str):
         """
@@ -91,9 +116,10 @@ class Logger:
 
         @param message (str): The informational message to be printed.
         """
-
-        print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + Style.RESET_ALL)
-        self.write("[INFO] " + f"{self.formatted_datetime()} " + message)
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        self.write("[INFO] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
         
     def warning(self, message: str):
         """
@@ -101,9 +127,11 @@ class Logger:
 
         @param message (str): The warning message to be printed.
         """
-
-        print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + Style.RESET_ALL)
-        self.write("[WARNING] " + f"{self.formatted_datetime()} " + message)
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        
+        print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + self.white(f" [{name}]") +  Style.RESET_ALL)
+        self.write("[WARNING] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
         
 
     def output(self, channel : discord.channel, message : str):
@@ -113,6 +141,8 @@ class Logger:
         @param channel (discord.channel): The Discord channel to send the message to.
         @param message (str): The message to be printed and logged.
         """
-
-        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + " "  + Style.RESET_ALL)
-        self.write("[OUTPUT] " + f"{self.formatted_datetime()} " + message)
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        
+        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        self.write("[OUTPUT] " + f"{self.formatted_datetime()} " + message + f" [{name}]")

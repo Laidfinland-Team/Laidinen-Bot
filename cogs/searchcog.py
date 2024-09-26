@@ -9,6 +9,7 @@ import numpy as np
 
 TIMEOUT_FOR_PAGES = 60*3
 
+
 class SearchCog(commands.Cog):
     def __init__(self, bot):
         self.bot: discord.Client = bot
@@ -96,46 +97,16 @@ class SearchCog(commands.Cog):
             elapsed_time = end_time - start_time
             await ctx.send(f"**Поиск завершен за {elapsed_time:.2f} секунд.**")
 
-        async def send_page(page_index):
-            embed = discord.Embed(
-                title=f"Страница {page_index + 1}/{len(pages)}",
-                description=f"Порог ({percentile}): {threshold:.2f}. Сообщений на странице: {len(pages[page_index])}",
-                color=MAIN_COLOR
-            )
-            for message_data in pages[page_index]:
-                embed.add_field(
-                    name=f"Сообщение:\n{message_data['url']}",
-                    value=f"Количество реакций: {message_data['total_reactions']}, \nСамая популярная реакция: {message_data['max_reactions']}"
-                )
+            # Функция для генерации полей embed
+            def field_generator(message_data):
+                name = f"Сообщение:\n{message_data['url']}"
+                value = f"Количество реакций: {message_data['total_reactions']}, \nСамая популярная реакция: {message_data['max_reactions']}"
+                return name, value
 
-            msg = await ctx.send(embed=embed)
-            return msg
+        paginator = Paginator(ctx, pages, field_generator)
+        await paginator.paginate()
 
-        page_index = 0
-        msg = await send_page(page_index)
-        await msg.add_reaction("⬅️")
-        await msg.add_reaction("➡️")
 
-        def check_reaction(reaction, user):
-            return user == ctx.author and str(reaction.emoji) in ["⬅️", "➡️"]
-
-        while True:
-            try:
-                reaction, user = await self.bot.wait_for('reaction_add', timeout=TIMEOUT_FOR_PAGES, check=check_reaction)
-                if str(reaction.emoji) == "➡️" and page_index < len(pages) - 1:
-                    page_index += 1
-                    await msg.delete()
-                    msg = await send_page(page_index)
-                    await msg.add_reaction("⬅️")
-                    await msg.add_reaction("➡️")
-                elif str(reaction.emoji) == "⬅️" and page_index > 0:
-                    page_index -= 1
-                    await msg.delete()
-                    msg = await send_page(page_index)
-                    await msg.add_reaction("⬅️")
-                    await msg.add_reaction("➡️")
-            except asyncio.TimeoutError:
-                break
 
 
 async def setup(bot):

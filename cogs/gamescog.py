@@ -63,17 +63,19 @@ class Russian_roulette(discord.ui.View):
         
 class Rock_paper_scissors(discord.ui.View):
     
-    embed = discord.Embed(
-        title="Камень, ножницы, бумага",
-        description="Выберите один из вариантов",
-        color=discord.Color.yellow()
-    )
+    
     
     def __init__(self, ctx):
         super().__init__(timeout=TIMEOUT)
         self.ctx = ctx
         self.players: list[discord.Member] = []
         self.winner = None
+        
+        self.embed = discord.Embed(
+        title="Камень, ножницы, бумага",
+        description="Выберите один из вариантов",
+        color=discord.Color.yellow()
+    )
     
     async def interaction_check(self, interaction: discord.Interaction):
         return True#interaction.user.id == self.ctx.message.author.id
@@ -82,7 +84,7 @@ class Rock_paper_scissors(discord.ui.View):
         if len(self.players) >= 2:
             player1, player2 = self.players
             if player1[1] == player2[1]:
-                self.winner ="Ничья"
+                self.winner =f"Ничья, {player1[0]} против {player2[0]}\n-# Никто не победил, оба выбрали {player1[1]}(("
                 
             elif player1[1] == "rock" and player2[1] == "scissors":
                 self.winner = f"**<@{player1[0].id}> победил <@{player2[0].id}>!**\n-# **Камень** отмудохал **ножницы**"

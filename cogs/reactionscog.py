@@ -6,27 +6,33 @@ import json
 
 from __init__ import *
 
+
+
 ADMIN_MODE = False # Включение/выключение отправки в +1 и featured одной реакцией администратора.
 ADMIN_MODE_WITH_REACT = True # Включение/выключение отправки в +1 и featured одной реакцией администратора с помощью реакции.
 ADMIN_MODE_REACTION = 'B_application'
 
 DB_DIR = r"light_databases\featured_messages.json"
-CONFIG_DIR = r"reactionscog\reactions.json"
 
 # ID канала для отправки сообщений в чат
-CHAT_CHANNEL_ID = 1284969133242322986
+CHAT_FEATURED_CHANNEL_ID = 1284969133242322986
 # ID канала для отправки сообщений в мемы
 MEME_FEATURED_CHANNEL_ID = 1286279718642913350
 # ID канала для отправки сообщений в форум
-FORUM_CHANNEL_ID = 1284968979340726273
+FORUM_FEATURED_CHANNEL_ID = 1284968979340726273
 
 # ID канала с мемами
 MEME_CHANNEL_ID = [1156945713440247829, 1171017228683063307]
+
+FEATURED_CHANNELS_IDS = [CHAT_FEATURED_CHANNEL_ID, MEME_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]
 
 # Порог количества реакций для админов и пользователей
 ADMIN_FORCE = 1
 USER_FORCE = 6
 PLUS_ONE_FORCE = 5
+CURATOR_FORCE = 1
+MEME_CURATOR_FORCE = 2
+CANCEL_FORCE = 1
 
 # Категории
 FORUMS = 1180846730602889236
@@ -37,6 +43,12 @@ ADMIN_EMOJI = 'AA_admin_featured'
 SUPER_EMOJI = 'AA_super_featured'
 USER_EMOJI = 'AA_featured'
 PLUS_ONE_EMOJI = 'AA_plus_one'
+PROTECTED_EMOJI = '🛡️'
+CANCEL_EMOJI = '❌'
+
+CURATOR_ROLE_ID = 1288527764319637578
+MEME_CURATOR_ROLE_ID = 1288528393830404136 
+
 
 # Цвета для эмбедов
 ADMIN_COLOR = discord.Color.red()
@@ -49,14 +61,8 @@ class ReactionsCog(commands.Cog):
         self.bot: discord.Client = bot
         self.destination = None  # Место назначения (чат или форум)
         self.status = None  # Статус реакции (админская или пользовательская)
-
-        # Загружаем конфигурацию кога
-        with open(CONFIG_DIR, "r") as f:
-            self.config = json.load(f)
-
-        # Эмодзи для реакций
-        self.ADMIN_EMOJI = self.config["emoji"]["favorite"]["admin"]
-        self.USER_EMOJI = self.config["emoji"]["favorite"]["user"]
+        
+        
     def check_for_featured(self, message: discord.Message):
         # Проверяем, было ли сообщение уже добавлено в избранное
         with open(DB_DIR, "r") as f:
@@ -66,6 +72,14 @@ class ReactionsCog(commands.Cog):
     def check_for_admin(self, member: discord.Member):
         # Проверяем, является ли пользователь администратором
         return member.guild_permissions.administrator
+    
+    def check_for_curator(self, member: discord.Member):
+        # Проверяем, является ли пользователь куратором
+        return CURATOR_ROLE_ID in [role.id for role in member.roles]
+    
+    def check_for_meme_curator(self, member: discord.Member):
+        # Проверяем, является ли пользователь куратором мемов
+        return MEME_CURATOR_ROLE_ID in [role.id for role in member.roles]
     
     def add_to_featured_file(self, message: discord.Message):
         # Добавляем сообщение в список избранных
@@ -92,7 +106,10 @@ class ReactionsCog(commands.Cog):
             featured_messages = json.load(f)
         
         # Удаляем ID сообщения из списка
-        featured_messages.remove(message.id)
+        try:
+            featured_messages.remove(message.id)
+        except:
+            error(f"REMOVE_FROM_F_FILE: Message with ID {message.id} was not found in featured messages")
         
         # Сохраняем обновленный список в файл
         with open(DB_DIR, "w") as f:
@@ -113,12 +130,19 @@ class ReactionsCog(commands.Cog):
                 return True
             else:
                 return ADMIN_MODE
+    async def check_for_protected(self, message: discord.Message):
+        # Проверяем, защищено ли сообщение
+        name_list = [reaction.emoji for reaction in message.reactions]
+        if PROTECTED_EMOJI in name_list:
+            return True in [self.check_for_admin(user) async for user in message.reactions[name_list.index(PROTECTED_EMOJI)].users()]
     
     @commands.command()
+    @arguments_required()
     async def atf(self, ctx: commands.Context, *args: str):
         await self.add_to_featured(ctx, *args)
         
     @commands.command()
+    @arguments_required()
     async def add_to_featured(self, ctx: commands.Context, *args: str):
         if not ctx.author.guild_permissions.administrator:
             await ctx.send("У вас нет прав на использование этой команды")
@@ -237,7 +261,7 @@ class ReactionsCog(commands.Cog):
             title=title,
             description=f"**Ссылка на сообщение: {message.jump_url}**",
             color=color,
-            ).set_author(name=message.author.display_name)
+            ).set_author(name=message.author.display_name, url=message.author.avatar.url)
         
         if message.attachments:
             if not all([tt == -1 for tt in [message.attachments[0].url.find(t) for t in ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp']]]):
@@ -249,12 +273,12 @@ class ReactionsCog(commands.Cog):
         
         if destination == 'forum':
             # Отправляем в форум
-            channel = self.bot.get_channel(FORUM_CHANNEL_ID)
+            channel = self.bot.get_channel(FORUM_FEATURED_CHANNEL_ID)
             await channel.send(embed=embed, content=content)
             info(f"Message with ID {message.id} was sent to forum featured messages")
         elif destination == 'chat':
             # Отправляем в чат
-            channel = self.bot.get_channel(CHAT_CHANNEL_ID)
+            channel = self.bot.get_channel(CHAT_FEATURED_CHANNEL_ID)
             await channel.send(embed=embed, content=content)
             info(f"Message with ID {message.id} was sent to chat featured messages")
         elif destination == 'meme':
@@ -281,23 +305,29 @@ class ReactionsCog(commands.Cog):
         # Определяем статус реакции (админская или пользовательская)
         if payload.emoji.name == USER_EMOJI:
             self.status = 'user'
-        elif payload.emoji.name == self.ADMIN_EMOJI:
+        elif payload.emoji.name == ADMIN_EMOJI:
             self.status = 'admin'
         elif payload.emoji.name == SUPER_EMOJI:
             self.status = 'super'
         elif payload.emoji.name == PLUS_ONE_EMOJI:
             self.status = 'plus_one'
-        
+        elif payload.emoji.name == CANCEL_EMOJI:
+            self.status = 'cancel'
+            
         # Определяем место назначения
         if channel.id in MEME_CHANNEL_ID:
             self.destination = 'meme'
         elif channel.category_id == FORUMS:
             self.destination = 'forum'
+        elif channel.id in [CHAT_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]:
+            self.destination = 'delete_forum_or_chat'
+        elif channel.id == MEME_FEATURED_CHANNEL_ID:
+            self.destination = 'delete_meme'
         elif channel.category_id not in NOTCHATS:
             self.destination = 'chat'
-        
+            
         # Если сообщение еще не в избранном
-        if not self.check_for_featured(message):
+        if not self.check_for_featured(message) or message.channel.id in FEATURED_CHANNELS_IDS:
             if self.destination:
                 names_list = []
                 # Собираем имена всех эмодзи в реакциях
@@ -305,19 +335,36 @@ class ReactionsCog(commands.Cog):
                     for i in range(reaction.count):
                         names_list.append(reaction.emoji.name) if type(reaction.emoji) is not str else None
                 # Проверяем условия для пользовательской реакции
+                
+                ADMIN_CHECK = ((names_list.count(ADMIN_EMOJI) >= ADMIN_FORCE and self.check_for_admin(payload.member) 
+                or names_list.count(ADMIN_EMOJI) >= CURATOR_FORCE and self.check_for_curator(payload.member) and self.destination != 'meme'
+                or names_list.count(ADMIN_EMOJI) >= MEME_CURATOR_FORCE and self.check_for_meme_curator(payload.member) and self.destination == 'meme')
+                and self.status == 'admin')
+                
+                CANCEL_CHECK = (self.status == 'cancel' and not await self.check_for_protected(message)
+                               and (self.check_for_admin(payload.member) and self.destination in ['delete_forum_or_chat', 'delete_meme']
+                               or self.check_for_curator(payload.member) and self.destination == 'delete_forum_or_chat' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE
+                               or self.check_for_meme_curator(payload.member) and self.destination == 'delete_meme' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE))
+                
                 if self.status == 'user' and names_list.count(USER_EMOJI) >= USER_FORCE or self.check_for_admin(payload.member) and self.check_for_admin_mode(message) and self.status == 'user':
                     await self.send_to(self.destination, message, self.status)
                     info(f"Message with ID {message.id} was added to featured messages")
                 # Проверяем условия для админской реакции
-                elif self.status == 'admin' and names_list.count(self.ADMIN_EMOJI) >= ADMIN_FORCE and self.check_for_admin(payload.member):
+                elif ADMIN_CHECK:
                     await self.send_to(self.destination, message, self.status)
                     info(f"Message with ID {message.id} was added to admin featured messages")
                 elif self.status == 'super' and names_list.count(SUPER_EMOJI) >= ADMIN_FORCE and self.check_for_admin(payload.member):
-                    await self.send_to(self.destination, message, self.status)d
+                    await self.send_to(self.destination, message, self.status)
                     info(f"Message with ID {message.id} was added to super featured messages")
                 elif self.status == 'plus_one' and names_list.count(PLUS_ONE_EMOJI) >= PLUS_ONE_FORCE or self.check_for_admin(payload.member) and self.check_for_admin_mode(message) and self.status == 'plus_one':
                     await self.send_to(self.destination, message, self.status)
                     info(f"Message with ID {message.id} was added to plus one messages")     
+                elif CANCEL_CHECK:
+                    self.remove_from_featured_file(message)
+                    await message.delete()
+                    info(f"Message with ID {message.id} was removed from featured messages")
+        self.status = None
+        self.destination = None
 
 async def setup(bot):
     # Устанавливаем ког в бота
