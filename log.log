@@ -16,18 +16,18 @@
 [ERROR] 14/09/24 09:07:48 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 14/09/24 09:07:50 GamesCog cog is ready
 [INFO] 14/09/24 09:07:50 TheBestChannelCog cog is ready
-[INFO] 14/09/24 09:08:05 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:08:19 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:08:34 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:08:48 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:08:56 основной: Russian Roulette:  Cancelled
-[INFO] 14/09/24 09:09:06 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:09:18 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:09:29 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:09:29 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:09:35 основной: Russian Roulette:  Confirmed
-[INFO] 14/09/24 09:09:51 основной: Russian Roulette:  Confirmed
-[ERROR] 14/09/24 09:10:47 Send error click: invalid literal for int() with base 10: 'ва' 
+[INFO] 14/09/24 09:08:05 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:19 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:34 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:48 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:08:56 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Cancelled
+[INFO] 14/09/24 09:09:06 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:18 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:29 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:29 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:35 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 14/09/24 09:09:51 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[ERROR] 14/09/24 09:10:47 Send error click: invalid literal for int() with base 10: 'пїЅпїЅ' 
 [ERROR] 14/09/24 09:20:12 Failed to load extension anonmessagecog.py: Extension 'cogs.anonmessagecog' raised an error: TypeError: object NoneType can't be used in 'await' expression 
 [ERROR] 14/09/24 09:20:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 14/09/24 09:20:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
@@ -562,13 +562,13 @@
 [INFO] 16/09/24 08:28:56 GamesCog cog is ready
 [INFO] 16/09/24 08:28:56 Reactions cog is ready
 [INFO] 16/09/24 08:28:56 TheBestChannelCog cog is ready
-[INFO] 16/09/24 11:48:24 айтишная: Russian Roulette:  Confirmed
-[INFO] 16/09/24 12:14:56 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 16/09/24 13:06:55 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 16/09/24 13:07:09 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 16/09/24 13:07:52 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 16/09/24 13:08:01 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 16/09/24 13:08:10 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 16/09/24 11:48:24 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 12:14:56 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 13:06:55 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 13:07:09 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 13:07:52 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 13:08:01 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 16/09/24 13:08:10 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 16/09/24 21:38:01 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 16/09/24 21:38:01 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 16/09/24 21:38:03 Anon cog is ready
@@ -695,9 +695,9 @@
 [INFO] 17/09/24 11:06:53 Anon cog is ready
 [INFO] 17/09/24 11:06:53 GamesCog cog is ready
 [INFO] 17/09/24 11:06:53 TheBestChannelCog cog is ready
-[INFO] 17/09/24 15:25:09 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 17/09/24 15:26:53 команды-для-ботов: Russian Roulette: Timed out
-[INFO] 17/09/24 15:52:06 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 17/09/24 15:25:09 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 17/09/24 15:26:53 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette: Timed out
+[INFO] 17/09/24 15:52:06 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 17/09/24 22:06:10 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 17/09/24 22:06:10 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 17/09/24 22:06:13 Anon cog is ready
@@ -753,15 +753,15 @@
 [INFO] 17/09/24 22:19:55 Message with ID 1284911518894260274 was added to admin featured messages
 [INFO] 17/09/24 22:20:04 Message with ID 1284911445234028614 was added to super featured messages
 [INFO] 17/09/24 22:22:19 Message with ID 1216655314468737024 was added to featured messages
-[INFO] 17/09/24 22:51:28 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 17/09/24 23:02:59 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 17/09/24 22:51:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 17/09/24 23:02:59 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [INFO] 17/09/24 23:24:29 Message with ID 1157067012988751872 was added to admin featured messages
 [INFO] 17/09/24 23:53:23 Message with ID 1285855712345329695 was added to admin featured messages
-[INFO] 18/09/24 00:43:03 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 18/09/24 00:43:03 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [INFO] 18/09/24 01:59:52 Message with ID 1285633821735260213 was added to admin featured messages
 [INFO] 18/09/24 03:57:33 Message with ID 1243318174745628753 was added to admin featured messages
-[INFO] 18/09/24 04:55:25 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 05:01:20 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 18/09/24 04:55:25 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 05:01:20 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 18/09/24 06:23:46 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 18/09/24 06:23:46 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 18/09/24 06:23:49 Anon cog is ready
@@ -837,10 +837,10 @@
 [ERROR] 18/09/24 07:09:29 Send error: output() takes 1 positional argument but 2 were given 
 [OUTPUT] 18/09/24 07:20:48 123
 
-[OUTPUT] 18/09/24 07:21:54 <@700261180375171104> Почему ты идиот?
+[OUTPUT] 18/09/24 07:21:54 <@700261180375171104> пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?
 
 
-[OUTPUT] 18/09/24 07:22:21 Ты лох потому что 
+[OUTPUT] 18/09/24 07:22:21 пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 
 
 
 [OUTPUT] 18/09/24 07:22:26 4
@@ -849,31 +849,31 @@
 
 [OUTPUT] 18/09/24 07:22:28 4
 
-[OUTPUT] 18/09/24 07:22:39 Ало кто это?
+[OUTPUT] 18/09/24 07:22:39 пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ?
 
-[OUTPUT] 18/09/24 07:22:48 Пошёл нахуй ботик)
+[OUTPUT] 18/09/24 07:22:48 пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ)
 
-[OUTPUT] 18/09/24 07:22:52 Слит бот
+[OUTPUT] 18/09/24 07:22:52 пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:23:06 Сам ты собака женского пола
+[OUTPUT] 18/09/24 07:23:06 пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:25:38 <@610136007546765314> Сосёт глубоко, хаха
+[OUTPUT] 18/09/24 07:25:38 <@610136007546765314> пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:25:46 <@610136007546765314> Любит это дело)
+[OUTPUT] 18/09/24 07:25:46 <@610136007546765314> пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ)
 
-[OUTPUT] 18/09/24 07:25:57 Ало?
+[OUTPUT] 18/09/24 07:25:57 пїЅпїЅпїЅ?
 
-[OUTPUT] 18/09/24 07:26:13 Я во всём лучше тебя хуйло
+[OUTPUT] 18/09/24 07:26:13 пїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:26:21 Ало да
+[OUTPUT] 18/09/24 07:26:21 пїЅпїЅпїЅ пїЅпїЅ
 
-[OUTPUT] 18/09/24 07:26:33 около 22 сантиметров 
+[OUTPUT] 18/09/24 07:26:33 пїЅпїЅпїЅпїЅпїЅ 22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 
 
-[OUTPUT] 18/09/24 07:26:55 У <@705399336665874504> там не только хуй)
+[OUTPUT] 18/09/24 07:26:55 пїЅ <@705399336665874504> пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ)
 
-[OUTPUT] 18/09/24 07:27:00 Целый мир 
+[OUTPUT] 18/09/24 07:27:00 пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 
 
-[OUTPUT] 18/09/24 07:27:45 <@1285119618838564871> Сколько у тебя см? Только честно!
+[OUTPUT] 18/09/24 07:27:45 <@1285119618838564871> пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ? пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!
 
 [ERROR] 18/09/24 07:28:03 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 18/09/24 07:28:03 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
@@ -881,11 +881,11 @@
 [INFO] 18/09/24 07:28:06 GamesCog cog is ready
 [INFO] 18/09/24 07:28:06 Reactions cog is ready
 [INFO] 18/09/24 07:28:06 TheBestChannelCog cog is ready
-[OUTPUT] 18/09/24 07:34:59 Вы все говно
+[OUTPUT] 18/09/24 07:34:59 пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:35:09 Говно должно говорить громче
+[OUTPUT] 18/09/24 07:35:09 пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
-[OUTPUT] 18/09/24 07:35:16 Иди нахуй хахах
+[OUTPUT] 18/09/24 07:35:16 пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
 [ERROR] 18/09/24 07:35:24 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 18/09/24 07:35:24 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
@@ -1070,9 +1070,9 @@
 [INFO] 18/09/24 11:44:31 Reactions cog is ready
 [INFO] 18/09/24 11:44:31 Search cog is ready
 [INFO] 18/09/24 11:44:31 TheBestChannelCog cog is ready
-[INFO] 18/09/24 11:45:44 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 11:46:23 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 11:46:24 команды-для-ботов: Russian Roulette:  Muted
+[INFO] 18/09/24 11:45:44 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 11:46:23 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 11:46:24 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
 [ERROR] 18/09/24 11:49:56 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 18/09/24 11:49:56 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 18/09/24 11:49:59 Anon cog is ready
@@ -1213,25 +1213,25 @@
 [INFO] 18/09/24 13:05:26 Reactions cog is ready
 [INFO] 18/09/24 13:05:26 Search cog is ready
 [INFO] 18/09/24 13:05:26 TheBestChannelCog cog is ready
-[INFO] 18/09/24 13:48:39 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:49:25 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:50:06 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:52:29 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:52:40 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:56:37 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:56:44 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:02 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:06 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:11 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:17 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:21 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:27 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:33 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:46 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:57:46 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 18/09/24 13:59:27 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 18/09/24 13:59:28 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 18/09/24 13:59:31 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:48:39 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:49:25 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:50:06 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:52:29 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:52:40 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:56:37 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:56:44 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:02 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:06 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:11 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:17 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:21 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:27 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:33 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:57:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 18/09/24 13:59:27 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 18/09/24 13:59:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 18/09/24 13:59:31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 
 
 [ERROR] 19/09/24 13:16:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
@@ -1804,7 +1804,7 @@
 [INFO] 19/09/24 21:59:38 TheBestChannelCog cog is ready
 [INFO] 19/09/24 22:07:20 search_by_reactions was called
 [INFO] 19/09/24 22:07:34 search_by_reactions was called
-[INFO] 19/09/24 22:37:24 удалить нахуй чаты «лучшее с…»: Russian Roulette:  Confirmed
+[INFO] 19/09/24 22:37:24 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ: Russian Roulette:  Confirmed
 [ERROR] 19/09/24 22:41:12 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 19/09/24 22:41:12 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 19/09/24 22:41:15 Anon cog is ready
@@ -1861,8 +1861,8 @@
 [INFO] 19/09/24 23:23:11 Reactions cog is ready
 [INFO] 19/09/24 23:23:11 Search cog is ready
 [INFO] 19/09/24 23:23:11 TheBestChannelCog cog is ready
-[INFO] 19/09/24 23:23:14 основной: Russian Roulette:  Cancelled
-[INFO] 19/09/24 23:23:18 основной: Russian Roulette:  Confirmed
+[INFO] 19/09/24 23:23:14 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Cancelled
+[INFO] 19/09/24 23:23:18 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 19/09/24 23:24:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 19/09/24 23:24:15 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 19/09/24 23:24:17 Anon cog is ready
@@ -1943,8 +1943,8 @@
 [INFO] 20/09/24 00:02:53 Reactions cog is ready
 [INFO] 20/09/24 00:02:53 Search cog is ready
 [INFO] 20/09/24 00:02:53 TheBestChannelCog cog is ready
-[INFO] 20/09/24 00:03:37 команды-для-ботов: Russian Roulette:  Confirmed
-[INFO] 20/09/24 00:03:46 команды-для-ботов: Russian Roulette:  Confirmed
+[INFO] 20/09/24 00:03:37 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
+[INFO] 20/09/24 00:03:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 20/09/24 00:06:16 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 00:06:17 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 00:06:19 Anon cog is ready
@@ -1959,7 +1959,7 @@
 [INFO] 20/09/24 11:58:33 Reactions cog is ready
 [INFO] 20/09/24 11:58:33 Search cog is ready
 [INFO] 20/09/24 11:58:33 TheBestChannelCog cog is ready
-[INFO] 20/09/24 12:02:46 основной: Russian Roulette:  Confirmed
+[INFO] 20/09/24 12:02:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [INFO] 20/09/24 12:13:36 Message with ID 1281983196908490844 was sent to chat featured messages
 [INFO] 20/09/24 12:13:36 Message with ID 1281983196908490844 was added to plus one messages
 [INFO] 20/09/24 12:52:31 search_by_reactions was called
@@ -2085,7 +2085,7 @@
 [INFO] 20/09/24 13:33:27 TheBestChannelCog cog is ready
 [INFO] 20/09/24 13:33:30 Message with ID 1286631635655200768 was sent to meme featured messages
 [INFO] 20/09/24 13:33:30 Message with ID 1286631635655200768 was added to admin featured messages
-[INFO] 20/09/24 13:44:20 айтишная: Russian Roulette:  Confirmed
+[INFO] 20/09/24 13:44:20 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Confirmed
 [ERROR] 20/09/24 13:45:45 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 13:45:45 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 13:45:47 Anon cog is ready
@@ -2093,7 +2093,7 @@
 [INFO] 20/09/24 13:45:47 Reactions cog is ready
 [INFO] 20/09/24 13:45:47 Search cog is ready
 [INFO] 20/09/24 13:45:47 TheBestChannelCog cog is ready
-[INFO] 20/09/24 13:45:49 айтишная: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 13:45:49 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [ERROR] 20/09/24 13:46:15 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 13:46:16 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 13:46:18 Anon cog is ready
@@ -2101,7 +2101,7 @@
 [INFO] 20/09/24 13:46:18 Reactions cog is ready
 [INFO] 20/09/24 13:46:18 Search cog is ready
 [INFO] 20/09/24 13:46:18 TheBestChannelCog cog is ready
-[INFO] 20/09/24 13:46:22 айтишная: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 13:46:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [ERROR] 20/09/24 13:47:18 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 13:47:18 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 13:47:20 Anon cog is ready
@@ -2109,7 +2109,7 @@
 [INFO] 20/09/24 13:47:20 Reactions cog is ready
 [INFO] 20/09/24 13:47:20 Search cog is ready
 [INFO] 20/09/24 13:47:20 TheBestChannelCog cog is ready
-[INFO] 20/09/24 13:47:22 айтишная: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 13:47:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [ERROR] 20/09/24 13:48:25 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 13:48:25 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 13:48:28 Anon cog is ready
@@ -2117,7 +2117,7 @@
 [INFO] 20/09/24 13:48:28 Reactions cog is ready
 [INFO] 20/09/24 13:48:28 Search cog is ready
 [INFO] 20/09/24 13:48:28 TheBestChannelCog cog is ready
-[INFO] 20/09/24 13:48:31 айтишная: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 13:48:31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [ERROR] 20/09/24 13:56:30 Failed to load extension pokercog.py: Extension 'cogs.pokercog' raised an error: ModuleNotFoundError: No module named 'poker' 
 [ERROR] 20/09/24 13:56:30 Failed to load extension teammatecog.py: Extension 'cogs.teammatecog' raised an error: ModuleNotFoundError: No module named 'requests' 
 [INFO] 20/09/24 13:56:33 Anon cog is ready
@@ -2170,113 +2170,117 @@
 [INFO] 20/09/24 19:39:59 TheBestChannelCog cog is ready
 [INFO] 20/09/24 22:22:57 Message with ID 1286724727150350426 was sent to forum featured messages
 [INFO] 20/09/24 22:22:57 Message with ID 1286724727150350426 was added to plus one messages
-[INFO] 20/09/24 23:44:28 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:44:28 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 20/09/24 23:45:44 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:45:59 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:46:11 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:46:22 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:46:34 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:47:22 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:47:48 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:47:55 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:48:10 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:48:18 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 20/09/24 23:48:18 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 00:35:23 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 00:35:23 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 01:31:21 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 01:31:21 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 01:59:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:11:30 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:11:31 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 02:15:58 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:16:07 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:16:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:16:18 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:18:16 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:18:22 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:18:45 команды-для-ботов: Russian Roulette: Timed out
-[INFO] 21/09/24 02:19:56 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:20:26 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:20:31 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:20:37 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:20:42 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:20:48 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 02:21:56 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 07:26:15 команды-для-ботов: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:44:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:44:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 20/09/24 23:45:44 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:45:59 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:46:11 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:46:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:46:34 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:47:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:47:48 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:47:55 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:48:10 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:48:18 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 20/09/24 23:48:18 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 00:35:23 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 00:35:23 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 01:31:21 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 01:31:21 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 01:59:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:11:30 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:11:31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 02:15:58 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:16:07 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:16:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:16:18 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:18:16 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:18:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:18:45 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette: Timed out
+[INFO] 21/09/24 02:19:56 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:20:26 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:20:31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:20:37 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:20:42 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:20:48 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 02:21:56 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 07:26:15 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [INFO] 21/09/24 10:51:50 Message with ID 1285274621272391723 was sent to forum featured messages
 [INFO] 21/09/24 10:51:50 Message with ID 1285274621272391723 was added to super featured messages
 [INFO] 21/09/24 13:00:48 Message with ID 1284092971796402247 was sent to forum featured messages
 [INFO] 21/09/24 13:00:48 Message with ID 1284092971796402247 was added to plus one messages
-[INFO] 21/09/24 16:20:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:20:13 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 16:20:44 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:20:57 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:21:31 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:21:40 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:22:01 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:22:22 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:25:40 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:25:50 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:26:00 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:32:27 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 16:32:28 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 16:56:13 команды-для-ботов: Russian Roulette: Timed out
-[INFO] 21/09/24 16:57:23 команды-для-ботов: Russian Roulette: Timed out
-[INFO] 21/09/24 16:57:51 команды-для-ботов: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:20:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:20:13 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 16:20:44 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:20:57 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:21:31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:21:40 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:22:01 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:22:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:25:40 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:25:50 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:26:00 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:32:27 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 16:32:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 16:56:13 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette: Timed out
+[INFO] 21/09/24 16:57:23 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette: Timed out
+[INFO] 21/09/24 16:57:51 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [INFO] 21/09/24 21:56:28 Message with ID 1284787743339057194 was sent to forum featured messages
 [INFO] 21/09/24 21:56:28 Message with ID 1284787743339057194 was added to plus one messages
-[INFO] 21/09/24 22:03:58 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 22:11:25 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:33:11 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:36:35 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:38:08 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:51:21 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:54:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 21/09/24 23:54:13 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 21/09/24 23:59:22 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:10:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:10:12 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 00:12:27 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:12:28 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 00:13:34 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:14:01 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:14:01 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 00:31:43 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:31:50 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:31:55 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:05 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:17 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:28 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:33 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:36 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:43 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:50 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:32:50 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 00:33:37 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 00:33:38 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 01:31:11 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:31:13 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:31:19 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:31:24 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:31:26 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:32:12 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:32:16 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:32:20 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:32:46 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:32:56 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:33:08 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:33:20 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:33:46 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:34:09 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:34:09 команды-для-ботов: Russian Roulette:  Muted
-[INFO] 22/09/24 01:36:25 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:36:32 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:36:48 команды-для-ботов: Russian Roulette:  Russian_rouletteed
-[INFO] 22/09/24 01:36:55 команды-для-ботов: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 22:03:58 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 22:11:25 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:33:11 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:36:35 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:38:08 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:51:21 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:54:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 21/09/24 23:54:13 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 21/09/24 23:59:22 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:10:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:10:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 00:12:27 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:12:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 00:13:34 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:14:01 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:14:01 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 00:31:43 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:31:50 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:31:55 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:05 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:17 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:28 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:33 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:36 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:43 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:50 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:32:50 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 00:33:37 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 00:33:38 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 01:31:11 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:31:13 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:31:19 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:31:24 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:31:26 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:32:12 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:32:16 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:32:20 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:32:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:32:56 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:33:08 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:33:20 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:33:46 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:34:09 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:34:09 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Muted
+[INFO] 22/09/24 01:36:25 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:36:32 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:36:48 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
+[INFO] 22/09/24 01:36:55 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ: Russian Roulette:  Russian_rouletteed
 [INFO] 22/09/24 09:10:31 Message with ID 1287179547133087847 was sent to meme featured messages
 [INFO] 22/09/24 09:10:31 Message with ID 1287179547133087847 was added to plus one messages
+
+
+
+
 
 
 

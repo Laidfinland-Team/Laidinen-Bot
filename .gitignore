@@ -4,3 +4,4 @@ venv
 *.log
 log.log
 anonmessagecog.py
+testbot.py
