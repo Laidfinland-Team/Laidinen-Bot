@@ -66,6 +66,7 @@ class Paginator:
         self.timeout = timeout
         self.msg: discord.Message = None
 
+    @private
     async def send_page(self):
         embed = discord.Embed(
             title=f"Страница {self.page_index + 1}/{len(self.pages)}",
@@ -87,7 +88,8 @@ class Paginator:
     def check_reaction(self, reaction: discord.Reaction, user):
         return user == self.author and str(reaction.emoji) in ["⬅️", "➡️"]
     
-    def prepare_for_paginate(objects: list[dict[dict]], content: str, formats: list[str], max_chars_per_page=6000):
+    @staticmethod
+    def prepare_for_paginate(objects: dict[dict[dict]], content: str, formats: list[str], max_chars_per_page=6000) -> list[list[dict]]:
         pages = []
         current_page = []
         current_page_length = 0
@@ -132,7 +134,56 @@ class Paginator:
                 await self.msg.clear_reactions()
                 break
 
+class TextPaginator(Paginator):
+    def __init__(self, ctx: Ctx, pages: list[list[str]], timeout=60):
+        """
+        Инициализация класса Paginator.
+        
+        :param ctx: Контекст команды Discord.
+        :param pages: Список страниц, каждая из которых представляет собой список строк.
+        :param timeout: Время ожидания реакции (в секундах).
+        """
+        super().__init__(ctx, pages, None, timeout)
+        
+    @private
+    async def send_page(self):
+        embed = discord.Embed(
+            title=f"Страница {self.page_index + 1}/{len(self.pages)}",
+            color=MAIN_COLOR
+        )
+        for item in self.pages[self.page_index]:
+            embed.description += item + '\n'
+        
+        if self.msg is None:
+            self.msg = await self.ctx.send(embed=embed)
+            await self.msg.add_reaction("⬅️")
+            await self.msg.add_reaction("➡️")
+            return self.msg
+        else:
+            return await self.msg.edit(embed=embed)
+        
+    @staticmethod
+    def prepare_for_paginate(text: str, max_chars_per_page=6000) -> list[list[str]]:
+        page = []
+        pages = []
+        text = text.split('\n')
+        for l in text:
+            if l in ['', ' ']:
+                text.remove(l)
+        
+        
+        for l in text:
+            if len(''.join(page)) + len(l) < max_chars_per_page:
+                page.append(l)
+            else:
+                pages.append(page[:])
+                page = []
+        if page:
+            pages.append(page)
+            
+        return pages
 
+        
 def is_hellcat():
     def decorator(func):
         @wraps(func)
@@ -197,7 +248,7 @@ enabled_bot.on_command_error = on_command_error
 
 disabled_bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all())
 
-bot = commands.Bot
+bot: commands.Bot = enabled_bot
 
 __spec = importlib.util.spec_from_file_location('AUTH', __AUTH_FILE_PATH)
 __auth = importlib.util.module_from_spec(__spec)

@@ -144,5 +144,5 @@ class Logger:
         frame = inspect.currentframe()
         name = frame.f_back.f_back.f_globals['__name__']
         
-        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name}: " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        print(Fore.GREEN + Style.BRIGHT + "[OUTPUT] "+ f"{self.formatted_datetime()} " + f"{channel.name if type(channel) != discord.DMChannel else "Direct message"}: " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
         self.write("[OUTPUT] " + f"{self.formatted_datetime()} " + message + f" [{name}]")

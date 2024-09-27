@@ -128,6 +128,8 @@ async def kill_bot(ctx: Ctx):
     except Exception as e:
         error("Failed to kill bot", e)
         await ctx.reply("Не удалось убить бота⚠")
+    
+    exit()
 
 if bot == enabled_bot:
 
@@ -159,12 +161,13 @@ class TextCog(commands.Cog):
         
     @commands.command()
     @is_hellcat()
-    async def t(self, ctx: Ctx, text):
-        await bot.get_command('text').callback(self, ctx, text=text)
+    async def t(self, ctx: Ctx, *text):
+        await bot.get_command('text').callback(self, ctx, text)
 
     @commands.command()
     @is_hellcat()
-    async def text(self, ctx: Ctx, text):
+    async def text(self, ctx: Ctx, *text):
+        text = " ".join(*text)
         await ctx.message.delete()
         if ctx.message.reference:
             message = await ctx.fetch_message(ctx.message.reference.message_id)
@@ -176,12 +179,13 @@ class TextCog(commands.Cog):
 
     @commands.command()
     @is_hellcat()
-    async def f(self, ctx: Ctx, count: int, text):
-        await bot.get_command('flood').callback(self, ctx, count=count, text=text)
+    async def f(self, ctx: Ctx, count: int, *text):
+        await bot.get_command('flood').callback(self, ctx, count, text)
         
     @commands.command()
     @is_hellcat()
-    async def flood(self, ctx: Ctx, count: int, text):
+    async def flood(self, ctx: Ctx, count: int, *text):
+        text = " ".join(*text)
         if text == "":
             await ctx.reply("Не умею отправлять пустые сообщения")
             return
@@ -194,12 +198,13 @@ class TextCog(commands.Cog):
 
     @commands.command()
     @is_hellcat()
-    async def c(self, ctx: Ctx, text=None):
-        await bot.get_command('change').callback(self, ctx, text=text)
+    async def c(self, ctx: Ctx, *text):
+        await bot.get_command('change').callback(self, ctx, text)
 
     @commands.command()
     @is_hellcat()
-    async def change(self, ctx: Ctx, text=None):
+    async def change(self, ctx: Ctx, *text):
+        text  = " ".join(*text)
             
             
         message: discord.Message = await ctx.fetch_message(ctx.message.reference.message_id)
@@ -214,6 +219,21 @@ class TextCog(commands.Cog):
         if message:
             output(ctx.channel, f"Message with id {message.id} successful edited")
             await ctx.reply(f"Сообщение успешно изменено!")
+            
+    @commands.command()
+    @is_hellcat()
+    async def d(self, ctx: Ctx):
+        await bot.get_command('delete').callback(self, ctx)
+        
+    @commands.command()
+    @is_hellcat()
+    async def delete(self, ctx: Ctx):
+        
+        message: discord.Message = await ctx.fetch_message(ctx.message.reference.message_id)
+        await message.delete()
+        output(ctx.channel, f"Message with id {message.id} successful deleted")
+        if type(ctx.channel) != discord.DMChannel:
+            await ctx.reply("Сообщение успешно удалено!")
         
         
 
