@@ -15,7 +15,7 @@ class Logger:
     The messages are printed to the console with appropriate color formatting and written to a file.
     """
 
-    def __init__(self, path: str):
+    def __init__(self, path: str, printing=True):
         """
         @brief Constructor to initialize the Logger object.
 
@@ -23,6 +23,7 @@ class Logger:
         """
         
         self.file = open(path, "a", errors="ignore")
+        self.printing = printing
     
     def __del__(self):
         """
@@ -44,16 +45,10 @@ class Logger:
         self.file.write(message + "\n")
         self.file.flush()
 
-    @private
-    def custom_print(self, message : str):
-        """
-        @brief Private method to print a message.
 
-        @param message (str): The message to be printed.
-        """
 
-        print(message)
-        self.write(message)
+
+        
 
     @private
     @staticmethod
@@ -86,7 +81,8 @@ class Logger:
         frame = inspect.currentframe()
         name = frame.f_back.f_back.f_globals['__name__']
         
-        print(Fore.CYAN + Style.BRIGHT + "[SYSTEM] " + f"{self.formatted_datetime()} " + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        if self.printing:
+            print(Fore.CYAN + Style.BRIGHT + "[SYSTEM] " + f"{self.formatted_datetime()} " + message + self.white(f" [{name}]") + Style.RESET_ALL)
         self.write("[SYSTEM] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
     
     def error(self, message : str, exec: Exception = None):
@@ -106,8 +102,9 @@ class Logger:
             exec_msg = traceback.format_exc()
         frame = inspect.currentframe()
         name = frame.f_back.f_back.f_globals['__name__']
-        
-        print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + self.white(f" [{name}]") + Style.DIM + exec_msg + Style.RESET_ALL)
+
+        if self.printing:        
+            print(Fore.RED + Style.BRIGHT + "[ERROR] " + f"{self.formatted_datetime()} " +  message + self.white(f" [{name}]") + Style.DIM + exec_msg + Style.RESET_ALL)
         self.write("[ERROR] " + f"{self.formatted_datetime()} " + message + f" [{name}]" + exec_msg)
         
     def info(self, message: str):
@@ -118,7 +115,9 @@ class Logger:
         """
         frame = inspect.currentframe()
         name = frame.f_back.f_back.f_globals['__name__']
-        print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        
+        if self.printing:
+            print(Fore.BLUE + Style.BRIGHT + "[INFO] " + f"{self.formatted_datetime()} " + Style.DIM + message + self.white(f" [{name}]") + Style.RESET_ALL)
         self.write("[INFO] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
         
     def warning(self, message: str):
@@ -130,7 +129,8 @@ class Logger:
         frame = inspect.currentframe()
         name = frame.f_back.f_back.f_globals['__name__']
         
-        print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + self.white(f" [{name}]") +  Style.RESET_ALL)
+        if self.printing:
+            print(Fore.YELLOW + Style.BRIGHT + "[WARNING] " + f"{self.formatted_datetime()} " + Style.DIM  + message + self.white(f" [{name}]") +  Style.RESET_ALL)
         self.write("[WARNING] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
         
 

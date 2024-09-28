@@ -1,3 +1,4 @@
+# Импортируем необходимые модули
 import os
 import sys
 
@@ -29,8 +30,10 @@ from functools import wraps
 from datetime import datetime, timedelta, timezone
 
 
+# Глобальные переменные
 DEBUG_MODE = True
 
+# Функции для логирования
 def system(message):
     log.system(message)
     
@@ -52,6 +55,7 @@ class Ctx(discord.ext.commands.Context):
     pass
 Ctx = discord.ext.commands.Context
 
+# Класс для пагинации сообщений
 class Paginator:
     def __init__(self, ctx: Ctx, pages, field_generator, timeout=60):
         """
@@ -90,6 +94,7 @@ class Paginator:
         else:
             return await self.msg.edit(embed=embed)
 
+    # Функция для проверки реакции
     def check_reaction(self, reaction: discord.Reaction, user):
         return user == self.author and str(reaction.emoji) in ["⬅️", "➡️"]
     
@@ -121,6 +126,7 @@ class Paginator:
 
         return pages
 
+    # Асинхронная функция для пагинации
     async def paginate(self):
         self.ctx = await bot.get_context(await self.send_page())
         
@@ -150,11 +156,11 @@ class TextPaginator(Paginator):
         """
         super().__init__(ctx, pages, None, timeout)
         
-    @private
     async def send_page(self):
         embed = discord.Embed(
             title=f"Страница {self.page_index + 1}/{len(self.pages)}",
-            color=MAIN_COLOR
+            color=MAIN_COLOR,
+            description=''
         )
         for item in self.pages[self.page_index]:
             embed.description += item + '\n'
@@ -173,13 +179,13 @@ class TextPaginator(Paginator):
         pages = []
         text = text.split('\n')
         for l in text:
-            if l in ['', ' ']:
+            if l in ['', ' ', '\n']:
                 text.remove(l)
         
         
         for l in text:
-            if len(''.join(page)) + len(l) < max_chars_per_page:
-                page.append(l)
+            if len(''.join(page)) + len(l) < max_chars_per_page - 8:
+                page.append(f"```js\n{l + " "}```")
             else:
                 pages.append(page[:])
                 page = []
@@ -202,6 +208,7 @@ def is_hellcat():
         return wrapper
     return decorator
 
+# Определение пути к файлу с токеном
 match os.name:
     case "nt":
         __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + r'\TOKEN.py'
@@ -209,18 +216,25 @@ match os.name:
         __AUTH_FILE_PATH = os.path.dirname(os.getcwd()) + r'/TOKEN.py'
 
 
+# Глобальные переменные
 MAIN_COLOR = discord.Color.purple()
 
+# Инициализация colorama
 colorama.init(autoreset=True)
+
+# Инициализация intents
 intents = discord.Intents.default()
 
+# Инициализация логгера
 log = Logger("log.log")
 
+# Отключение логирования в режиме DEBUG_MODE
 if not DEBUG_MODE:
     ic.disable()
 
+# Обработчик ошибок для команд
 async def on_command_error(ctx: commands.Context, the_error):
-    # Handle your errors here
+    # Обработка ошибок
     if isinstance(the_error, commands.MemberNotFound):
         await ctx.message.reply(f"Не смог найти '**{the_error.argument}**'. Попробуй ещё раз.")
 
@@ -228,7 +242,7 @@ async def on_command_error(ctx: commands.Context, the_error):
         await ctx.message.reply(f"Аргумент **'{the_error.param.name}**' не указан.")
         
     elif isinstance(the_error, commands.BadArgument):
-                # Пример текста ошибки
+        # Пример текста ошибки
         error_message = the_error.args[0]
 
         # Используем регулярное выражение для замены текста, не изменяя содержимое кавычек
@@ -240,14 +254,15 @@ async def on_command_error(ctx: commands.Context, the_error):
         
     else:
         if ctx.command is None:
-            error(f"Ignoring exception. Not-executed command '{ctx.message.content}'")
+            error(f"Игнорирую исключение. Не выполняемая команда '{ctx.message.content}'")
         else:
-            # All unhandled errors will print their original traceback
-            error(f"Ignoring exception in command '{ctx.command}'")
+            # Вывод всех необработанных исключений с их трассировкой стека
+            error(f"Игнорирую исключение в команде '{ctx.command}'")
             if DEBUG_MODE:
                 traceback.print_exception(type(the_error), the_error, the_error.__traceback__, file=sys.stderr)
 
 
+# Инициализация ботов
 enabled_bot = commands.Bot(command_prefix=PREFIX, help_command=PrettyHelp(color=MAIN_COLOR, no_category="Technical Commands"), intents=discord.Intents.all())
 enabled_bot.on_command_error = on_command_error
 
@@ -255,6 +270,7 @@ disabled_bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all()
 
 bot: commands.Bot = enabled_bot
 
+# Загрузка токена из файла
 __spec = importlib.util.spec_from_file_location('AUTH', __AUTH_FILE_PATH)
 __auth = importlib.util.module_from_spec(__spec)
 __spec.loader.exec_module(__auth)
@@ -262,4 +278,5 @@ TOKEN = __auth.TOKEN
 HELLCAT_ID = 518516627629801494
 LAIDFIN_YOUTUBE_URL = 'https://www.youtube.com/@Laidfin'
 
+# Вывод версии discord.py
 print(Style.BRIGHT + f'Discord-py {discord.__version__}')
