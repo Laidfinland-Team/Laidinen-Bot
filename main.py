@@ -179,20 +179,25 @@ class TextCog(commands.Cog):
 
     @commands.command()
     @is_hellcat()
-    async def f(self, ctx: Ctx, count: int, *text):
+    async def f(self, ctx: Ctx, count: str, *text):
         await bot.get_command('flood').callback(self, ctx, count, text)
         
     @commands.command()
     @is_hellcat()
-    async def flood(self, ctx: Ctx, count: int, *text):
-        text = " ".join(*text)
+    async def flood(self, ctx: Ctx, count: str, *text):
+        count = int(count)
+        await ctx.message.delete()
+        text = " ".join(list(text))
         if text == "":
             await ctx.reply("Не умею отправлять пустые сообщения")
             return
         
-        await ctx.message.delete()
         for i in range(count):
-            await ctx.send(text)
+            if ctx.message.reference:
+                message = await ctx.fetch_message(ctx.message.reference.message_id)
+                await message.reply(text)
+            else:
+                await ctx.send(text)
         output(ctx.channel, f"Message {text} sent {count} times")
                 
 
@@ -219,6 +224,20 @@ class TextCog(commands.Cog):
         if message:
             output(ctx.channel, f"Message with id {message.id} successful edited")
             await ctx.reply(f"Сообщение успешно изменено!")
+            
+    @commands.command()
+    @is_hellcat()
+    async def r(self, ctx: Ctx, reaction: str):
+        await bot.get_command('reaction').callback(self, ctx, reaction)
+        
+    @commands.command()
+    @is_hellcat()
+    async def reaction(self, ctx: Ctx, reaction: str):
+        message: discord.Message = await ctx.fetch_message(ctx.message.reference.message_id)
+        await ctx.message.delete()
+        await message.add_reaction(reaction)
+        output(ctx.channel, f"Reaction {reaction} added to message with id {message.id}")
+        
             
     @commands.command()
     @is_hellcat()
@@ -291,7 +310,7 @@ async def load_cogs():
             try:
                 await bot.load_extension(f"cogs.{filename[:-3]}")
             except Exception as e:
-                error(f"Failed to load extension {filename}: {e}")
+                raise error(f"Failed to load extension {filename}: {e}")
     await bot.add_cog(LogCog(bot))
     await bot.add_cog(TextCog(bot))
 

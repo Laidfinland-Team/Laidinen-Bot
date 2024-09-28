@@ -1,5 +1,6 @@
 import random
 from datetime import timedelta
+import datetime
 
 from __init__ import *
 
@@ -140,6 +141,7 @@ class DuelGame(discord.ui.View):
             super().__init__(timeout=TIMEOUT)
             self.ctx = ctx
             self.value = None
+            self.message: discord.Message = None
             
         async def interaction_check(self, interaction: discord.Interaction) -> bool:
             # Ограничение взаимодействия только для зарегистрированных игроков
@@ -147,30 +149,85 @@ class DuelGame(discord.ui.View):
         
         async def on_timeout(self):
             # Действия, если время ожидания истекло
+            await self.message.edit(view=None)
+            self.value = False
+            
+        @discord.ui.button(label="Принять вызов", style=discord.ButtonStyle.green)
+        async def confirm(self, interaction: discord.Interaction, button: discord.ui.Button):
+            self.value = True
+            await self.message.edit(view=None)
+            self.stop()
+            
+        @discord.ui.button(label="Струсить", style=discord.ButtonStyle.red)
+        async def cancel(self, interaction: discord.Interaction, button: discord.ui.Button):
+            self.value = False
+            await self.message.edit(view=None)
+            self.stop()
+    
+    class StartGame(discord.ui.View):
+        def __init__(self, ctx: Ctx, players: list[discord.Member]):
+            super().__init__(timeout=TIMEOUT)
+            self.ctx = ctx
+            self.value = False
+            self.players = players
+            self.confirmed = []
+            
+        async def interaction_check(self, interaction: discord.Interaction) -> bool:
+            # Ограничение взаимодействия только для зарегистрированных игроков
+            return interaction.user in self.players and not interaction.user in self.confirmed
+        
+        async def on_timeout(self):
+            # Действия, если время ожидания истекло
             await atrys(self.ctx.message.delete)
             self.value = False
             
-        @discord.ui.button(label="Принять", style=discord.ButtonStyle.green)
-        async def confirm(self, interaction: discord.Interaction, button: discord.ui.Button):
+        @discord.ui.button(label="Начать", style=discord.ButtonStyle.green)
+        async def start(self, interaction: discord.Interaction, button: discord.ui.Button):
             self.value = True
-            await atrys(interaction.message.delete)
+            self.confirmed.append(interaction.user)
+            self.clear_items()
+            await interaction.response.defer()
             self.stop()
             
-        @discord.ui.button(label="Отклонить", style=discord.ButtonStyle.red)
-        async def cancel(self, interaction: discord.Interaction, button: discord.ui.Button):
-            self.value = False
-            await atrys(interaction.message.delete)
-            self.stop()
+        
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        # Ограничение взаимодействия только для зарегистрированных игроков
+        return interaction.user in self.players
+    
+    async def on_timeout(self):
+        # Действия, если время ожидания истекло
+        if not self.winner:
+            await self.ctx.message.edit(embed=self.timeout_embed.format(self.players[0], self.players[1]), view=None)
+        
+    @discord.ui.button(label="Огонь", style=discord.ButtonStyle.red)
+    async def shoot_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Вычисление времени реакции игрока
+        reaction_time = (discord.utils.utcnow() - self.start_time).total_seconds()
+
+        # Проверка, что игрок ещё не нажал кнопку
+        if interaction.user not in self.results:
+            self.results[interaction.user] = reaction_time
+            start_embed = self.start_embed
+            start_embed.description = f"{interaction.user.display_name} выстрелил!💥"
+            await interaction.message.edit(embed=start_embed)
+        
+        if len(self.results) == 2:
+            await interaction.response.edit_message(view=None)
+            await self.determine_winner()
+        else:
+            await interaction.response.defer()
             
                 
     def __init__(self, ctx: Ctx):
         super().__init__(timeout=TIMEOUT)
         self.ctx = ctx
         self.players: list[discord.Member] = []
+        self.start_confirms = []
         self.winner = None
         self.time = None
         self.start_time = None  # Время, когда кнопка появляется
         self.results = {}  # Для хранения времени нажатия
+        self.mute = random.randint(1, 15)
 
         embed = discord.Embed(
         title="Дуэль",
@@ -189,7 +246,7 @@ class DuelGame(discord.ui.View):
         )   
         self.end_embed = FormatEmbed(
             title="Дуэль между {} и {}",
-            description="### Победитель: {} с точностью {} секунд!\n -# {} ",
+            description="### Победитель: {}!\n**Цель: {}** \n\nрезультат: {} \nразница {}\n\n### Плохой ковбой: {}\nрезультат: {} \nразница {}",
             color=discord.Color.yellow()
         )
         self.timeout_embed = FormatEmbed(
@@ -206,27 +263,39 @@ class DuelGame(discord.ui.View):
         if not self.winner:
             await self.ctx.message.edit(embed=self.timeout_embed.format(self.players[0], self.players[1]), view=None)
 
-    @discord.ui.button(label="Огонь", style=discord.ButtonStyle.red)
-    async def shoot_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Вычисление времени реакции игрока
-        reaction_time = (discord.utils.utcnow() - self.start_time).total_seconds()
 
-        # Проверка, что игрок ещё не нажал кнопку
-        if interaction.user not in self.results:
-            self.results[interaction.user] = reaction_time
-            start_embed = self.start_embed
-            start_embed.description = f"{interaction.user.display_name} выстрелил!💥"
-            await interaction.message.edit(embed=start_embed)
-        
-        await interaction.response.edit_message(view=self)
-
-    async def start_game(self):
+    async def start_game(self, message: discord.Message = None, ready_m: discord.Message = None):
         # Оповещаем игроков
-        self.time = random.randint(1, 6) + 1/random.randint(1, 4)
-        message = await self.ctx.channel.send(embed=self.description_embed.format(self.players[0].name, self.players[1].name, self.time, view=self))
-        self.ctx = await bot.get_context(message)
-        # Задержка перед началом таймера
-        await asyncio.sleep(random.uniform(2.5, 4))  # Немного рандома перед показом кнопки
+        if not message:
+            self.time = random.randint(1, 6)
+            view = self.StartGame(self.ctx, self.players)
+            message = await self.ctx.channel.send(embed=self.description_embed.format(self.players[0].name, self.players[1].name, self.time), view=view)
+            self.ctx = await bot.get_context(message)
+            # Задержка перед началом таймера
+        else:
+            view = self.StartGame(self.ctx, self.players)
+            view.confirmed = [True]
+            message = await message.edit(embed=self.description_embed.format(self.players[0].name, self.players[1].name, self.time), view=view)
+            self.ctx = await bot.get_context(message)
+        await view.wait()
+        ready_m2 = discord.Message
+        if ready_m:
+            ready_m2 = ready_m
+            
+        ready_m = await atrys(self.ctx.send, f"**{view.confirmed[0].name if type(view.confirmed[0]) == discord.member.Member else view.confirmed[1].name}** готов😎")
+        
+        if view.value is False:
+            return await self.ctx.message.edit(embed=self.timeout_embed.format(self.players[0], self.players[1]), view=None)
+        elif view.value is True and len(view.confirmed) < 2:
+            return await self.start_game(message, ready_m)
+        
+        embed = self.start_embed.format(self.players[0].name, self.players[1].name)
+        embed.description += "\n\n\n # ПРИГОТОВИТСЯ ({}s)".format(self.time)
+        
+        await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name), view=None)
+        await atrys(ready_m.delete)
+        await atrys(ready_m2.delete)
+        await asyncio.sleep(random.uniform(2, 3))  # Немного рандома перед показом кнопки
         await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name), view=self)
 
         # Устанавливаем время появления кнопки
@@ -235,20 +304,28 @@ class DuelGame(discord.ui.View):
         # Запуск обратного отсчёта
         await asyncio.sleep(7)  # Игрокам даётся 7 секунд для реакции
 
-        # Определяем победителя
-        await self.determine_winner()
+        if not self.winner:
+            self.timeout()
 
     @private
     async def determine_winner(self):
         if not self.results:
-            await self.ctx.message.edit(embed=self.timeout_embed, view=None)
+            await self.ctx.message.edit(embed=self.timeout_embed.format(self.players[0], self.players[1]), view=None)
             return
 
         # Определение победителя на основе реакции ближе к 7 секундам
-        closest_player = min(self.results, key=lambda player: abs(self.results[player] - self.time))
+        closest_player: discord.Member = min(self.results, key=lambda player: abs(self.results[player] - self.time))
         self.winner = closest_player
+        self.loser = [p for p in self.players if p != self.winner][0]
 
-        await self.ctx.message.edit(embed=self.end_embed.format(self.players[0].name, self.players[1].name, closest_player, round(abs(self.results[closest_player] - self.time), 2), content=f"-# {''.join([p for p in self.players if not p is self.winner])} {random.choice(failed_texts)}", view=None))
+        await self.ctx.message.edit(embed=self.end_embed.format(self.players[0].name, self.players[1].name, closest_player.mention, f"{self.time} (секунд)", f'{self.results[self.winner]:.3f}', round(abs(self.results[closest_player] - self.time), 3), self.loser.mention, f'{self.results[self.loser]:.3f}', round(abs(self.results[self.loser] - self.time), 3)), view=None)
+        await self.ctx.send(f"**{self.loser}** {random.choice(failed_texts)}\n-# И отлетает в мут на **{self.mute}** минут")
+        
+        try:
+            await self.loser.timeout(datetime.now(jerusalem_tz) + timedelta(minutes=self.mute))
+            info(f"{self.loser} was muted to {self.mute} minutes")
+        except Exception as e:
+            error(f"Timeout error: {e}")
 
     
 
@@ -287,7 +364,8 @@ class GamesCog(commands.Cog, name="Games"):
     async def duel(self, ctx: Ctx, member: discord.Member):
         duel_invite = DuelGame.Confirm(ctx)
         
-        await ctx.channel.send(content=f"{ctx.message.author.name} вызывает тебя на дуэль!", view=duel_invite)
+        message = await ctx.channel.send(content=f"# 🧤\n{member.mention}\n\n**{ctx.message.author.mention} вызывает тебя на дуэль!**", view=duel_invite)
+        duel_invite.message = message
         
         await duel_invite.wait()
         
@@ -296,7 +374,7 @@ class GamesCog(commands.Cog, name="Games"):
             duel.players = [ctx.message.author, member]
             await duel.start_game()
         else:
-            await ctx.send(f"{member.mention} зассал🤡")
+            await ctx.reply(f"{member.mention} зассал🤡")
     
     
     

@@ -6,6 +6,7 @@ from discord.ext import commands
 from discord import Message, Embed
 from decorator import decorator
 from icecream import ic
+from modules.logger.commands import Logger
 
 from pythonlangutil.overload import Overload, signature
 
@@ -13,7 +14,7 @@ from typing import overload, Union
 
 from multipledispatch import dispatch
 
-
+log = Logger("log.log")
 class Ctx(commands.Context):
     pass
 Ctx = commands.Context
@@ -146,6 +147,15 @@ def is_async():
         return wrapper
     return decorator
 
+def disabled():
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
+            return await ctx.message.reply("Команда временно отключена🔒")
+        return wrapper
+    return decorator
+
 
 def cls():
     _os.system('cls')
@@ -155,13 +165,15 @@ def cls():
 def trys(func: callable, *args, **kwargs) -> callable:
     try:
         return func(*args, **kwargs)
-    except:
+    except Exception as e:
+        log.error("`trys` error:", e)
         return 0
     
 async def atrys(func: callable, *args, **kwargs) -> callable:
     try:
         return await func(*args, **kwargs)
-    except:
+    except Exception as e:
+        log.error("`atrys` error:",e)
         return 0
 
     

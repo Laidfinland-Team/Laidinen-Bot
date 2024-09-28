@@ -10,7 +10,7 @@ DB_DIR = r"light_databases\week_thread.json"
 
 
 
-jerusalem_tz = pytz.timezone('Asia/Jerusalem')
+
 
 
 # ID категории форумов и эмодзи для голосования

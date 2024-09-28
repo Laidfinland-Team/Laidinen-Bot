@@ -25,7 +25,7 @@ class CatCog(commands.Cog):
         
         for filename in os.listdir(CAT_DIR):
             if True in [filename.endswith(f) for f in ['.png', 'jpg', 'jpeg', 'gif', 'webp']]:
-                self.cat_files.append(filename)
+                 self.cat_files.append(filename)
                 
     @commands.Cog.listener() # This is a listener, like @bot.event
     async def on_ready(self):

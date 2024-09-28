@@ -13,6 +13,7 @@ import json
 import traceback
 import os
 import discord.ext
+import pytz
 
 #from TOKEN import TOKEN # Раскомментируйте эту строку если вы используете TOKEN.py внутри рабочей директории
 from bot_params import PREFIX
@@ -25,6 +26,8 @@ from accessify import protected, private
 from icecream import ic
 from datetime import datetime
 from functools import wraps
+from datetime import datetime, timedelta, timezone
+
 
 DEBUG_MODE = True
 
@@ -42,6 +45,8 @@ def warning(message):
 
 def output(channel, message):
     log.output(channel, message)
+
+jerusalem_tz = pytz.timezone('Asia/Jerusalem')
 
 class Ctx(discord.ext.commands.Context):
     pass
