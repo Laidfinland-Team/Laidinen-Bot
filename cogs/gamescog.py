@@ -211,7 +211,7 @@ class DuelGame(discord.ui.View):
             start_embed.description = f"{interaction.user.display_name} выстрелил!💥"
             await interaction.message.edit(embed=start_embed)
         
-        if len(self.results) == 2:
+        if len(self.results) == 2 and not self.winner:
             await interaction.response.edit_message(view=None)
             await self.determine_winner()
         else:
@@ -241,7 +241,7 @@ class DuelGame(discord.ui.View):
         )
         self.start_embed = FormatEmbed(
             title="Дуэль между {} и {}",
-            description="### Кто же выстрелит первым 👀",
+            description="### Жди {} секунд и стреляй! ⏱",
             color=discord.Color.lighter_gray()
         )   
         self.end_embed = FormatEmbed(
@@ -289,14 +289,15 @@ class DuelGame(discord.ui.View):
         elif view.value is True and len(view.confirmed) < 2:
             return await self.start_game(message, ready_m)
         
-        embed = self.start_embed.format(self.players[0].name, self.players[1].name)
-        embed.description += "\n\n\n # ПРИГОТОВИТСЯ ({}s)".format(self.time)
+        old_embed = self.start_embed
+        self.start_embed.description = "Жди {} секунд и стреляй! ⏱"
         
-        await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name), view=None)
+        await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name, self.time), view=None)
         await atrys(ready_m.delete)
         await atrys(ready_m2.delete)
         await asyncio.sleep(random.uniform(2, 3))  # Немного рандома перед показом кнопки
-        await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name), view=self)
+        self.start_embed = old_embed
+        await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name, self.time), view=self)
 
         # Устанавливаем время появления кнопки
         self.start_time = discord.utils.utcnow()
@@ -305,7 +306,7 @@ class DuelGame(discord.ui.View):
         await asyncio.sleep(7)  # Игрокам даётся 7 секунд для реакции
 
         if not self.winner:
-            self.timeout()
+            self.on_timeout()
 
     @private
     async def determine_winner(self):
@@ -326,6 +327,8 @@ class DuelGame(discord.ui.View):
             info(f"{self.loser} was muted to {self.mute} minutes")
         except Exception as e:
             error(f"Timeout error: {e}")
+        
+        
 
     
 
@@ -361,9 +364,15 @@ class GamesCog(commands.Cog, name="Games"):
         
     
     @commands.command(brief="Дуэль")
-    async def duel(self, ctx: Ctx, member: discord.Member):
+    async def duel(self, ctx: Ctx, member: discord.Member = None):
         duel_invite = DuelGame.Confirm(ctx)
         
+        if member is None:
+            if ctx.message.reference.resolved.author:
+                member = ctx.message.reference.resolved.author
+            else:
+                return await ctx.send("Укажите пользователя, которого вы хотите вызвать на дуэль")
+            
         message = await ctx.channel.send(content=f"# 🧤\n{member.mention}\n\n**{ctx.message.author.mention} вызывает тебя на дуэль!**", view=duel_invite)
         duel_invite.message = message
         

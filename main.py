@@ -256,43 +256,6 @@ class TextCog(commands.Cog):
         
         
 
-class LogCog(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-        
-    @commands.Cog.listener()
-    async def on_ready(self):
-        info("Log cog is ready")
-
-
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def info(self, ctx: Ctx, *args):
-        text = " ".join(args)
-        info(text)
-        await ctx.message.reply("Отправлено в логи ;)")
-
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def error(self, ctx: Ctx, *args):
-        text = " ".join(args)
-        error(text)
-        await ctx.message.reply("Отправлено в логи ;)")
-        
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def warning(self, ctx: Ctx, *args):
-        text = " ".join(args)
-        warning(text)
-        await ctx.message.reply("Отправлено в логи ;)")
-        
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def output(self, ctx: Ctx, *args):
-        text = " ".join(args)
-        output(ctx.channel, text)
-        await ctx.message.reply("Отправлено в логи ;)")
-    
 
     
 
@@ -311,7 +274,6 @@ async def load_cogs():
                 await bot.load_extension(f"cogs.{filename[:-3]}")
             except Exception as e:
                 raise error(f"Failed to load extension {filename}: {e}")
-    await bot.add_cog(LogCog(bot))
     await bot.add_cog(TextCog(bot))
 
 bot.run(TOKEN)

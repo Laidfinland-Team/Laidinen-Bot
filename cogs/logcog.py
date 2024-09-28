@@ -37,8 +37,36 @@ class LogCog(commands.Cog):
                 arg = len(lines)
             
             pages = TextPaginator.prepare_for_paginate("".join(lines[-int(arg)-1:]), 4000)
-            paginator = TextPaginator(ctx, pages)
+            paginator = TextPaginator(ctx, pages[:-1])
             await paginator.paginate()
+        
+    @commands.has_permissions(administrator=True)
+    @commands.command()
+    async def info(self, ctx: Ctx, *args):
+        text = " ".join(args)   
+        info(text)
+        await ctx.message.reply("Отправлено в логи ;)")
+
+    @commands.has_permissions(administrator=True)
+    @commands.command()
+    async def error(self, ctx: Ctx, *args):
+        text = " ".join(args)
+        error(text)
+        await ctx.message.reply("Отправлено в логи ;)")
+        
+    @commands.has_permissions(administrator=True)
+    @commands.command()
+    async def warning(self, ctx: Ctx, *args):
+        text = " ".join(args)
+        warning(text)
+        await ctx.message.reply("Отправлено в логи ;)")
+        
+    @commands.has_permissions(administrator=True)
+    @commands.command()
+    async def output(self, ctx: Ctx, *args):
+        text = " ".join(args)
+        output(ctx.channel, text)
+        await ctx.message.reply("Отправлено в логи ;)")
 
 
         

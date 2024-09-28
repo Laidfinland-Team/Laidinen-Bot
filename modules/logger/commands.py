@@ -22,7 +22,7 @@ class Logger:
         @param path (str): The path to the log file.
         """
         
-        self.file = open(path, "a", errors="ignore")
+        self.file = open(path, "a", errors="ignore", encoding='utf-8')
         self.printing = printing
     
     def __del__(self):
