@@ -296,6 +296,7 @@ class DuelGame(discord.ui.View):
         await atrys(ready_m.delete)
         await atrys(ready_m2.delete)
         await asyncio.sleep(random.uniform(2, 3))  # Немного рандома перед показом кнопки
+        
         self.start_embed = old_embed
         await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name, self.time), view=self)
 
@@ -364,6 +365,7 @@ class GamesCog(commands.Cog, name="Games"):
         
     
     @commands.command(brief="Дуэль")
+    #@is_on_maintenance()
     async def duel(self, ctx: Ctx, member: discord.Member = None):
         duel_invite = DuelGame.Confirm(ctx)
         

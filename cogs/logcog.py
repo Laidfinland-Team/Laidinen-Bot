@@ -36,9 +36,18 @@ class LogCog(commands.Cog):
             if arg == 'all' or int(arg) > len(lines):
                 arg = len(lines)
             
-            pages = TextPaginator.prepare_for_paginate("".join(lines[-int(arg)-1:]), 4000)
-            paginator = TextPaginator(ctx, pages[:-1])
+            pages = TextPaginator.prepare_for_paginate("".join(lines[-int(arg):]), 4000)
+            pages.reverse()
+            paginator = TextPaginator(ctx, pages)
             await paginator.paginate()
+        
+        
+    @commands.has_permissions(administrator=True)
+    @commands.command()
+    async def security(self, ctx: Ctx, *args):
+        text = " ".join(args)
+        security(text)
+        await ctx.message.reply("Отправлено в логи ;)")
         
     @commands.has_permissions(administrator=True)
     @commands.command()

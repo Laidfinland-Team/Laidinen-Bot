@@ -32,11 +32,13 @@ import database.db as db
 from _functions_base import *
 from _discord_functions_base import *
 from _discord_safety import *
-from modules.logger.commands import Logger
+from modules.logger import Logger
 from bot_params import (
     PREFIX, 
     MAIN_COLOR, 
     DEBUG_MODE, 
+    PROTECTED_MEMBERS_IDS,
+    GUILD_ID,
     HELLCAT_ID, 
     LAIDFIN_YOUTUBE_URL, 
     jerusalem_tz
@@ -62,6 +64,9 @@ if not DEBUG_MODE:
     ic.disable()
 
 # Логгинг сообщений
+
+def security(message):
+    log.security(message)
 def system(message):
     log.system(message)
 
@@ -84,7 +89,7 @@ def output(channel, message):
 
 """Инициализация бота"""
 bot: commands.Bot = enabled_bot
-#bot.on_command_error = on_command_error
+bot.on_command_error = on_command_error
 bot.add_check(mentions_check)
 
 
@@ -98,7 +103,7 @@ match os.name:
 __spec = importlib.util.spec_from_file_location('AUTH', __AUTH_FILE_PATH)
 __auth = importlib.util.module_from_spec(__spec)
 __spec.loader.exec_module(__auth)
-__auth.TOKEN
+TOKEN = __auth.TOKEN
 
 
 """Вывод версии discord.py"""

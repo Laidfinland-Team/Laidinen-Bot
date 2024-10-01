@@ -5,3 +5,4 @@ venv
 log.log
 anonmessagecog.py
 testbot.py
+securitycog.py

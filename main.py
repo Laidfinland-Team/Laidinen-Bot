@@ -4,6 +4,7 @@ import discord.ext
 
 import argparse
 import subprocess
+import time
 
 # Создаем парсер для аргументов командной строки
 parser = argparse.ArgumentParser(description="Пример программы для работы с аргументами")
@@ -91,20 +92,28 @@ async def status(ctx: Ctx):
     info(f"Bot status requested by {ctx.author.name}" + Fore.RED + f" ({"Enabled" if bot == enabled_bot else "Disabled"})")
 
 @bot.command()
-async def restart(ctx: Ctx):
+async def restart(ctx: Ctx, arg: str = 'None'):
     if ctx.message.author.id != 518516627629801494:
         await ctx.reply("У тебя нет прав💔")
         return
-    # Закрываем соединение и останавливаем бота
-    try:
-        await ctx.reply("Бот перезапущен♻")
-    except:
-        pass
+    if arg.lower() not in ['s', 'd']:
+        # Закрываем соединение и останавливаем бота
+        try:
+            await ctx.reply("Бот перезапущен♻")
+        except:
+            pass
+    else:
+        await ctx.message.add_reaction("✅")
+        await asyncio.sleep(1)
+        await ctx.message.delete()
     
     await bot.close()
     system(Fore.RED + "Bot restarted")
 
     # Опционально: если хотите перезапустить бота без участия внешнего процесса, используйте это
+    for t in asyncio.all_tasks():
+        t.cancel()
+    
     os.execv(sys.executable, ['python'] + sys.argv + [f'{'--disabled DISABLED' if disabled else ""}'])
     
 @bot.command()
@@ -129,6 +138,7 @@ async def kill_bot(ctx: Ctx):
         error("Failed to kill bot", e)
         await ctx.reply("Не удалось убить бота⚠")
     
+    exit()
     exit()
 
 if bot == enabled_bot:
@@ -186,11 +196,12 @@ class TextCog(commands.Cog):
     @is_hellcat()
     async def flood(self, ctx: Ctx, count: str, *text):
         count = int(count)
-        await ctx.message.delete()
-        text = " ".join(list(text))
+        text = " ".join(*list(text))
         if text == "":
             await ctx.reply("Не умею отправлять пустые сообщения")
             return
+        
+        await ctx.message.delete()
         
         for i in range(count):
             if ctx.message.reference:
@@ -198,6 +209,32 @@ class TextCog(commands.Cog):
                 await message.reply(text)
             else:
                 await ctx.send(text)
+        output(ctx.channel, f"Message {text} sent {count} times")
+        
+    @commands.command()
+    @is_hellcat()
+    async def pf(self, ctx: Ctx, count: str, *text):
+        await bot.get_command('ping_flood').callback(self, ctx, count, text)
+        
+    @commands.command()
+    @is_hellcat()
+    async def ping_flood(self, ctx: Ctx, count: str, *text):
+        count = int(count)
+        
+        text = " ".join(*list(text))
+        if text == "":
+            await ctx.reply("Не умею отправлять пустые сообщения")
+            return
+        
+        await ctx.message.delete()
+        
+        for i in range(count):
+            if ctx.message.reference:
+                message = await ctx.fetch_message(ctx.message.reference.message_id)
+                flood = await message.reply(text)
+            else:
+                flood = await ctx.send(text)
+            await flood.delete()
         output(ctx.channel, f"Message {text} sent {count} times")
                 
 
@@ -224,6 +261,23 @@ class TextCog(commands.Cog):
         if message:
             output(ctx.channel, f"Message with id {message.id} successful edited")
             await ctx.reply(f"Сообщение успешно изменено!")
+            
+    @commands.command()
+    @is_hellcat()
+    async def ce(self, ctx: Ctx, title, text):
+        await bot.get_command('change_embed').callback(self, ctx, title, text)
+        
+    @commands.command()
+    @is_hellcat()
+    async def change_embed(self, ctx: Ctx, title, text):
+        message: discord.Message = await ctx.fetch_message(ctx.message.reference.message_id)
+        if not message.embeds and not text:
+            await ctx.reply("Не могу создать пустое сообщение")
+            return
+        embed = discord.Embed(title=title, description=text)
+        await message.edit(embed=embed)
+        output(ctx.channel, f"Embed message with id {message.id} successful edited")
+        await ctx.reply(f"Сообщение успешно изменено!")
             
     @commands.command()
     @is_hellcat()
@@ -273,7 +327,7 @@ async def load_cogs():
             try:
                 await bot.load_extension(f"cogs.{filename[:-3]}")
             except Exception as e:
-                raise error(f"Failed to load extension {filename}: {e}")
+                error(f"Failed to load extension {filename}", e)
     await bot.add_cog(TextCog(bot))
 
 bot.run(TOKEN)

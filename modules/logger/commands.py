@@ -71,6 +71,20 @@ class Logger:
 
         return Fore.WHITE + Style.NORMAL + message
     
+    def security(self, message : str):
+        """
+        @brief Method to print a security message.
+
+        @param message (str): The message to be printed.
+        """
+
+        frame = inspect.currentframe()
+        name = frame.f_back.f_back.f_globals['__name__']
+        
+        if self.printing:
+            print(Fore.YELLOW + Style.BRIGHT + '<' + Fore.RED + "SECURITY" + Fore.YELLOW + '>' + Fore.RED + f" {self.formatted_datetime()} " + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        self.write("[SECURITY] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
+    
     def system(self, message : str):
         """
         @brief Method to print a system message.

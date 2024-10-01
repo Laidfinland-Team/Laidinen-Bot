@@ -20,11 +20,13 @@ CHAT_FEATURED_CHANNEL_ID = 1284969133242322986
 MEME_FEATURED_CHANNEL_ID = 1286279718642913350
 # ID канала для отправки сообщений в форум
 FORUM_FEATURED_CHANNEL_ID = 1284968979340726273
+# ID канала для отправки сообщений в рофлы
+ROFL_FEATURED_CHANNEL_ID = 1290606254070173717
 
 # ID канала с мемами
 MEME_CHANNEL_ID = [1156945713440247829, 1171017228683063307]
 
-FEATURED_CHANNELS_IDS = [CHAT_FEATURED_CHANNEL_ID, MEME_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]
+FEATURED_CHANNELS_IDS = [CHAT_FEATURED_CHANNEL_ID, MEME_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID, ROFL_FEATURED_CHANNEL_ID]
 
 # Порог количества реакций для админов и пользователей
 ADMIN_FORCE = 1
@@ -137,21 +139,30 @@ class ReactionsCog(commands.Cog):
             return True in [self.check_for_admin(user) async for user in message.reactions[name_list.index(PROTECTED_EMOJI)].users()]
     
     @commands.command()
-    @arguments_required()
+    async def to_rofl(self, ctx: commands.Context, *args: str):
+        if not ctx.author.guild_permissions.administrator or not ctx.guild.get_role(CURATOR_ROLE_ID) in ctx.author.roles:
+            await ctx.send("У вас нет прав на использование этой команды")
+            return
+        
+        await self.add_to_featured(ctx, *args, rofl=True)
+        
+    
+    @commands.command()
     async def atf(self, ctx: commands.Context, *args: str):
         await self.add_to_featured(ctx, *args)
         
     @commands.command()
-    @arguments_required()
-    async def add_to_featured(self, ctx: commands.Context, *args: str):
+    async def add_to_featured(self, ctx: commands.Context, *args: str, rofl: bool = False):
         if not ctx.author.guild_permissions.administrator:
             await ctx.send("У вас нет прав на использование этой команды")
             return
 
         # Последний аргумент - это статус (тип реакции)
         status = args[-1]
-        message_urls = args[:-1]  # Все остальные аргументы - это ссылки на сообщения
-
+        if len(args) > 1:
+            message_urls = args[:-1]  # Все остальные аргументы - это ссылки на сообщения
+        else:
+            message_urls = [ctx.message.reference.resolved.jump_url]
         # Преобразуем статус в текстовый формат
         status = status.split(':')[1].replace(':', '') 
 
@@ -181,33 +192,40 @@ class ReactionsCog(commands.Cog):
                     destination = 'forum'
                 elif message.channel.category_id not in NOTCHATS:
                     destination = 'chat'
+                elif message.channel.id in FEATURED_CHANNELS_IDS:
+                    destination = 'chat'
+                elif rofl:
+                    destination = 'chat'
                 else:
                     failed_ids.append(message_id)
                     continue
 
                 if not self.check_for_featured(message):
-                    await self.send_to(destination, message, status)
+                    await self.send_to(destination, message, status, rofl)
                     successful_ids.append(message_id)
                 else:
                     self.remove_from_featured_file(message)
-                    await self.send_to(destination, message, status)
+                    await self.send_to(destination, message, status, rofl)
                     successful_ids.append(message_id)
 
             except Exception as e:
+                error(f"Cannot add message with ID {message_id} to featured messages:", e)
                 failed_ids.append(message_id)
                 continue
 
         if successful_ids:
             await ctx.send(f"**Сообщения с ID {', '.join(map(str, successful_ids))} были добавлены в избранное**")
+            info(f"Messages with IDs {', '.join(map(str, successful_ids))} were added to featured messages")
         
         if failed_ids:
             await ctx.send(f"**Не удалось добавить сообщения с ID {', '.join(map(str, failed_ids))} в избранное**")
+            error(f"Messages with IDs {', '.join(map(str, failed_ids))} were not added to featured messages")
 
 
                 
-    async def send_to(self, destination: str, message: discord.Message, status: str):
+    async def send_to(self, destination: str, message: discord.Message, status: str, rofl: bool = False):
         # Отправляем сообщение в заданное место назначения
- 
+        destination = 'meme' if rofl else destination
         if destination != 'meme':
             sub_title = "в чате" if destination == "chat" else "на форуме"
             match status:
@@ -271,7 +289,12 @@ class ReactionsCog(commands.Cog):
             else:
                 embed.add_field(name="Вложение", value=f"[Ссылка на вложение]({message.attachments[0].url})")
         
-        if destination == 'forum':
+        if rofl:
+            # Отправлено в рофлы
+            channel = self.bot.get_channel(ROFL_FEATURED_CHANNEL_ID)
+            await channel.send(embed=embed, content=content)
+            info(f"Message with ID {message.id} was sent to rofl featured messages")
+        elif destination == 'forum':
             # Отправляем в форум
             channel = self.bot.get_channel(FORUM_FEATURED_CHANNEL_ID)
             await channel.send(embed=embed, content=content)
@@ -315,12 +338,12 @@ class ReactionsCog(commands.Cog):
             self.status = 'cancel'
             
         # Определяем место назначения
-        if channel.id in MEME_CHANNEL_ID:
+        if channel.id in [CHAT_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]:
+            self.destination = 'delete_forum_or_chat'
+        elif channel.id in MEME_CHANNEL_ID:
             self.destination = 'meme'
         elif channel.category_id == FORUMS:
             self.destination = 'forum'
-        elif channel.id in [CHAT_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]:
-            self.destination = 'delete_forum_or_chat'
         elif channel.id == MEME_FEATURED_CHANNEL_ID:
             self.destination = 'delete_meme'
         elif channel.category_id not in NOTCHATS:

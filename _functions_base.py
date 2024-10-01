@@ -6,7 +6,7 @@ from discord.ext import commands
 from discord import Message, Embed
 from decorator import decorator
 from icecream import ic
-from modules.logger.commands import Logger
+from modules.logger import Logger
 
 from pythonlangutil.overload import Overload, signature
 
@@ -128,17 +128,7 @@ def diapason(diapason_str: str, args_names: list) -> callable:
         return wrapper
     return decorator
 
-def arguments_required():
-    def decorator(func):
-        @wraps(func)
-        async def wrapper(*args, **kwargs):
-            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
-            if len(args) < (2 if func.__qualname__.split('.')[0] == func.__name__ else 3):
-                return await ctx.message.reply("Необходимо указать аргументы😶")
-            return await func(ctx, *args, **kwargs)
-        return wrapper
-    return decorator
-
+#?
 def is_async():
     def decorator(func):
         @wraps(func)
@@ -147,28 +137,19 @@ def is_async():
         return wrapper
     return decorator
 
-def disabled():
-    def decorator(func):
-        @wraps(func)
-        async def wrapper(*args, **kwargs):
-            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
-            return await ctx.message.reply("Команда временно отключена🔒")
-        return wrapper
-    return decorator
 
 
 def cls():
     _os.system('cls')
     
     
-
 def trys(func: callable, *args, **kwargs) -> callable:
     try:
         return func(*args, **kwargs)
     except Exception as e:
         log.error("`trys` error:", e)
         return 0
-    
+
 async def atrys(func: callable, *args, **kwargs) -> callable:
     try:
         return await func(*args, **kwargs)

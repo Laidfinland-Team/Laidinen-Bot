@@ -10,6 +10,10 @@ from discord.ext import commands
 from accessify import protected, private
 
 from bot_params import DEBUG_MODE, MAIN_COLOR, HELLCAT_ID
+from modules.logger import Logger
+from _functions_base import *
+
+log = Logger("log.log")
 
 """Класс контекста"""
 class Ctx(commands.Context):
@@ -30,13 +34,26 @@ async def on_command_error(ctx: commands.Context, error):
                                    r'Ошибка преобразования в "**\1**" для параметра "**\2**".',
                                    error_message)
         await ctx.reply(new_error_message)
+    elif isinstance(error, commands.CommandNotFound):
+        log.error(f"Command '{ctx.message.content}' not find. Channel: {ctx.channel}")
+    elif isinstance(error, commands.CheckFailure):
+        log.error(f"Check failure. Command: {ctx.command} Channel: {ctx.channel}")
+    elif isinstance(error, commands.MessageNotFound):
+        log.error(f"Message not found. Channel: {ctx.channel}")
+    elif isinstance(error, discord.errors.Forbidden) and error.code == 50013:
+        log.error("Missing permissions")
     else:
         if ctx.command:
-            error(f"Игнорирую исключение в команде '{ctx.command}'")
+            log.error(f"Ignoring exception in command' {ctx.command}'. Channel: {ctx.channel}")
         else:
-            error(f"Игнорирую исключение. Не выполняемая команда '{ctx.message.content}'")
+            log.error(f"Ignoring exception. Not executable command '{ctx.message.content}'. 'Channel: {ctx.channel}")
+            
         if DEBUG_MODE:
             traceback.print_exception(type(error), error, error.__traceback__, file=sys.stderr)
+    
+async def on_check_failure(self, ctx, error):
+    await ctx.reply("Этого пользователя нельзя обижать :shield: ")
+    return False
 
 """Декораторы"""
 def is_hellcat():
@@ -44,11 +61,43 @@ def is_hellcat():
         @wraps(func)
         async def wrapper(*args, **kwargs):
             ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
-                
-            if ctx.author.id == HELLCAT_ID:
+            if ctx is False:
                 return await func(*args, **kwargs)
+            
+            elif ctx.author.id == HELLCAT_ID:
+                return await func(*args, **kwargs)
+            
             else:
                 return await ctx.reply("*У тебя нет прав*💔")
+        return wrapper
+    return decorator
+
+def is_disabled():
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
+            return await ctx.message.reply("Команда временно отключена🔒")
+        return wrapper
+    return decorator
+
+def is_on_maintenance():
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
+            return await ctx.message.reply("Для это команды проводятся технические работы🔧")
+        return wrapper
+    return decorator
+
+def arguments_required():
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            ctx: Ctx = args[0] if func.__qualname__.split('.')[0] == func.__name__ else args[1]
+            if len(args) < (2 if func.__qualname__.split('.')[0] == func.__name__ else 3):
+                return await ctx.message.reply("Необходимо указать аргументы😶")
+            return await func(ctx, *args, **kwargs)
         return wrapper
     return decorator
             
@@ -142,7 +191,7 @@ class Paginator:
                     await self.msg.remove_reaction(reaction, self.author)
                     await self.send_page()
             except asyncio.TimeoutError:
-                await self.msg.clear_reactions()
+                await atrys(self.msg.clear_reactions)
                 break
 
 class TextPaginator(Paginator):

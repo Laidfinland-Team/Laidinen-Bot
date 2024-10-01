@@ -5,7 +5,14 @@ from __init__ import *
 import PIL
 import random
 
+
+LAST_CAT = True
+
 CAT_DIR = r"cogs\catcog"
+PLEASE_CAT_CHANNEL = 1156941990672466020 # Основной 
+PLEASE_CAT_DURECTION = 3 * 3600 # 3 hours
+
+LAST_CAT_DIR = r"light_databases\last_cat.json"
 
 COMMAND_REACTION = ":pinkheart:1176964995695771719"
 CAT_REACTION = "🔥"
@@ -20,17 +27,48 @@ for name in EMOJI_LIST:
 class CatCog(commands.Cog):
     def __init__(self, bot):
         self.bot: commands.Bot = bot
+        self.last_data = None
         self.cat_files = []
         self.server_emojis = []
         
         for filename in os.listdir(CAT_DIR):
             if True in [filename.endswith(f) for f in ['.png', 'jpg', 'jpeg', 'gif', 'webp']]:
-                 self.cat_files.append(filename)
+                self.cat_files.append(filename)
+            
                 
     @commands.Cog.listener() # This is a listener, like @bot.event
     async def on_ready(self):
+        self.load_archive()
+        if LAST_CAT:
+            self.hourly_check.start()
         info("Cat cog is ready")
         
+        
+    @tasks.loop(hours=1) 
+    async def hourly_check(self):
+        now = datetime.now()
+        if self.last_data:
+            last_data = datetime.strptime(self.last_data, "%Y-%m-%d %H:%M:%S")
+            if (now - last_data).total_seconds() >= PLEASE_CAT_DURECTION:
+                await self.please_send_cat(False)
+    
+    @commands.command()
+    @is_hellcat()
+    async def psc(self, ctx: Ctx):
+        await self.please_send_cat(ctx)
+    
+    @commands.command()
+    @is_hellcat()
+    async def please_send_cat(self, ctx: Ctx = None):
+        channel = bot.get_channel(PLEASE_CAT_CHANNEL)
+        await channel.send("Пожалуйста, пришлите котика `?cat` - это важно!🐾")
+        if ctx:
+            if ctx.message:
+                await ctx.message.add_reaction("✅")
+        info("Please send cat message sent")
+        
+        
+    
     @commands.command()
     async def cat(self, ctx: Ctx):
         
@@ -70,10 +108,33 @@ class CatCog(commands.Cog):
             reaction = discord.Reaction(message=ctx.message, data=data, emoji=CAT_REACTION)
             
             await message.add_reaction(reaction)
+            self.last_data = datetime.now(jerusalem_tz).strftime("%Y-%m-%d %H:%M:%S") 
+            self.save_archive()
             if 'laid' in file:
                 output(ctx.channel, f"Laid cat image sent to {ctx.author.name}" + Fore.RED + " (laid)") 
             else:
                 output(ctx.channel, f"Cat image sent to {ctx.author.name}")
+                
+    def load_archive(self):
+        try:
+            with open(LAST_CAT_DIR, "r", encoding="utf-8") as f:
+                last_data = json.load(f)
+                if last_data:
+                    self.last_data = last_data
+        except Exception as e:
+            self.last_data = None
+            error("Failed to load last cat data", e)
+                 
+
+
+    def save_archive(self):
+        try:
+            with open(LAST_CAT_DIR, "w", encoding="utf-8") as f:
+                
+                json.dump(self.last_data, f, ensure_ascii=False, indent=4)
+                
+        except:
+            error("Failed to save last cat data")
             
             
         
