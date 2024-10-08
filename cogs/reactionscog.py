@@ -140,7 +140,7 @@ class ReactionsCog(commands.Cog):
     
     @commands.command()
     async def to_rofl(self, ctx: commands.Context, *args: str):
-        if not ctx.author.guild_permissions.administrator or not ctx.guild.get_role(CURATOR_ROLE_ID) in ctx.author.roles:
+        if not ctx.author.guild_permissions.administrator or not ic(self.check_for_curator(ctx.author)):
             await ctx.send("У вас нет прав на использование этой команды")
             return
         
@@ -153,7 +153,7 @@ class ReactionsCog(commands.Cog):
         
     @commands.command()
     async def add_to_featured(self, ctx: commands.Context, *args: str, rofl: bool = False):
-        if not ctx.author.guild_permissions.administrator:
+        if not ctx.author.guild_permissions.administrator or not rofl:
             await ctx.send("У вас нет прав на использование этой команды")
             return
 
@@ -273,13 +273,13 @@ class ReactionsCog(commands.Cog):
                     title=title,
                     description=f"{message.content}\n\n\n**Ссылка на сообщение: {message.jump_url}**",
                     color=color,
-                ).set_author(name=message.author.display_name)
+                ).set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
         else:
             embed = discord.Embed(
             title=title,
             description=f"**Ссылка на сообщение: {message.jump_url}**",
             color=color,
-            ).set_author(name=message.author.display_name, url=message.author.avatar.url)
+            ).set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
         
         if message.attachments:
             if not all([tt == -1 for tt in [message.attachments[0].url.find(t) for t in ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp']]]):
@@ -338,7 +338,7 @@ class ReactionsCog(commands.Cog):
             self.status = 'cancel'
             
         # Определяем место назначения
-        if channel.id in [CHAT_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID]:
+        if channel.id in [CHAT_FEATURED_CHANNEL_ID, FORUM_FEATURED_CHANNEL_ID, ROFL_FEATURED_CHANNEL_ID]:
             self.destination = 'delete_forum_or_chat'
         elif channel.id in MEME_CHANNEL_ID:
             self.destination = 'meme'
@@ -356,7 +356,7 @@ class ReactionsCog(commands.Cog):
                 # Собираем имена всех эмодзи в реакциях
                 for reaction in message.reactions:
                     for i in range(reaction.count):
-                        names_list.append(reaction.emoji.name) if type(reaction.emoji) is not str else None
+                        names_list.append(reaction.emoji.name) if type(reaction.emoji) is not str else names_list.append(reaction.emoji)
                 # Проверяем условия для пользовательской реакции
                 
                 ADMIN_CHECK = ((names_list.count(ADMIN_EMOJI) >= ADMIN_FORCE and self.check_for_admin(payload.member) 
@@ -365,9 +365,9 @@ class ReactionsCog(commands.Cog):
                 and self.status == 'admin')
                 
                 CANCEL_CHECK = (self.status == 'cancel' and not await self.check_for_protected(message)
-                               and (self.check_for_admin(payload.member) and self.destination in ['delete_forum_or_chat', 'delete_meme']
-                               or self.check_for_curator(payload.member) and self.destination == 'delete_forum_or_chat' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE
-                               or self.check_for_meme_curator(payload.member) and self.destination == 'delete_meme' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE))
+                               and ((self.check_for_admin(payload.member) and self.destination in ['delete_forum_or_chat', 'delete_meme'])
+                               or (self.check_for_curator(payload.member) and self.destination == 'delete_forum_or_chat' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE)
+                               or (self.check_for_meme_curator(payload.member) and self.destination == 'delete_meme' and names_list.count(CANCEL_EMOJI) >= CANCEL_FORCE)))
                 
                 if self.status == 'user' and names_list.count(USER_EMOJI) >= USER_FORCE or self.check_for_admin(payload.member) and self.check_for_admin_mode(message) and self.status == 'user':
                     await self.send_to(self.destination, message, self.status)

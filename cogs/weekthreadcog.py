@@ -17,6 +17,7 @@ WEEK_AUTHOR_ROLE = 1290267074945486868
 # ID категории форумов и эмодзи для голосования
 FORUM_CATEGORY = 1180846730602889236  # ID категории форумов 
 EMOJI = "🏅"  # Эмодзи для голосования за тред
+ALTERNATIVE_EMOJI = "🔥"  # Альтернативное эмодзи для голосования за тред
 
 EMBED_MESSAGE_LINK = "https://discord.com/channels/1156871394173407283/1285119138737557514/1288417937501323314"
 WEEK_THREAD_MESSAGE_LINK = "https://discord.com/channels/1156871394173407283/1285119138737557514/1288549934383235104"
@@ -146,10 +147,20 @@ class WeekThreadCog(commands.Cog):
             )
 
             for idx, thread in enumerate(top_threads, 1):
+                match idx:
+                    case 1:
+                        e = "🥇"
+                    case 2:
+                        e = "🥈"
+                    case 3:
+                        e = "🥉"
+                        
                 embed.add_field(
-                    name=f"Тред #{idx}: {thread['title']}",
+                    name=f"{e} {thread['title']}",
                     value=f"Реакции: {thread['reaction_count']} | [Перейти к треду]({thread['url']})"
                 )
+            
+            embed.set_footer(text=f"Весь список можно посмотреть с помощью команды {PREFIX}popular_threads!")
 
             # Отправляем embed или обновляем его
             if self.embed_message:
@@ -188,10 +199,10 @@ class WeekThreadCog(commands.Cog):
             
             async def main():
                 start_time = time.perf_counter()
-                thread_text = [message async for message in self.bot.get_channel(top_threads[0]['id']).history(limit=10000)][-1].content
+                thread_text = [message async for message in self.bot.get_channel(top_threads[0]['id']).history(limit=2, oldest_first=True)][0].content
 
                 embed: discord.Embed = copy.deepcopy(self.week_embed)
-                embed.add_field(name=f"{top_threads[0]['title']}", value=f"{thread_text[:1024-150]}{'...' if len(thread_text) > 1024-90 else '' }\n\n\n{top_threads[0]['url']}\n-# с {top_threads[0]['reaction_count']} {EMOJI}!")
+                embed.add_field(name=f"{top_threads[0]['title']}", value=f"{thread_text[:1024-150]}{'...' if len(thread_text) > 1024-90 else '' }\n\n\n{top_threads[0]['url']}\n-# с {top_threads[0]['reaction_count']} {EMOJI}/ {ALTERNATIVE_EMOJI}!")
                 embed = embed.set_author(name=f"{top_threads[0]['author']}", icon_url=author_avatar_url)
                 
                 
@@ -199,8 +210,10 @@ class WeekThreadCog(commands.Cog):
                 await self.week_thread_message.edit(content='🏆', embed=embed)
                 role = guild.get_role(WEEK_AUTHOR_ROLE)
                 if role.members:
-                    await role.members[0].remove_roles(role)
-                await author.add_roles(role)
+                    if role.members[0] != author:
+                        await role.members[0].remove_roles(role)
+                if role.members[0] != author:
+                    await author.add_roles(role)
                 
                 end_time = time.perf_counter()
                 elapsed_time = end_time - start_time
@@ -224,7 +237,7 @@ class WeekThreadCog(commands.Cog):
     async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
         """Обрабатывает добавление реакции на сообщения в тредах форума."""
         
-        if payload.emoji.name != EMOJI:
+        if payload.emoji.name not in [EMOJI, ALTERNATIVE_EMOJI]:
             return
         
         thread = self.bot.get_channel(payload.channel_id)
@@ -235,6 +248,7 @@ class WeekThreadCog(commands.Cog):
         
         
         
+        reaction_count = max([r.count if r.emoji in [EMOJI, ALTERNATIVE_EMOJI] else 0 for r in message.reactions])
         
         if isinstance(thread, discord.Thread):
             thread_data = {
@@ -243,7 +257,7 @@ class WeekThreadCog(commands.Cog):
                 'author_id': thread.owner.id,
                 'title': thread.name,
                 'url': message.jump_url,
-                'reaction_count': sum([(r.count if r.emoji == EMOJI else 0) for r in message.reactions]),
+                'reaction_count': reaction_count,
                 'created_at': thread.created_at.strftime(r"%Y-%m-%d %H:%M:%S")
             }
 

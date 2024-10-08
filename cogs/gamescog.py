@@ -1,6 +1,7 @@
 import random
 from datetime import timedelta
 import datetime
+import copy
 
 from __init__ import *
 
@@ -178,7 +179,7 @@ class DuelGame(discord.ui.View):
         
         async def on_timeout(self):
             # Действия, если время ожидания истекло
-            await atrys(self.ctx.message.delete)
+            await atrys(self.ctx.message.delete, self)
             self.value = False
             
         @discord.ui.button(label="Начать", style=discord.ButtonStyle.green)
@@ -289,7 +290,7 @@ class DuelGame(discord.ui.View):
         elif view.value is True and len(view.confirmed) < 2:
             return await self.start_game(message, ready_m)
         
-        old_embed = self.start_embed
+        old_embed = copy.deepcopy(self.start_embed)
         self.start_embed.description = "Жди {} секунд и стреляй! ⏱"
         
         await self.ctx.message.edit(embed=self.start_embed.format(self.players[0].name, self.players[1].name, self.time), view=None)
@@ -307,7 +308,7 @@ class DuelGame(discord.ui.View):
         await asyncio.sleep(7)  # Игрокам даётся 7 секунд для реакции
 
         if not self.winner:
-            self.on_timeout()
+            await self.on_timeout()
 
     @private
     async def determine_winner(self):

@@ -34,13 +34,17 @@ class kamikazeCog(commands.Cog):
         
     
     @commands.command() # This is a command, like @bot.command()
-    #@is_disabled()
+    @is_disabled()
     async def kamikaze(self, ctx: Ctx, member: discord.Member = None):
         
         if ctx.message.reference and not member:
             member = ctx.message.reference.resolved.author
         elif not member:
             await ctx.reply("Укажи жертву😈")
+            return
+        
+        if member.guild_permissions.administrator:
+            await ctx.reply("Админов нельзя обижать :shield: ")
             return
             
         mute = 1 #random.randint(1, 3)

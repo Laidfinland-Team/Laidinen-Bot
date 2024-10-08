@@ -162,6 +162,17 @@ if bot == enabled_bot:
         exit()
         
 class TextCog(commands.Cog):
+    color_dict = {
+            "red": 0xFF0000,
+            "green": 0x00FF00,
+            "blue": 0x0000FF,
+            "yellow": 0xFFFF00,
+            "purple": 0x800080,
+            "orange": 0xFFA500,
+            "black": 0x000000,
+            "white": 0xFFFFFF
+        }
+    
     def __init__(self, bot):
         self.bot = bot
         
@@ -262,19 +273,62 @@ class TextCog(commands.Cog):
             output(ctx.channel, f"Message with id {message.id} successful edited")
             await ctx.reply(f"Сообщение успешно изменено!")
             
+            
     @commands.command()
     @is_hellcat()
-    async def ce(self, ctx: Ctx, title, text):
+    async def e(self, ctx: Ctx, title, text, reactions=None, color=MAIN_COLOR):
+        await bot.get_command('send_embed').callback(self, ctx, title, text, reactions=reactions, color=color) 
+        
+    @commands.command()
+    @is_hellcat()
+    async def send_embed(self, ctx: Ctx, title, text, reactions=None, color=MAIN_COLOR):
+        if not color == MAIN_COLOR:
+            color = TextCog.color_dict.get(color.lower(), 0x000000)  # Default to black if color not found
+        embed = discord.Embed(title=title, description=text, color=color)
+        message = await ctx.send(embed=embed)
+        if reactions:
+            for reaction in reactions.split(" "):
+                ic(reaction)
+                await message.add_reaction(reaction)
+        await atrys(ctx.message.delete)
+        output(ctx.channel, f"Embed message sent with title {title} and color {color}")
+            
+    @commands.command()
+    @is_hellcat()
+    async def ce(self, ctx: Ctx, title=None, text=None, color=MAIN_COLOR):
         await bot.get_command('change_embed').callback(self, ctx, title, text)
         
     @commands.command()
     @is_hellcat()
-    async def change_embed(self, ctx: Ctx, title, text):
+    async def change_embed(self, ctx: Ctx, title=None, text=None, color=None):
+        if title == "None":
+            title = None
+        if text == "None":
+            text = None
+        if not color == None:
+            color = TextCog.color_dict.get(color.lower(), 0x000000)
+            
+        if color == 'main':
+            color = MAIN_COLOR
+            
+        if not title and not text:
+            await ctx.reply("Не могу создать пустое сообщение")
+            return
+        
         message: discord.Message = await ctx.fetch_message(ctx.message.reference.message_id)
+        
+        if color == None:
+            color = message.embeds[0].color
+        
         if not message.embeds and not text:
             await ctx.reply("Не могу создать пустое сообщение")
             return
-        embed = discord.Embed(title=title, description=text)
+        if not title:
+            title = message.embeds[0].title
+        if not text:
+            text = message.embeds[0].description
+        
+        embed = discord.Embed(title=title, description=text, color=color)
         await message.edit(embed=embed)
         output(ctx.channel, f"Embed message with id {message.id} successful edited")
         await ctx.reply(f"Сообщение успешно изменено!")

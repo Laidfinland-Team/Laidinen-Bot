@@ -97,6 +97,9 @@ class Logger:
         
         if self.printing:
             print(Fore.CYAN + Style.BRIGHT + "[SYSTEM] " + f"{self.formatted_datetime()} " + message + self.white(f" [{name}]") + Style.RESET_ALL)
+        for s in message:
+            if not s.isascii():
+                message = message.replace(s, '')
         self.write("[SYSTEM] " + f"{self.formatted_datetime()} " + message + f" [{name}]")
     
     def error(self, message : str, exec: Exception = None):
