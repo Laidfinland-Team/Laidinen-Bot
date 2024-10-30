@@ -34,7 +34,7 @@
 ## Баг репорт & Предложения
 1. Форум для предложений по боту: [https://discord.gg/yycb4pSRu5](https://discord.gg/yycb4pSRu5)
 
-2. Main Developer Discord: [@hellsas](https://discord.com/users/hellsas)
+2. Main Developer Discord: [@utkabob](https://discord.com/users/utkabob)
 
 3. Создай issue на гитхабе, и мы проверим её как можно скорее
 
