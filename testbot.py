@@ -1,60 +1,50 @@
-
-# This example requires the 'message_content' privileged intent to function.
-
+import discord.ext.commands
 from __init__ import *
+import discord.ext
+
+import argparse
+import subprocess
+import time
 
 
-class Bot(commands.Bot):
-    def __init__(self):
-        intents = discord.Intents.default()
-        intents.message_content = True
+print(f"Started at {Style.BRIGHT}test mode")
 
-        super().__init__(command_prefix=commands.when_mentioned_or('$'), intents=intents)
+@bot.event
+async def on_connect():
+    print(f'{Fore.YELLOW}{Style.BRIGHT}=========================')
+    print(f'Connection to discord.com')
+    print(f'Token: {hide(TOKEN)}')
+    print(f'ID: {bot.user.id}')
+    print('Prefix:' + PREFIX )
+    print(f'{Fore.YELLOW}{Style.BRIGHT}=========================')
+    
+    await bot.change_presence(status = discord.Status.idle, activity = discord.Game(name = "Zzzzzz..."))
 
-    async def on_ready(self):
-        print(f'Logged in as {self.user} (ID: {self.user.id})')
-        print('------')
-
-
-# Define a simple View that gives us a confirmation menu
-class Confirm(discord.ui.View):
-    def __init__(self):
-        super().__init__()
-        self.value = None
-
-    # When the confirm button is pressed, set the inner value to `True` and
-    # stop the View from listening to more input.
-    # We also send the user an ephemeral message that we're confirming their choice.
-    @discord.ui.button(label='Confirm', style=discord.ButtonStyle.green)
-    async def confirm(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.send_message('Confirming', ephemeral=True)
-        self.value = True
-        self.stop()
-
-    # This one is similar to the confirmation button except sets the inner value to `False`
-    @discord.ui.button(label='Cancel', style=discord.ButtonStyle.grey)
-    async def cancel(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.send_message('Cancelling', ephemeral=True)
-        self.value = False
-        self.stop()
+@bot.event 
+async def on_ready():
+    print(f'{Fore.GREEN}{Style.BRIGHT}=========================')
+    print(f'Bot logged in as - ')
+    print(f'Username: {bot.user.name}')
+    print(f'ID: {bot.user.id}')
+    print(f'{Fore.GREEN}{Style.BRIGHT}=========================')
+    print("Bot connected") 
+    print(Style.BRIGHT + "\n\nLogs:\n")
+     
+     
+    await bot.change_presence(status=discord.Status.do_not_disturb, activity=discord.CustomActivity(name="В режиме тестирования🛠"))
 
 
+@bot.command() 
+async def ping(ctx: Ctx):
+    await ctx.reply(f'Pong!\n-# **{round(bot.latency * 1000)}ms**')
+    output(ctx.channel, f'Pong! {round(bot.latency * 1000)}ms')
 
 
-@bot.command()
-async def ask(ctx: commands.Context):
-    """Asks the user a question to confirm something."""
-    # We create the view and assign it to a variable so we can wait for it later.
-    view = Confirm()
-    await ctx.send('Do you want to continue?', view=view)
-    # Wait for the View to stop listening for input...
-    await view.wait()
-    if view.value is None:
-        print('Timed out...')
-    elif view.value:
-        print('Confirmed...')
-    else:
-        print('Cancelled...')
+async def main():
+    thread = await bot.fetch_channel(1293981880789766278)
+    
 
-
+    
+                    
+                    
 bot.run(TOKEN)

@@ -1,9 +1,10 @@
 import sys 
 import os
+import sqlite3
 sys.path.insert(0, os.path.join(os.getcwd(), ''))
 
 
-from __init__ import *
+
 
 class Database:
     def __init__(self, db_name):

@@ -1,6 +1,5 @@
 import random
-from datetime import timedelta
-import datetime
+from datetime import timedelta, datetime
 import copy
 
 from __init__ import *

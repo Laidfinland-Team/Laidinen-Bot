@@ -10895,3 +10895,2189 @@ discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
 [INFO] 08/10/24 20:19:32 dosajdatel was muted to 13 minutes [cogs.gamescog]
 [OUTPUT] 08/10/24 20:38:48 Cat image sent to utkabob [cogs.catcog]
 [OUTPUT] 08/10/24 21:11:42 <@1217966335292866610> **выдан бонус🏅** [__main__]
+
+
+
+
+
+
+
+
+
+
+
+
+[ERROR] 09/10/24 00:43:34 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 963, in _load_from_module_spec
+    await setup(self)
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 261, in setup
+    await bot.add_cog(DelCog(bot))
+                      ^^^^^^^^^^^
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 38, in __init__
+    self.check_warns.start()
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 968, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.delcog' raised an error: AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+[INFO] 09/10/24 00:43:37 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 09/10/24 00:43:37 Cat cog is ready [cogs.catcog]
+[INFO] 09/10/24 00:43:37 Coup cog is ready [cogs.coupcog]
+[INFO] 09/10/24 00:43:37 GamesCog cog is ready [cogs.gamescog]
+[INFO] 09/10/24 00:43:37 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 09/10/24 00:43:37 Log cog is ready [cogs.logcog]
+[INFO] 09/10/24 00:43:37 Moderation cog is ready [cogs.moderationcog]
+[INFO] 09/10/24 00:43:37 Reactions cog is ready [cogs.reactionscog]
+[INFO] 09/10/24 00:43:37 Search cog is ready [cogs.searchcog]
+[SECURITY] 09/10/24 00:43:37 Security cog is ready [cogs.securitycog]
+[INFO] 09/10/24 00:43:37 Sex cog is ready [cogs.sexcog]
+[INFO] 09/10/24 00:43:37 Survey cog is ready [cogs.surveycog]
+[INFO] 09/10/24 00:43:37 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 09/10/24 00:43:37 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 09/10/24 00:43:37 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 09/10/24 00:43:37 Text cog is ready [__main__]
+[INFO] 09/10/24 00:43:37 WeekThread date was checked [cogs.weekthreadcog]
+
+
+
+
+
+
+[ERROR] 09/10/24 16:21:35 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 963, in _load_from_module_spec
+    await setup(self)
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 261, in setup
+    await bot.add_cog(DelCog(bot))
+                      ^^^^^^^^^^^
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 38, in __init__
+    self.check_warns.start()
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs_test.py", line 59, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 968, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.delcog' raised an error: AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+[INFO] 09/10/24 16:21:37 Moderation cog is ready [cogs.moderationcog]
+[OUTPUT] 09/10/24 16:21:55 Pong! 297ms [__main__]
+[ERROR] 09/10/24 16:22:53 Command '?del' not find. Channel: основной [discord.client]
+[ERROR] 09/10/24 16:24:37 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 963, in _load_from_module_spec
+    await setup(self)
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 261, in setup
+    await bot.add_cog(DelCog(bot))
+                      ^^^^^^^^^^^
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 38, in __init__
+    self.check_warns.start()
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs_test.py", line 59, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 968, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.delcog' raised an error: AttributeError: 'DelCog' object has no attribute 'check_warns'
+
+[INFO] 09/10/24 16:26:14 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 09/10/24 16:26:21 Pong! 179ms [__main__]
+[INFO] 09/10/24 16:26:43 Moderation cog is ready [cogs.moderationcog]
+[INFO] 09/10/24 16:26:43 DelCog cog is ready [cogs.delcog]
+[INFO] 09/10/24 16:45:55 Moderation cog is ready [cogs.moderationcog]
+[INFO] 09/10/24 16:45:55 DelCog cog is ready [cogs.delcog]
+[ERROR] 09/10/24 16:46:02 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 09/10/24 16:48:07 Moderation cog is ready [cogs.moderationcog]
+[INFO] 09/10/24 16:48:08 DelCog cog is ready [cogs.delcog]
+[ERROR] 09/10/24 16:48:11 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 09/10/24 19:59:16 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 09/10/24 19:59:16 Cat cog is ready [cogs.catcog]
+[INFO] 09/10/24 19:59:16 Coup cog is ready [cogs.coupcog]
+[INFO] 09/10/24 19:59:16 GamesCog cog is ready [cogs.gamescog]
+[INFO] 09/10/24 19:59:16 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 09/10/24 19:59:16 Log cog is ready [cogs.logcog]
+[INFO] 09/10/24 19:59:16 Reactions cog is ready [cogs.reactionscog]
+[INFO] 09/10/24 19:59:16 Search cog is ready [cogs.searchcog]
+[SECURITY] 09/10/24 19:59:16 Security cog is ready [cogs.securitycog]
+[INFO] 09/10/24 19:59:16 Sex cog is ready [cogs.sexcog]
+[INFO] 09/10/24 19:59:16 Survey cog is ready [cogs.surveycog]
+[INFO] 09/10/24 19:59:16 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 09/10/24 19:59:16 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 09/10/24 19:59:16 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 09/10/24 19:59:16 Text cog is ready [__main__]
+[INFO] 09/10/24 19:59:16 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 09/10/24 20:00:05 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 09/10/24 20:00:05 Cat cog is ready [cogs.catcog]
+[INFO] 09/10/24 20:00:05 Coup cog is ready [cogs.coupcog]
+[INFO] 09/10/24 20:00:05 GamesCog cog is ready [cogs.gamescog]
+[INFO] 09/10/24 20:00:05 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 09/10/24 20:00:05 Log cog is ready [cogs.logcog]
+[INFO] 09/10/24 20:00:05 Reactions cog is ready [cogs.reactionscog]
+[INFO] 09/10/24 20:00:05 Search cog is ready [cogs.searchcog]
+[SECURITY] 09/10/24 20:00:05 Security cog is ready [cogs.securitycog]
+[INFO] 09/10/24 20:00:05 Sex cog is ready [cogs.sexcog]
+[INFO] 09/10/24 20:00:05 Survey cog is ready [cogs.surveycog]
+[INFO] 09/10/24 20:00:05 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 09/10/24 20:00:05 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 09/10/24 20:00:05 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 09/10/24 20:00:05 Text cog is ready [__main__]
+[INFO] 09/10/24 20:00:06 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 09/10/24 20:01:44 Bot status requested by utkabob[31m (Enabled) [__main__]
+[OUTPUT] 09/10/24 20:01:46 Pong! 176ms [__main__]
+[ERROR] 09/10/24 20:02:20 Timeout error: module 'datetime' has no attribute 'now' [cogs.gamescog]
+[INFO] 09/10/24 20:03:52 💻 Коворкинг: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 09/10/24 20:03:57 💻 Коворкинг: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 09/10/24 20:04:57 search_by_reactions was called [cogs.searchcog]
+[ERROR] 09/10/24 20:05:10 Ignoring exception in command' log'. Channel: 💻 Коворкинг [discord.client]
+[ERROR] 09/10/24 20:06:14 `atrys` error: [_discord_functions_base]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_discord_functions_base.py", line 240, in paginate
+    reaction, user = await self.ctx.bot.wait_for('reaction_add', timeout=self.timeout, check=self.check_reaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_functions_base.py", line 155, in atrys
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\message.py", line 1352, in clear_reactions
+    await self._state.http.clear_reactions(self.channel.id, self.id)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+[ERROR] 09/10/24 20:06:28 Ignoring exception in command' cat'. Channel: 💻 Коворкинг [discord.client]
+[ERROR] 09/10/24 20:06:35 Ignoring exception in command' cat'. Channel: 💻 Коворкинг [discord.client]
+[ERROR] 09/10/24 20:06:41 Ignoring exception in command' cat'. Channel: 💻 Коворкинг [discord.client]
+[INFO] 10/10/24 10:13:27 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:13:27 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 10:14:45 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:14:45 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 10:16:17 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:16:17 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 10:17:24 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:17:24 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:17:25 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:27:34 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:27:34 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:27:40 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:28:57 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:28:57 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:29:01 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:31:01 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:31:02 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:31:05 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:32:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:32:19 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:32:24 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:34:28 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:34:28 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:34:37 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:36:54 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:36:55 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:36:56 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:37:51 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:37:52 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:37:56 Ignoring exception in command' del'. Channel: alert [discord.client]
+
+
+
+
+
+
+
+
+[INFO] 10/10/24 10:43:26 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:43:26 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:43:42 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:45:02 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:45:03 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:45:06 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:48:02 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:48:02 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:48:07 Ignoring exception in command' del'. Channel: alert [discord.client]
+[ERROR] 10/10/24 10:48:33 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:50:45 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:50:45 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:50:46 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 10:52:08 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 10:52:09 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 10:52:11 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:24:39 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:24:39 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:24:41 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:28:59 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:28:59 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:29:02 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:31:38 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:31:39 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:31:44 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:36:00 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:36:01 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:36:04 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:36:34 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:36:34 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:36:38 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:39:33 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:39:33 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:39:36 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 11:41:09 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:41:09 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 11:47:35 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:47:36 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 11:51:01 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 11:51:01 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 11:51:03 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 12:11:13 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:11:14 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 12:11:16 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 12:12:06 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:12:06 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 12:12:09 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 12:17:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:17:19 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 12:21:39 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:21:40 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 12:24:03 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:24:03 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 12:24:51 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:24:52 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 12:27:05 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:27:05 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 12:27:08 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 12:30:38 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:30:38 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 12:32:44 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 12:32:44 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:07:45 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:07:46 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:10:34 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:10:34 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:13:28 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:13:28 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:14:12 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:14:12 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:14:55 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:14:55 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:15:57 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:15:57 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:16:17 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 13:17:22 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:17:22 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:17:26 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 13:18:38 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:18:38 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:18:43 Ignoring exception in command' del'. Channel: alert [discord.client]
+[INFO] 10/10/24 13:20:34 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:20:34 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:21:17 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:21:18 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 13:22:38 Pong! 172ms [__main__]
+[INFO] 10/10/24 13:23:49 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:23:49 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:29:23 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:29:23 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:30:25 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:30:25 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:30:26 Ignoring exception in command' del'. Channel: alert [discord.client]
+[ERROR] 10/10/24 13:30:37 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:32:50 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:32:50 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:41:37 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:41:38 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:48:54 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:48:54 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:49:19 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:51:17 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:51:18 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:53:33 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:53:33 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:53:40 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:56:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:56:29 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:56:45 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:59:34 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:59:34 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:59:54 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 14:03:10 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:03:10 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 14:03:25 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 14:04:20 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:04:21 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 14:04:28 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:12:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:12:19 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:12:26 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:16:30 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:16:30 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:16:41 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:19:05 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:19:06 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:19:08 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:20:15 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:20:15 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:20:18 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:21:35 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:21:35 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:21:46 Ignoring exception in command' del'. Channel: основной [discord.client]
+
+
+
+
+[INFO] 10/10/24 13:27:06 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:27:06 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:27:17 Ignoring exception in command' del'. Channel: основной [discord.client]
+
+
+
+
+[INFO] 10/10/24 13:31:10 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:31:10 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:31:19 Ignoring exception in command' del'. Channel: основной [discord.client]
+
+
+
+
+[INFO] 10/10/24 13:33:11 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:33:12 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:33:26 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:35:06 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:35:06 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:35:21 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:36:16 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:36:16 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:36:21 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:37:39 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:37:39 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:37:47 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:38:35 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:38:35 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:38:39 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:39:37 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:39:38 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:39:46 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:46:43 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:46:44 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:46:54 Ignoring exception in command' del'. Channel: основной [discord.client]
+[ERROR] 10/10/24 13:47:21 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:48:11 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:48:11 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:49:10 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:49:10 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:49:31 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:56:25 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:56:25 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:56:38 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:57:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:57:29 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:57:55 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 14:01:54 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:01:54 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 14:04:04 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:04:04 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 14:05:23 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:05:23 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 14:07:58 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:07:58 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 14:09:57 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:09:57 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 14:10:05 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:51:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:51:19 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:51:24 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 13:53:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:53:19 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 13:56:52 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 13:56:52 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 13:57:04 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 14:00:17 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:00:17 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:01:00 Pong! 162ms [__main__]
+[INFO] 10/10/24 14:03:37 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:03:37 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 14:05:41 Ignoring exception in command' del'. Channel: основной [discord.client]
+[ERROR] 10/10/24 14:06:02 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 14:07:53 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:07:53 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:10:11 Pong! 154ms [__main__]
+[INFO] 10/10/24 14:11:14 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:11:14 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:11:46 Pong! 162ms [__main__]
+[INFO] 10/10/24 14:12:24 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:12:24 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:14:02 Pong! 190ms [__main__]
+[OUTPUT] 10/10/24 14:14:28 Pong! 167ms [__main__]
+[OUTPUT] 10/10/24 14:15:17 Pong! 155ms [__main__]
+[INFO] 10/10/24 14:17:30 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:17:30 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:17:35 Pong! 159ms [__main__]
+[INFO] 10/10/24 14:19:26 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:19:27 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:19:28 Pong! 158ms [__main__]
+[INFO] 10/10/24 14:20:02 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:20:03 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:20:32 Pong! 164ms [__main__]
+[INFO] 10/10/24 14:23:18 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:23:18 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:23:19 Pong! 156ms [__main__]
+[INFO] 10/10/24 14:23:59 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:23:59 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:24:28 Pong! 159ms [__main__]
+[INFO] 10/10/24 14:26:18 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:26:18 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:26:22 Pong! 176ms [__main__]
+[INFO] 10/10/24 14:27:10 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 14:27:10 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 14:27:11 Pong! 158ms [__main__]
+
+
+
+
+[INFO] 10/10/24 15:20:48 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:20:48 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 15:20:54 Pong! 161ms [__main__]
+[ERROR] 10/10/24 15:20:55 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 15:21:24 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:21:24 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 15:21:26 Pong! 165ms [__main__]
+[INFO] 10/10/24 15:22:06 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:22:06 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 15:22:10 Pong! 160ms [__main__]
+[INFO] 10/10/24 15:22:30 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:22:31 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 15:23:11 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:23:11 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 15:23:53 Pong! 157ms [__main__]
+[OUTPUT] 10/10/24 15:24:04 Pong! 157ms [__main__]
+[OUTPUT] 10/10/24 15:26:35 Pong! 157ms [__main__]
+[OUTPUT] 10/10/24 15:26:56 Pong! 157ms [__main__]
+[INFO] 10/10/24 15:28:30 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 15:28:31 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 16:44:14 Pong! 160ms [__main__]
+[ERROR] 10/10/24 16:44:19 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 16:45:57 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 16:45:58 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 16:46:12 Pong! 162ms [__main__]
+[ERROR] 10/10/24 16:46:18 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 16:48:24 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 16:48:24 DelCog cog is ready [cogs.delcog]
+[OUTPUT] 10/10/24 16:48:33 Pong! 158ms [__main__]
+[OUTPUT] 10/10/24 16:48:47 Pong! 158ms [__main__]
+[ERROR] 10/10/24 16:48:51 Ignoring exception in command' del'. Channel: основной [discord.client]
+[OUTPUT] 10/10/24 16:49:19 Pong! 158ms [__main__]
+[ERROR] 10/10/24 16:49:23 Ignoring exception in command' del'. Channel: основной [discord.client]
+[INFO] 10/10/24 16:50:35 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 16:50:36 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 16:50:50 Ignoring exception in command' del'. Channel: основной [discord.client]
+[ERROR] 10/10/24 16:56:03 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\delcog.py", line 279
+    elif m.author not in members):
+                                ^
+SyntaxError: unmatched ')'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs_test.py", line 59, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.delcog' raised an error: SyntaxError: unmatched ')' (delcog.py, line 279)
+
+[INFO] 10/10/24 16:56:05 Moderation cog is ready [cogs.moderationcog]
+[ERROR] 10/10/24 16:56:10 Command '?del <@1293326252500848660> 1' not find. Channel: основной [discord.client]
+[INFO] 10/10/24 16:56:54 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 16:56:55 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 17:00:18 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:00:18 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 17:01:55 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:01:55 DelCog cog is ready [cogs.delcog]
+
+
+[INFO] 10/10/24 17:38:18 AlcoCog cog is ready [cogs.example_cog]
+[INFO] 10/10/24 17:38:18 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:38:18 DelCog cog is ready [cogs.delcog]
+[INFO] 10/10/24 17:39:46 AlcoCog cog is ready [cogs.example_cog]
+[INFO] 10/10/24 17:39:46 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:39:46 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 17:39:49 Ignoring exception in command' alco'. Channel: alert [discord.client]
+[INFO] 10/10/24 17:40:36 AlcoCog cog is ready [cogs.example_cog]
+[INFO] 10/10/24 17:40:36 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:40:36 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 17:40:38 Ignoring exception in command' alco'. Channel: alert [discord.client]
+[INFO] 10/10/24 17:41:38 AlcoCog cog is ready [cogs.example_cog]
+[INFO] 10/10/24 17:41:38 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:41:39 DelCog cog is ready [cogs.delcog]
+[ERROR] 10/10/24 17:41:40 Ignoring exception in command' alco'. Channel: alert [discord.client]
+[INFO] 10/10/24 17:42:22 AlcoCog cog is ready [cogs.example_cog]
+[INFO] 10/10/24 17:42:22 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 17:42:23 DelCog cog is ready [cogs.delcog]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] 10/10/24 20:00:13 Moderation cog is ready [cogs.moderationcog]
+[INFO] 10/10/24 20:00:13 DelCog cog is ready [cogs.delcog]
+
+
+
+
+
+
+[ERROR] 11/10/24 17:09:58 Failed to load extension forumcog.py [__main__]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\forumcog.py", line 8, in <module>
+    class ForumCog(commands.Cog):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\cogs\forumcog.py", line 9, in ForumCog
+    embed = FormatEmbed(
+            ^^^^^^^^^^^^
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_discord_functions_base.py", line 520, in __init__
+    super().__init__(title=title, description=description, color=color)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\embeds.py", line 179, in __init__
+    self.colour = colour if colour is not None else color
+    ^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\embeds.py", line 323, in colour
+    raise TypeError(f'Expected discord.Colour, int, or None but received {value.__class__.__name__} instead.')
+TypeError: Expected discord.Colour, int, or None but received str instead.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.forumcog' raised an error: TypeError: Expected discord.Colour, int, or None but received str instead.
+
+[INFO] 11/10/24 17:10:01 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 17:10:01 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 17:10:01 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 17:10:01 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 17:10:01 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 17:10:01 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 17:10:01 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 17:10:01 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 17:10:01 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 17:10:01 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 17:10:01 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 17:10:01 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 17:10:01 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 17:10:01 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 17:10:01 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 17:10:01 Text cog is ready [__main__]
+[INFO] 11/10/24 17:10:02 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 11/10/24 17:10:12 Message with ID 1294155282712236032 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 11/10/24 17:10:12 Message with ID 1294155282712236032 was added to featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:07:22 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 20:07:23 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 20:07:23 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 20:07:23 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 20:07:23 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 20:07:23 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 20:07:23 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 20:07:23 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 20:07:23 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 20:07:23 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 20:07:23 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 20:07:23 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 20:07:23 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 20:07:23 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 20:07:23 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 20:07:23 Text cog is ready [__main__]
+[INFO] 11/10/24 20:08:10 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 20:08:10 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 20:08:10 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 20:08:10 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 20:08:10 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 20:08:10 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 20:08:10 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 20:08:10 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 20:08:10 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 20:08:10 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 20:08:10 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 20:08:10 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 20:08:10 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 20:08:10 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 20:08:10 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 20:08:10 Text cog is ready [__main__]
+[INFO] 11/10/24 20:08:11 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 11/10/24 20:09:15 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 20:09:15 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 20:09:15 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 20:09:15 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 20:09:15 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 20:09:15 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 20:09:15 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 20:09:15 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 20:09:15 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 20:09:15 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 20:09:15 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 20:09:15 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 20:09:15 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 20:09:15 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 20:09:15 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 20:09:15 Text cog is ready [__main__]
+[INFO] 11/10/24 20:09:15 Please send cat message sent [cogs.catcog]
+[INFO] 11/10/24 20:09:15 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 11/10/24 20:10:12 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 20:10:12 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 20:10:12 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 20:10:12 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 20:10:12 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 20:10:12 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 20:10:12 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 20:10:12 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 20:10:12 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 20:10:12 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 20:10:12 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 20:10:12 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 20:10:12 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 20:10:12 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 20:10:12 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 20:10:12 Text cog is ready [__main__]
+[INFO] 11/10/24 20:10:12 DelCog cog is ready [cogs.delcog]
+[INFO] 11/10/24 20:10:12 Please send cat message sent [cogs.catcog]
+[INFO] 11/10/24 20:10:13 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 11/10/24 20:10:45 Cat image sent to cucumber_q [cogs.catcog]
+[SYSTEM] 11/10/24 20:11:57 [31mBot stopped [__main__]
+[INFO] 11/10/24 20:12:14 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 11/10/24 20:12:14 Cat cog is ready [cogs.catcog]
+[INFO] 11/10/24 20:12:14 Coup cog is ready [cogs.coupcog]
+[INFO] 11/10/24 20:12:14 GamesCog cog is ready [cogs.gamescog]
+[INFO] 11/10/24 20:12:14 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 11/10/24 20:12:14 Log cog is ready [cogs.logcog]
+[INFO] 11/10/24 20:12:14 Moderation cog is ready [cogs.moderationcog]
+[INFO] 11/10/24 20:12:14 Reactions cog is ready [cogs.reactionscog]
+[INFO] 11/10/24 20:12:14 Search cog is ready [cogs.searchcog]
+[SECURITY] 11/10/24 20:12:14 Security cog is ready [cogs.securitycog]
+[INFO] 11/10/24 20:12:14 Sex cog is ready [cogs.sexcog]
+[INFO] 11/10/24 20:12:14 Survey cog is ready [cogs.surveycog]
+[INFO] 11/10/24 20:12:14 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 11/10/24 20:12:14 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 11/10/24 20:12:14 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 11/10/24 20:12:14 Text cog is ready [__main__]
+[INFO] 11/10/24 20:12:14 DelCog cog is ready [cogs.delcog]
+[INFO] 11/10/24 20:12:15 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 11/10/24 20:14:05 Updating thread 1291525159987052704: old reactions count: 5, new reaction count: 6 [cogs.weekthreadcog]
+[INFO] 11/10/24 20:41:18 Message with ID 1294340762451836969 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:41:18 Message with ID 1294340762451836969 was added to featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:43:17 Message with ID 1293958727279448085 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:43:17 Message with ID 1293958727279448085 was added to featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:43:36 Message with ID 1293891857734045697 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 11/10/24 20:43:36 Message with ID 1293891857734045697 was added to featured messages [cogs.reactionscog]
+[OUTPUT] 11/10/24 21:45:58 Pong! 166ms [__main__]
+[OUTPUT] 11/10/24 21:51:42 Embed message sent with title Доволен ли ты качеством <#1286279718642913350> ?
+(Баллы) and color #9b59b6 [__main__]
+[INFO] 11/10/24 21:51:42 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:52:00 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:52:33 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:52:37 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:52:41 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:52:45 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:54:32 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 21:56:07 Survey 1291853947828441140 updated [cogs.surveycog]
+[INFO] 11/10/24 22:04:35 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 22:52:01 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 11/10/24 23:12:15 Please send cat message sent [cogs.catcog]
+[ERROR] 11/10/24 23:15:06 Command '?сфе' not find. Channel: 『🌐』основной [discord.client]
+[OUTPUT] 11/10/24 23:15:14 Cat image sent to cucumber_q [cogs.catcog]
+[ERROR] 11/10/24 23:15:44 Command '?кк' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 11/10/24 23:15:54 『🌐』основной: Russian Roulette:  Cancelled [cogs.gamescog]
+[INFO] 12/10/24 00:42:12 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 00:43:00 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 02:16:13 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 03:12:14 Please send cat message sent [cogs.catcog]
+[OUTPUT] 12/10/24 03:13:58 Cat image sent to utkabob [cogs.catcog]
+[INFO] 12/10/24 03:43:34 Message with ID 1293295377704947722 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 12/10/24 03:43:34 Message with ID 1293295377704947722 was added to plus one messages [cogs.reactionscog]
+[INFO] 12/10/24 03:46:34 Updating thread 1292138322981945464: old reactions count: 7, new reaction count: 9 [cogs.weekthreadcog]
+[INFO] 12/10/24 06:14:27 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 07:05:33 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 07:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 08:12:14 Please send cat message sent [cogs.catcog]
+[OUTPUT] 12/10/24 08:46:48 Cat image sent to stol3n._ [cogs.catcog]
+[OUTPUT] 12/10/24 08:47:07 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 12/10/24 09:49:10 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 10:39:17 Thread added to archive: 1294030073602637926 [cogs.weekthreadcog]
+[INFO] 12/10/24 10:42:39 Message with ID 1294370255711502459 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 12/10/24 10:42:39 Message with ID 1294370255711502459 was added to featured messages [cogs.reactionscog]
+[INFO] 12/10/24 10:52:02 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 10:52:11 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:16:09 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:16:12 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:16:17 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:16:23 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:16:35 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 11:32:30 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 12:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 13:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 14:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 14:44:28 Message with ID 1293296526814085242 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 12/10/24 14:44:28 Message with ID 1293296526814085242 was added to plus one messages [cogs.reactionscog]
+[INFO] 12/10/24 14:52:30 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 15:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 16:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 16:19:38 Message with ID 1294577589540753429 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 12/10/24 16:19:38 Message with ID 1294577589540753429 was added to featured messages [cogs.reactionscog]
+[INFO] 12/10/24 17:12:14 Please send cat message sent [cogs.catcog]
+[OUTPUT] 12/10/24 17:26:50 Cat image sent to dosajdatel [cogs.catcog]
+[INFO] 12/10/24 17:32:53 Message with ID 1294621088159891527 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 12/10/24 17:32:53 Message with ID 1294621088159891527 was added to featured messages [cogs.reactionscog]
+[INFO] 12/10/24 17:37:35 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 18:17:42 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 12/10/24 19:30:40 Thread added to archive: 1293497277800910870 [cogs.weekthreadcog]
+[INFO] 12/10/24 19:32:59 Message with ID 1290748416745537587 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 12/10/24 19:32:59 Message with ID 1290748416745537587 was added to featured messages [cogs.reactionscog]
+[INFO] 12/10/24 19:42:07 Updating thread 1294030073602637926: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 12/10/24 19:47:16 Message with ID 1294690277725966407 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 12/10/24 19:47:16 Message with ID 1294690277725966407 was added to admin featured messages [cogs.reactionscog]
+[INFO] 12/10/24 21:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 12/10/24 22:12:15 Please send cat message sent [cogs.catcog]
+[OUTPUT] 12/10/24 22:12:26 Cat image sent to cccvet4 [cogs.catcog]
+[INFO] 12/10/24 22:23:08 Updating thread 1292138322981945464: old reactions count: 9, new reaction count: 10 [cogs.weekthreadcog]
+[INFO] 12/10/24 23:38:04 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 13/10/24 01:25:34 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 01:25:45 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 02:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 03:06:18 Thread added to archive: 1294813323765878906 [cogs.weekthreadcog]
+[INFO] 13/10/24 03:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 04:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 05:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 06:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 07:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 07:28:15 Updating thread 1294813323765878906: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[OUTPUT] 13/10/24 07:32:59 Cat image sent to blinchik_cumcake [cogs.catcog]
+[ERROR] 13/10/24 09:03:29 Ignoring exception in command' duel'. Channel: 『🌐』основной [discord.client]
+[ERROR] 13/10/24 09:04:51 Ignoring exception in command' duel'. Channel: 『🌐』основной [discord.client]
+[ERROR] 13/10/24 10:14:44 Timeout error: module 'datetime' has no attribute 'now' [cogs.gamescog]
+[INFO] 13/10/24 11:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 11:16:38 Updating thread 1294813323765878906: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[ERROR] 13/10/24 11:58:38 Timeout error: module 'datetime' has no attribute 'now' [cogs.gamescog]
+[ERROR] 13/10/24 11:58:41 Timeout error: module 'datetime' has no attribute 'now' [cogs.gamescog]
+[INFO] 13/10/24 11:59:45 『🌐』основной: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 11:59:51 『🌐』основной: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 12:00:02 『🌐』основной: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 12:00:08 『🌐』основной: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 13/10/24 12:00:09 『🌐』основной: Russian Roulette:  Muted [cogs.gamescog]
+[INFO] 13/10/24 12:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 13:12:14 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 14:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 15:12:15 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 15:22:29 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 13/10/24 15:22:29 Cat cog is ready [cogs.catcog]
+[INFO] 13/10/24 15:22:29 Coup cog is ready [cogs.coupcog]
+[INFO] 13/10/24 15:22:29 GamesCog cog is ready [cogs.gamescog]
+[INFO] 13/10/24 15:22:29 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 13/10/24 15:22:29 Log cog is ready [cogs.logcog]
+[INFO] 13/10/24 15:22:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 13/10/24 15:22:29 Reactions cog is ready [cogs.reactionscog]
+[INFO] 13/10/24 15:22:29 Search cog is ready [cogs.searchcog]
+[SECURITY] 13/10/24 15:22:29 Security cog is ready [cogs.securitycog]
+[INFO] 13/10/24 15:22:29 Sex cog is ready [cogs.sexcog]
+[INFO] 13/10/24 15:22:29 Survey cog is ready [cogs.surveycog]
+[INFO] 13/10/24 15:22:29 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 13/10/24 15:22:29 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 13/10/24 15:22:29 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 13/10/24 15:22:29 Text cog is ready [__main__]
+[INFO] 13/10/24 15:22:30 DelCog cog is ready [cogs.delcog]
+[INFO] 13/10/24 15:22:30 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 15:22:30 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 13/10/24 15:23:05 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 13/10/24 15:23:05 Cat cog is ready [cogs.catcog]
+[INFO] 13/10/24 15:23:05 Coup cog is ready [cogs.coupcog]
+[INFO] 13/10/24 15:23:05 GamesCog cog is ready [cogs.gamescog]
+[INFO] 13/10/24 15:23:05 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 13/10/24 15:23:05 Log cog is ready [cogs.logcog]
+[INFO] 13/10/24 15:23:05 Moderation cog is ready [cogs.moderationcog]
+[INFO] 13/10/24 15:23:05 Reactions cog is ready [cogs.reactionscog]
+[INFO] 13/10/24 15:23:05 Search cog is ready [cogs.searchcog]
+[SECURITY] 13/10/24 15:23:05 Security cog is ready [cogs.securitycog]
+[INFO] 13/10/24 15:23:05 Sex cog is ready [cogs.sexcog]
+[INFO] 13/10/24 15:23:05 Survey cog is ready [cogs.surveycog]
+[INFO] 13/10/24 15:23:05 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 13/10/24 15:23:05 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 13/10/24 15:23:05 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 13/10/24 15:23:05 Text cog is ready [__main__]
+[INFO] 13/10/24 15:23:05 DelCog cog is ready [cogs.delcog]
+[INFO] 13/10/24 15:23:05 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 15:23:05 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 13/10/24 15:23:29 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 13/10/24 15:23:29 Cat cog is ready [cogs.catcog]
+[INFO] 13/10/24 15:23:29 Coup cog is ready [cogs.coupcog]
+[INFO] 13/10/24 15:23:29 GamesCog cog is ready [cogs.gamescog]
+[INFO] 13/10/24 15:23:29 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 13/10/24 15:23:29 Log cog is ready [cogs.logcog]
+[INFO] 13/10/24 15:23:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 13/10/24 15:23:29 Reactions cog is ready [cogs.reactionscog]
+[INFO] 13/10/24 15:23:29 Search cog is ready [cogs.searchcog]
+[SECURITY] 13/10/24 15:23:29 Security cog is ready [cogs.securitycog]
+[INFO] 13/10/24 15:23:29 Sex cog is ready [cogs.sexcog]
+[INFO] 13/10/24 15:23:29 Survey cog is ready [cogs.surveycog]
+[INFO] 13/10/24 15:23:29 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 13/10/24 15:23:29 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 13/10/24 15:23:29 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 13/10/24 15:23:29 Text cog is ready [__main__]
+[INFO] 13/10/24 15:23:30 DelCog cog is ready [cogs.delcog]
+[INFO] 13/10/24 15:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 13/10/24 15:23:30 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 13/10/24 15:24:01 Cat image sent to torenkred [cogs.catcog]
+[ERROR] 13/10/24 15:30:42 Command '?dog' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 13/10/24 15:46:45 Updating thread 1294813323765878906: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 13/10/24 15:55:50 Message with ID 1294999153100849253 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 13/10/24 15:55:50 Message with ID 1294999153100849253 was added to admin featured messages [cogs.reactionscog]
+[INFO] 13/10/24 16:05:26 Message with ID 1294947486149902451 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 13/10/24 16:05:26 Message with ID 1294947486149902451 was added to featured messages [cogs.reactionscog]
+[INFO] 13/10/24 16:50:13 Message with ID 1295013497989759039 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 13/10/24 16:50:13 Message with ID 1295013497989759039 was added to featured messages [cogs.reactionscog]
+[INFO] 13/10/24 18:58:44 Message with ID 1295026560725942273 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 13/10/24 18:58:44 Message with ID 1295026560725942273 was added to admin featured messages [cogs.reactionscog]
+[INFO] 13/10/24 19:21:12 Message with ID 1292396323424829534 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 13/10/24 19:21:12 Message with ID 1292396323424829534 was added to plus one messages [cogs.reactionscog]
+[INFO] 13/10/24 19:23:30 Please send cat message sent [cogs.catcog]
+[ERROR] 13/10/24 19:25:50 REMOVE_FROM_F_FILE: Message with ID 1295058779683160105 was not found in featured messages [cogs.reactionscog]
+[INFO] 13/10/24 19:25:50 Message with ID 1295058779683160105 was removed from featured messages [cogs.reactionscog]
+[INFO] 13/10/24 20:23:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 13/10/24 20:23:39 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 13/10/24 21:28:26 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 13/10/24 21:28:33 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 13/10/24 21:28:36 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 13/10/24 21:47:28 Survey 1291882522648776734 updated [cogs.surveycog]
+[INFO] 13/10/24 23:41:51 Thread added to archive: 1295124125328609393 [cogs.weekthreadcog]
+[INFO] 14/10/24 00:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 01:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 02:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 02:34:16 Thread added to archive: 1295167213652803614 [cogs.weekthreadcog]
+[INFO] 14/10/24 02:34:16 No threads to choose from this week [cogs.weekthreadcog]
+[OUTPUT] 14/10/24 02:35:14 Cat image sent to utkabob [cogs.catcog]
+[INFO] 14/10/24 05:50:08 Updating thread 1295167213652803614: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 14/10/24 05:50:08 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 06:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 06:41:52 Updating thread 1295167213652803614: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 14/10/24 06:41:52 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 07:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 07:39:17 Updating thread 1295124125328609393: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 14/10/24 07:39:17 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 07:46:00 Thread added to archive: 1293828879932456970 [cogs.weekthreadcog]
+[INFO] 14/10/24 07:46:00 No threads to choose from this week [cogs.weekthreadcog]
+[OUTPUT] 14/10/24 07:47:32 Cat image sent to kikodoo [cogs.catcog]
+[INFO] 14/10/24 07:57:54 Thread added to archive: 1295093310280695839 [cogs.weekthreadcog]
+[INFO] 14/10/24 07:57:54 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 07:59:01 Updating thread 1295124125328609393: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 14/10/24 07:59:01 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 08:00:18 Updating thread 1295167213652803614: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 14/10/24 08:00:18 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 14/10/24 10:56:28 Message with ID 1295218422694678548 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 14/10/24 10:56:28 Message with ID 1295218422694678548 was added to featured messages [cogs.reactionscog]
+[OUTPUT] 14/10/24 11:11:31 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 14/10/24 12:10:47 Thread added to archive: 1295263763427102761 [cogs.weekthreadcog]
+[INFO] 14/10/24 14:15:24 Updating thread 1295167213652803614: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 14/10/24 14:23:30 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 14:28:45 Message with ID 1294735620110946447 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 14/10/24 14:28:45 Message with ID 1294735620110946447 was added to featured messages [cogs.reactionscog]
+[OUTPUT] 14/10/24 14:29:57 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 14/10/24 14:47:26 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 14/10/24 14:47:26 Cat cog is ready [cogs.catcog]
+[INFO] 14/10/24 14:47:26 Coup cog is ready [cogs.coupcog]
+[INFO] 14/10/24 14:47:26 GamesCog cog is ready [cogs.gamescog]
+[INFO] 14/10/24 14:47:26 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 14/10/24 14:47:26 Log cog is ready [cogs.logcog]
+[INFO] 14/10/24 14:47:26 Moderation cog is ready [cogs.moderationcog]
+[INFO] 14/10/24 14:47:26 Reactions cog is ready [cogs.reactionscog]
+[INFO] 14/10/24 14:47:26 Search cog is ready [cogs.searchcog]
+[SECURITY] 14/10/24 14:47:26 Security cog is ready [cogs.securitycog]
+[INFO] 14/10/24 14:47:26 Sex cog is ready [cogs.sexcog]
+[INFO] 14/10/24 14:47:26 Survey cog is ready [cogs.surveycog]
+[INFO] 14/10/24 14:47:26 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 14/10/24 14:47:26 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 14/10/24 14:47:26 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 14/10/24 14:47:26 Text cog is ready [__main__]
+[INFO] 14/10/24 14:47:26 DelCog cog is ready [cogs.delcog]
+[INFO] 14/10/24 14:47:27 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 14/10/24 14:49:38 Updating thread 1295167213652803614: old reactions count: 5, new reaction count: 6 [cogs.weekthreadcog]
+[INFO] 14/10/24 17:08:05 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 14/10/24 17:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 17:54:45 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 14/10/24 18:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 14/10/24 19:47:26 Please send cat message sent [cogs.catcog]
+[OUTPUT] 14/10/24 19:48:49 Cat image sent to bruh.0444 [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:11 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:17 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:25 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:28 Laid cat image sent to astrosparkls[31m (laid) [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:31 Cat image sent to astrosparkls [cogs.catcog]
+[ERROR] 14/10/24 19:55:32 Message not found [cogs.catcog]
+[OUTPUT] 14/10/24 19:55:35 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 14/10/24 20:01:03 Cat image sent to your0starlight_ [cogs.catcog]
+[OUTPUT] 14/10/24 20:49:23 Cat image sent to bruh.0444 [cogs.catcog]
+[ERROR] 14/10/24 21:48:43 Command '??' not find. Channel: 『🐧』mudae [discord.client]
+[INFO] 14/10/24 22:36:51 Thread added to archive: 1295470334144680036 [cogs.weekthreadcog]
+[INFO] 14/10/24 23:06:04 Updating thread 1295470334144680036: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 14/10/24 23:17:43 Updating thread 1294813323765878906: old reactions count: 4, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 14/10/24 23:18:15 Updating thread 1294813323765878906: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 14/10/24 23:48:39 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 14/10/24 23:48:45 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 14/10/24 23:48:48 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 15/10/24 00:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 15/10/24 01:13:44 Thread added to archive: 1295509824859279431 [cogs.weekthreadcog]
+[INFO] 15/10/24 01:44:15 Thread added to archive: 1295491933703114752 [cogs.weekthreadcog]
+[INFO] 15/10/24 01:47:26 Please send cat message sent [cogs.catcog]
+[OUTPUT] 15/10/24 01:52:16 Cat image sent to meow3. [cogs.catcog]
+[INFO] 15/10/24 01:52:39 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 15/10/24 01:52:39 『💻』команды-для-ботов: Russian Roulette:  Muted [cogs.gamescog]
+[OUTPUT] 15/10/24 02:01:07 Cat image sent to utkabob [cogs.catcog]
+[INFO] 15/10/24 05:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 15/10/24 06:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 15/10/24 06:52:42 Updating thread 1294813323765878906: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[OUTPUT] 15/10/24 06:53:50 Cat image sent to astrosparkls [cogs.catcog]
+[INFO] 15/10/24 07:28:07 Updating thread 1292991414589718529: old reactions count: 5, new reaction count: 6 [cogs.weekthreadcog]
+[OUTPUT] 15/10/24 08:04:32 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 15/10/24 08:44:06 Updating thread 1295491933703114752: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 15/10/24 11:01:04 Message with ID 1295236076813684786 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 15/10/24 11:01:04 Message with ID 1295236076813684786 was added to admin featured messages [cogs.reactionscog]
+[INFO] 15/10/24 11:47:26 Please send cat message sent [cogs.catcog]
+[OUTPUT] 15/10/24 11:51:36 Cat image sent to stol3n._ [cogs.catcog]
+[ERROR] 15/10/24 11:53:16 Command '?porno' not find. Channel: 『🌐』основной [discord.client]
+[ERROR] 15/10/24 11:53:28 Command '?money' not find. Channel: 『🌐』основной [discord.client]
+[ERROR] 15/10/24 11:53:52 Command '?money to my card' not find. Channel: 『🌐』основной [discord.client]
+[ERROR] 15/10/24 11:54:03 Command '?SexWithLaidien' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 15/10/24 12:39:29 Message with ID 1294998799445659721 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 15/10/24 12:39:29 Message with ID 1294998799445659721 was added to plus one messages [cogs.reactionscog]
+[INFO] 15/10/24 14:09:42 Message with ID 1295471523246637147 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 15/10/24 14:09:42 Message with ID 1295471523246637147 was added to plus one messages [cogs.reactionscog]
+[INFO] 15/10/24 14:54:10 Updating thread 1295509824859279431: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 15/10/24 14:55:21 Message with ID 1295004332831277151 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 15/10/24 14:55:21 Message with ID 1295004332831277151 was added to plus one messages [cogs.reactionscog]
+[INFO] 15/10/24 15:37:31 Thread added to archive: 1295724924102512751 [cogs.weekthreadcog]
+[INFO] 15/10/24 15:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 15/10/24 15:49:56 Updating thread 1295724924102512751: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[ERROR] 15/10/24 15:53:35 Command '?кот' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 15/10/24 16:01:20 Updating thread 1295724924102512751: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 15/10/24 16:19:52 Updating thread 1295724924102512751: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 15/10/24 16:47:28 Please send cat message sent [cogs.catcog]
+[OUTPUT] 15/10/24 16:51:40 Laid cat image sent to stol3n._[31m (laid) [cogs.catcog]
+[OUTPUT] 15/10/24 17:01:42 Cat image sent to welwels228 [cogs.catcog]
+[INFO] 15/10/24 18:45:34 Updating thread 1295509824859279431: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 15/10/24 20:06:17 Message with ID 1295347159687761992 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 15/10/24 20:06:17 Message with ID 1295347159687761992 was added to featured messages [cogs.reactionscog]
+[INFO] 15/10/24 20:11:42 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 15/10/24 20:40:53 Message with ID 1295241079397810199 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 15/10/24 20:40:53 Message with ID 1295241079397810199 was added to plus one messages [cogs.reactionscog]
+[INFO] 15/10/24 20:47:26 Please send cat message sent [cogs.catcog]
+[OUTPUT] 15/10/24 20:48:15 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 15/10/24 21:20:25 Updating thread 1295724924102512751: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 16/10/24 00:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 16/10/24 01:47:26 Please send cat message sent [cogs.catcog]
+[ERROR] 16/10/24 01:49:10 Command '?я сжигал евр' not find. Channel: 『🌐』основной [discord.client]
+[OUTPUT] 16/10/24 01:49:25 Cat image sent to oguzok3833 [cogs.catcog]
+[INFO] 16/10/24 05:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 16/10/24 06:47:26 Please send cat message sent [cogs.catcog]
+[INFO] 16/10/24 07:09:56 Message with ID 1295808057900662865 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 16/10/24 07:09:56 Message with ID 1295808057900662865 was added to featured messages [cogs.reactionscog]
+[INFO] 16/10/24 07:47:26 Please send cat message sent [cogs.catcog]
+[OUTPUT] 16/10/24 07:53:41 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 16/10/24 07:54:08 Cat image sent to thatdunmer [cogs.catcog]
+[OUTPUT] 16/10/24 09:28:13 Cat image sent to stol3n._ [cogs.catcog]
+[INFO] 16/10/24 09:50:30 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 16/10/24 12:47:27 Please send cat message sent [cogs.catcog]
+[ERROR] 16/10/24 12:50:27 Command '?cqt' not find. Channel: 『🌐』основной [discord.client]
+[OUTPUT] 16/10/24 12:50:35 Cat image sent to dwagwild [cogs.catcog]
+[ERROR] 16/10/24 12:50:52 Command '?dog' not find. Channel: 『🌐』основной [discord.client]
+[ERROR] 16/10/24 12:50:54 Command '?dog' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 16/10/24 23:34:13 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 16/10/24 23:34:13 Cat cog is ready [cogs.catcog]
+[INFO] 16/10/24 23:34:13 Coup cog is ready [cogs.coupcog]
+[INFO] 16/10/24 23:34:13 GamesCog cog is ready [cogs.gamescog]
+[INFO] 16/10/24 23:34:13 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 16/10/24 23:34:13 Log cog is ready [cogs.logcog]
+[INFO] 16/10/24 23:34:13 Moderation cog is ready [cogs.moderationcog]
+[INFO] 16/10/24 23:34:13 Reactions cog is ready [cogs.reactionscog]
+[INFO] 16/10/24 23:34:13 Search cog is ready [cogs.searchcog]
+[SECURITY] 16/10/24 23:34:13 Security cog is ready [cogs.securitycog]
+[INFO] 16/10/24 23:34:13 Sex cog is ready [cogs.sexcog]
+[INFO] 16/10/24 23:34:13 Survey cog is ready [cogs.surveycog]
+[INFO] 16/10/24 23:34:13 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 16/10/24 23:34:13 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 16/10/24 23:34:13 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 16/10/24 23:34:13 Text cog is ready [__main__]
+[INFO] 16/10/24 23:34:13 DelCog cog is ready [cogs.delcog]
+[INFO] 16/10/24 23:34:13 Please send cat message sent [cogs.catcog]
+[INFO] 16/10/24 23:34:13 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 16/10/24 23:40:48 Please send cat message sent [cogs.catcog]
+[OUTPUT] 16/10/24 23:41:06 Cat image sent to ventilator250 [cogs.catcog]
+[INFO] 17/10/24 00:09:50 Message with ID 1296162664849870919 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 17/10/24 00:09:50 Message with ID 1296162664849870919 was added to featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:02 Message with ID 1296152873406824501 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:02 Message with ID 1296152873406824501 was added to featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:08 Message with ID 1296132241348497490 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:08 Message with ID 1296132241348497490 was added to featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:20 Message with ID 1295831926955053179 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 16/10/24 23:35:20 Message with ID 1295831926955053179 was added to featured messages [cogs.reactionscog]
+[OUTPUT] 16/10/24 23:50:43 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 16/10/24 23:51:13 Laid cat image sent to dwagwild[31m (laid) [cogs.catcog]
+[OUTPUT] 16/10/24 23:51:32 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 16/10/24 23:56:44 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 16/10/24 23:56:58 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 16/10/24 23:57:06 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:03:43 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:05:17 Cat image sent to your0starlight_ [cogs.catcog]
+[OUTPUT] 17/10/24 00:05:50 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:06:02 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:06:09 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:06:15 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 17/10/24 00:06:38 Cat image sent to dwagwild [cogs.catcog]
+[INFO] 17/10/24 00:53:30 Thread added to archive: 1296383241187627008 [cogs.weekthreadcog]
+[ERROR] 17/10/24 01:50:16 Failed to load extension anonmessagecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.anonmessagecog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension catcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.catcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension coupcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.coupcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.delcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension gamescog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.gamescog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension kamikazecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.kamikazecog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension logcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.logcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension moderationcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.moderationcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension reactionscog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.reactionscog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension searchcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.searchcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension securitycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.securitycog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension sexcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.sexcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension surveycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.surveycog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension teammatecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.teammatecog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension thechannelcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.thechannelcog' is already loaded.
+
+[ERROR] 17/10/24 01:50:16 Failed to load extension weekthreadcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.weekthreadcog' is already loaded.
+
+[INFO] 17/10/24 01:50:19 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 17/10/24 01:50:19 Coup cog is ready [cogs.coupcog]
+[INFO] 17/10/24 01:50:19 GamesCog cog is ready [cogs.gamescog]
+[INFO] 17/10/24 01:50:19 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 17/10/24 01:50:19 Log cog is ready [cogs.logcog]
+[INFO] 17/10/24 01:50:19 Moderation cog is ready [cogs.moderationcog]
+[INFO] 17/10/24 01:50:19 Reactions cog is ready [cogs.reactionscog]
+[INFO] 17/10/24 01:50:19 Search cog is ready [cogs.searchcog]
+[SECURITY] 17/10/24 01:50:19 Security cog is ready [cogs.securitycog]
+[INFO] 17/10/24 01:50:19 Sex cog is ready [cogs.sexcog]
+[INFO] 17/10/24 01:50:19 Survey cog is ready [cogs.surveycog]
+[INFO] 17/10/24 01:50:19 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 17/10/24 01:50:19 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 17/10/24 01:50:19 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 17/10/24 01:50:19 Text cog is ready [__main__]
+[INFO] 17/10/24 01:50:19 DelCog cog is ready [cogs.delcog]
+[INFO] 17/10/24 01:50:20 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 17/10/24 15:33:47 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 17/10/24 15:33:47 Cat cog is ready [cogs.catcog]
+[INFO] 17/10/24 15:33:47 Coup cog is ready [cogs.coupcog]
+[INFO] 17/10/24 15:33:47 GamesCog cog is ready [cogs.gamescog]
+[INFO] 17/10/24 15:33:47 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 17/10/24 15:33:47 Log cog is ready [cogs.logcog]
+[INFO] 17/10/24 15:33:47 Moderation cog is ready [cogs.moderationcog]
+[INFO] 17/10/24 15:33:47 Reactions cog is ready [cogs.reactionscog]
+[INFO] 17/10/24 15:33:47 Search cog is ready [cogs.searchcog]
+[SECURITY] 17/10/24 15:33:47 Security cog is ready [cogs.securitycog]
+[INFO] 17/10/24 15:33:47 Sex cog is ready [cogs.sexcog]
+[INFO] 17/10/24 15:33:47 Survey cog is ready [cogs.surveycog]
+[INFO] 17/10/24 15:33:47 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 17/10/24 15:33:47 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 17/10/24 15:33:47 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 17/10/24 15:33:47 Text cog is ready [__main__]
+[INFO] 17/10/24 15:33:47 DelCog cog is ready [cogs.delcog]
+[INFO] 17/10/24 15:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 17/10/24 15:33:48 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 17/10/24 15:34:31 Cat image sent to _loka_ [cogs.catcog]
+[INFO] 17/10/24 15:48:34 Updating thread 1296383241187627008: old reactions count: 1, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 17/10/24 15:48:51 Message with ID 1296184925153919117 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 17/10/24 15:48:51 Message with ID 1296184925153919117 was added to featured messages [cogs.reactionscog]
+[INFO] 17/10/24 15:49:04 Message with ID 1296439189520253018 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 17/10/24 15:49:04 Message with ID 1296439189520253018 was added to admin featured messages [cogs.reactionscog]
+[INFO] 17/10/24 15:49:32 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[ERROR] 17/10/24 15:51:11 Command '?pet' not find. Channel: 『☣』токс-зона [discord.client]
+[INFO] 17/10/24 16:27:28 Thread added to archive: 1296628454665621604 [cogs.weekthreadcog]
+[INFO] 18/10/24 05:24:57 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:24:57 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:24:58 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:24:58 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:24:58 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:03 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:03 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:04 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:04 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:04 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:25:04 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 05:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 06:33:47 Please send cat message sent [cogs.catcog]
+[OUTPUT] 18/10/24 07:18:00 Cat image sent to ventilator250 [cogs.catcog]
+[INFO] 18/10/24 07:24:11 Message with ID 1296062795820957808 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 18/10/24 07:24:11 Message with ID 1296062795820957808 was added to featured messages [cogs.reactionscog]
+[INFO] 18/10/24 07:31:14 Thread added to archive: 1296448843126145035 [cogs.weekthreadcog]
+[INFO] 18/10/24 09:22:11 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 18/10/24 10:33:47 Please send cat message sent [cogs.catcog]
+[OUTPUT] 18/10/24 10:34:12 Cat image sent to tranzistor. [cogs.catcog]
+[OUTPUT] 18/10/24 10:57:23 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:57:37 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:57:43 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:57:49 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:57:54 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:01 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:14 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:20 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:26 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:34 Laid cat image sent to dwagwild[31m (laid) [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:41 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:58:58 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 10:59:09 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 18/10/24 11:01:13 Cat image sent to astrosparkls [cogs.catcog]
+[OUTPUT] 18/10/24 12:10:45 Cat image sent to ventilator250 [cogs.catcog]
+[ERROR] 18/10/24 12:35:37 Failed to load extension anonmessagecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.anonmessagecog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension catcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.catcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension coupcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.coupcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.delcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension gamescog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.gamescog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension kamikazecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.kamikazecog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension logcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.logcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension moderationcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.moderationcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension reactionscog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.reactionscog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension searchcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.searchcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension securitycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.securitycog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension sexcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.sexcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension surveycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.surveycog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension teammatecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.teammatecog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension thechannelcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.thechannelcog' is already loaded.
+
+[ERROR] 18/10/24 12:35:37 Failed to load extension weekthreadcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.weekthreadcog' is already loaded.
+
+[INFO] 18/10/24 12:35:39 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 18/10/24 12:35:39 Coup cog is ready [cogs.coupcog]
+[INFO] 18/10/24 12:35:39 GamesCog cog is ready [cogs.gamescog]
+[INFO] 18/10/24 12:35:39 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 18/10/24 12:35:39 Log cog is ready [cogs.logcog]
+[INFO] 18/10/24 12:35:39 Moderation cog is ready [cogs.moderationcog]
+[INFO] 18/10/24 12:35:39 Reactions cog is ready [cogs.reactionscog]
+[INFO] 18/10/24 12:35:39 Search cog is ready [cogs.searchcog]
+[SECURITY] 18/10/24 12:35:39 Security cog is ready [cogs.securitycog]
+[INFO] 18/10/24 12:35:39 Sex cog is ready [cogs.sexcog]
+[INFO] 18/10/24 12:35:39 Survey cog is ready [cogs.surveycog]
+[INFO] 18/10/24 12:35:39 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 18/10/24 12:35:39 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 18/10/24 12:35:39 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 18/10/24 12:35:39 Text cog is ready [__main__]
+[INFO] 18/10/24 12:35:40 DelCog cog is ready [cogs.delcog]
+[INFO] 18/10/24 12:35:40 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 18/10/24 13:07:42 Thread added to archive: 1296431622215696384 [cogs.weekthreadcog]
+[INFO] 18/10/24 13:25:46 Updating thread 1296628454665621604: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 18/10/24 14:33:00 Thread added to archive: 1296797046505865299 [cogs.weekthreadcog]
+[INFO] 18/10/24 14:55:58 Thread added to archive: 1296799898695499848 [cogs.weekthreadcog]
+[INFO] 18/10/24 15:08:08 Updating thread 1296799898695499848: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 18/10/24 15:10:58 Message with ID 1296168888190373919 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 18/10/24 15:10:58 Message with ID 1296168888190373919 was added to plus one messages [cogs.reactionscog]
+[INFO] 18/10/24 15:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 16:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 16:46:46 Message with ID 1296149601728073822 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 18/10/24 16:46:46 Message with ID 1296149601728073822 was added to plus one messages [cogs.reactionscog]
+[INFO] 18/10/24 17:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 18:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 18:59:36 Updating thread 1296799898695499848: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 18/10/24 19:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 20:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 21:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 22:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 18/10/24 22:50:29 Thread added to archive: 1296830786795864185 [cogs.weekthreadcog]
+[INFO] 18/10/24 23:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 00:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 01:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 02:07:12 Thread added to archive: 1296972812661031004 [cogs.weekthreadcog]
+[OUTPUT] 19/10/24 02:21:09 Cat image sent to utkabob [cogs.catcog]
+[INFO] 19/10/24 02:58:49 Updating thread 1296972812661031004: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 19/10/24 05:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 06:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 07:33:48 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 08:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 09:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 10:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 11:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 12:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 13:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 14:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 19/10/24 14:55:51 Updating thread 1296628454665621604: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 19/10/24 15:16:17 Thread added to archive: 1297171341564448799 [cogs.weekthreadcog]
+[INFO] 19/10/24 15:33:47 Please send cat message sent [cogs.catcog]
+[OUTPUT] 19/10/24 15:34:34 Cat image sent to averito [cogs.catcog]
+[INFO] 19/10/24 18:04:33 Updating thread 1296431622215696384: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 19/10/24 18:47:46 Updating thread 1296972812661031004: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 19/10/24 18:50:22 Thread added to archive: 1297225280020287542 [cogs.weekthreadcog]
+[INFO] 19/10/24 18:54:37 Updating thread 1297225280020287542: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 19/10/24 19:12:31 Thread added to archive: 1297229654863908884 [cogs.weekthreadcog]
+[INFO] 19/10/24 19:33:47 Please send cat message sent [cogs.catcog]
+[OUTPUT] 19/10/24 19:35:15 Cat image sent to tranzistor. [cogs.catcog]
+[INFO] 19/10/24 19:45:11 Updating thread 1297229654863908884: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 19/10/24 21:07:48 Thread added to archive: 1297258998692712548 [cogs.weekthreadcog]
+[INFO] 19/10/24 21:28:47 Updating thread 1297258998692712548: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 19/10/24 21:47:59 Updating thread 1297258998692712548: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 19/10/24 23:33:47 Please send cat message sent [cogs.catcog]
+[OUTPUT] 20/10/24 00:31:00 Cat image sent to utkabob [cogs.catcog]
+[OUTPUT] 20/10/24 00:49:56 Laid cat image sent to dwagwild[31m (laid) [cogs.catcog]
+[INFO] 20/10/24 00:56:29 Thread added to archive: 1296192721110958162 [cogs.weekthreadcog]
+[OUTPUT] 20/10/24 00:58:26 Laid cat image sent to dwagwild[31m (laid) [cogs.catcog]
+[INFO] 20/10/24 01:01:20 Updating thread 1296799898695499848: old reactions count: 3, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 20/10/24 01:04:54 Updating thread 1297229654863908884: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 20/10/24 01:08:58 Updating thread 1297225280020287542: old reactions count: 2, new reaction count: 1 [cogs.weekthreadcog]
+[OUTPUT] 20/10/24 02:17:38 https://psyhelp.am/images/stories/diseases/phobias/animals_and_insects/ailurophobia.jpg [__main__]
+[INFO] 20/10/24 04:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 05:33:47 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 05:43:37 Thread added to archive: 1297387691024978011 [cogs.weekthreadcog]
+[INFO] 20/10/24 06:12:09 Updating thread 1297387691024978011: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 20/10/24 06:20:42 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 20/10/24 06:20:42 Cat cog is ready [cogs.catcog]
+[INFO] 20/10/24 06:20:42 Coup cog is ready [cogs.coupcog]
+[INFO] 20/10/24 06:20:42 GamesCog cog is ready [cogs.gamescog]
+[INFO] 20/10/24 06:20:42 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 20/10/24 06:20:42 Log cog is ready [cogs.logcog]
+[INFO] 20/10/24 06:20:42 Moderation cog is ready [cogs.moderationcog]
+[INFO] 20/10/24 06:20:42 Reactions cog is ready [cogs.reactionscog]
+[INFO] 20/10/24 06:20:42 Search cog is ready [cogs.searchcog]
+[SECURITY] 20/10/24 06:20:42 Security cog is ready [cogs.securitycog]
+[INFO] 20/10/24 06:20:42 Sex cog is ready [cogs.sexcog]
+[INFO] 20/10/24 06:20:42 Survey cog is ready [cogs.surveycog]
+[INFO] 20/10/24 06:20:42 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 20/10/24 06:20:42 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 20/10/24 06:20:42 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 20/10/24 06:20:42 Text cog is ready [__main__]
+[INFO] 20/10/24 06:20:42 DelCog cog is ready [cogs.delcog]
+[INFO] 20/10/24 06:20:42 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 06:20:43 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 20/10/24 06:37:29 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 20/10/24 06:37:29 Cat cog is ready [cogs.catcog]
+[INFO] 20/10/24 06:37:29 Coup cog is ready [cogs.coupcog]
+[INFO] 20/10/24 06:37:29 GamesCog cog is ready [cogs.gamescog]
+[INFO] 20/10/24 06:37:29 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 20/10/24 06:37:29 Log cog is ready [cogs.logcog]
+[INFO] 20/10/24 06:37:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 20/10/24 06:37:29 Reactions cog is ready [cogs.reactionscog]
+[INFO] 20/10/24 06:37:29 Search cog is ready [cogs.searchcog]
+[SECURITY] 20/10/24 06:37:29 Security cog is ready [cogs.securitycog]
+[INFO] 20/10/24 06:37:29 Sex cog is ready [cogs.sexcog]
+[INFO] 20/10/24 06:37:29 Survey cog is ready [cogs.surveycog]
+[INFO] 20/10/24 06:37:29 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 20/10/24 06:37:29 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 20/10/24 06:37:29 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 20/10/24 06:37:29 Text cog is ready [__main__]
+[INFO] 20/10/24 06:37:30 DelCog cog is ready [cogs.delcog]
+[INFO] 20/10/24 06:37:30 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 06:37:30 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 20/10/24 07:37:30 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 08:37:11 Updating thread 1297225280020287542: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 20/10/24 08:37:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 20/10/24 08:38:17 Cat image sent to dwagwild [cogs.catcog]
+[INFO] 20/10/24 12:37:30 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 12:44:20 Updating thread 1297229654863908884: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 20/10/24 12:57:05 Updating thread 1297258998692712548: old reactions count: 3, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 20/10/24 12:57:22 Thread added to archive: 1297496856934219787 [cogs.weekthreadcog]
+[INFO] 20/10/24 13:37:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 20/10/24 13:44:18 Cat image sent to bruh.0444 [cogs.catcog]
+[OUTPUT] 20/10/24 13:59:33 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 20/10/24 14:00:14 Laid cat image sent to .panzon[31m (laid) [cogs.catcog]
+[OUTPUT] 20/10/24 14:02:48 Cat image sent to cccvet4 [cogs.catcog]
+[OUTPUT] 20/10/24 14:03:32 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 20/10/24 14:03:42 Cat image sent to dwagwild [cogs.catcog]
+[OUTPUT] 20/10/24 14:04:19 Cat image sent to dwagwild [cogs.catcog]
+[INFO] 20/10/24 15:18:33 Thread added to archive: 1297469398231285781 [cogs.weekthreadcog]
+[INFO] 20/10/24 16:32:04 Thread added to archive: 1297545633489489994 [cogs.weekthreadcog]
+[INFO] 20/10/24 16:32:07 Thread 1297545633489489994 has no reactions, removing from archive [cogs.weekthreadcog]
+[OUTPUT] 20/10/24 16:44:57 Cat image sent to cccvet4 [cogs.catcog]
+[INFO] 20/10/24 16:51:28 Thread added to archive: 1297545633489489994 [cogs.weekthreadcog]
+[OUTPUT] 20/10/24 16:56:12 Cat image sent to bruh.0444 [cogs.catcog]
+[INFO] 20/10/24 17:18:20 Updating thread 1297545633489489994: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 20/10/24 19:20:56 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 20/10/24 19:20:56 Cat cog is ready [cogs.catcog]
+[INFO] 20/10/24 19:20:56 Coup cog is ready [cogs.coupcog]
+[INFO] 20/10/24 19:20:56 GamesCog cog is ready [cogs.gamescog]
+[INFO] 20/10/24 19:20:56 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 20/10/24 19:20:56 Log cog is ready [cogs.logcog]
+[INFO] 20/10/24 19:20:56 Moderation cog is ready [cogs.moderationcog]
+[INFO] 20/10/24 19:20:56 Reactions cog is ready [cogs.reactionscog]
+[INFO] 20/10/24 19:20:56 Search cog is ready [cogs.searchcog]
+[SECURITY] 20/10/24 19:20:56 Security cog is ready [cogs.securitycog]
+[INFO] 20/10/24 19:20:56 Sex cog is ready [cogs.sexcog]
+[INFO] 20/10/24 19:20:56 Survey cog is ready [cogs.surveycog]
+[INFO] 20/10/24 19:20:56 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 20/10/24 19:20:56 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 20/10/24 19:20:56 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 20/10/24 19:20:56 Text cog is ready [__main__]
+[INFO] 20/10/24 19:20:56 DelCog cog is ready [cogs.delcog]
+[INFO] 20/10/24 19:20:56 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 20/10/24 20:05:29 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 20/10/24 20:05:29 Cat cog is ready [cogs.catcog]
+[INFO] 20/10/24 20:05:29 Coup cog is ready [cogs.coupcog]
+[INFO] 20/10/24 20:05:29 GamesCog cog is ready [cogs.gamescog]
+[INFO] 20/10/24 20:05:29 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 20/10/24 20:05:29 Log cog is ready [cogs.logcog]
+[INFO] 20/10/24 20:05:29 Moderation cog is ready [cogs.moderationcog]
+[INFO] 20/10/24 20:05:29 Reactions cog is ready [cogs.reactionscog]
+[INFO] 20/10/24 20:05:29 Search cog is ready [cogs.searchcog]
+[SECURITY] 20/10/24 20:05:29 Security cog is ready [cogs.securitycog]
+[INFO] 20/10/24 20:05:29 Sex cog is ready [cogs.sexcog]
+[INFO] 20/10/24 20:05:29 Survey cog is ready [cogs.surveycog]
+[INFO] 20/10/24 20:05:29 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 20/10/24 20:05:29 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 20/10/24 20:05:29 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 20/10/24 20:05:29 Text cog is ready [__main__]
+[INFO] 20/10/24 20:05:30 DelCog cog is ready [cogs.delcog]
+[INFO] 20/10/24 20:05:30 Please send cat message sent [cogs.catcog]
+[INFO] 20/10/24 20:05:30 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 20/10/24 20:06:44 Cat image sent to maninthemirror0604 [cogs.catcog]
+[INFO] 20/10/24 20:32:30 Updating thread 1297225280020287542: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 20/10/24 20:33:52 Message with ID 1297585599569723537 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 20/10/24 20:33:52 Message with ID 1297585599569723537 was added to featured messages [cogs.reactionscog]
+[INFO] 20/10/24 22:42:07 Message with ID 1297454927840546877 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 20/10/24 22:42:07 Message with ID 1297454927840546877 was added to featured messages [cogs.reactionscog]
+[INFO] 20/10/24 23:07:53 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 20/10/24 23:07:59 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 20/10/24 23:08:00 『💻』команды-для-ботов: Russian Roulette:  Muted [cogs.gamescog]
+[INFO] 21/10/24 00:05:30 Please send cat message sent [cogs.catcog]
+[INFO] 21/10/24 01:05:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 21/10/24 01:29:54 Cat image sent to black_shadow3581 [cogs.catcog]
+[INFO] 21/10/24 05:05:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 21/10/24 05:05:48 Cat image sent to .panzon [cogs.catcog]
+[INFO] 21/10/24 07:50:01 Updating thread 1296972812661031004: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 21/10/24 07:50:01 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 21/10/24 08:03:36 Updating thread 1297545633489489994: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 21/10/24 08:03:36 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 21/10/24 09:05:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 21/10/24 09:17:24 Cat image sent to _loka_ [cogs.catcog]
+[OUTPUT] 21/10/24 09:21:10 Cat image sent to mozeon228 [cogs.catcog]
+[INFO] 21/10/24 10:04:05 Updating thread 1296799898695499848: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 21/10/24 10:04:05 No threads to choose from this week [cogs.weekthreadcog]
+[INFO] 21/10/24 13:05:30 Please send cat message sent [cogs.catcog]
+[INFO] 21/10/24 14:05:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 21/10/24 14:06:02 Cat image sent to your0starlight_ [cogs.catcog]
+[INFO] 21/10/24 15:41:07 Message with ID 1297754334720950364 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 21/10/24 15:41:07 Message with ID 1297754334720950364 was added to featured messages [cogs.reactionscog]
+[INFO] 21/10/24 16:29:30 Thread added to archive: 1297911120576905316 [cogs.weekthreadcog]
+[INFO] 21/10/24 16:42:43 Updating thread 1297911120576905316: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 21/10/24 16:46:57 Updating thread 1297911120576905316: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 21/10/24 16:49:31 Updating thread 1297911120576905316: old reactions count: 3, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 21/10/24 18:05:30 Please send cat message sent [cogs.catcog]
+[INFO] 21/10/24 19:05:30 Please send cat message sent [cogs.catcog]
+[OUTPUT] 21/10/24 19:06:15 Cat image sent to tranzistor. [cogs.catcog]
+[INFO] 21/10/24 19:28:11 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 21/10/24 19:28:11 Cat cog is ready [cogs.catcog]
+[INFO] 21/10/24 19:28:11 Coup cog is ready [cogs.coupcog]
+[INFO] 21/10/24 19:28:11 GamesCog cog is ready [cogs.gamescog]
+[INFO] 21/10/24 19:28:11 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 21/10/24 19:28:11 Log cog is ready [cogs.logcog]
+[INFO] 21/10/24 19:28:11 Moderation cog is ready [cogs.moderationcog]
+[INFO] 21/10/24 19:28:11 Reactions cog is ready [cogs.reactionscog]
+[INFO] 21/10/24 19:28:11 Search cog is ready [cogs.searchcog]
+[SECURITY] 21/10/24 19:28:11 Security cog is ready [cogs.securitycog]
+[INFO] 21/10/24 19:28:11 Sex cog is ready [cogs.sexcog]
+[INFO] 21/10/24 19:28:11 Survey cog is ready [cogs.surveycog]
+[INFO] 21/10/24 19:28:11 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 21/10/24 19:28:11 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 21/10/24 19:28:11 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 21/10/24 19:28:11 Text cog is ready [__main__]
+[INFO] 21/10/24 19:28:12 DelCog cog is ready [cogs.delcog]
+[INFO] 21/10/24 19:28:12 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 21/10/24 19:33:26 Message with ID 1297914289453142057 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 21/10/24 19:33:26 Message with ID 1297914289453142057 was added to featured messages [cogs.reactionscog]
+[INFO] 21/10/24 19:44:16 Message with ID 1297918006436823052 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 21/10/24 19:44:16 Message with ID 1297918006436823052 was added to admin featured messages [cogs.reactionscog]
+[INFO] 21/10/24 20:32:20 Message with ID 1297465755566346250 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 21/10/24 20:32:20 Message with ID 1297465755566346250 was added to admin featured messages [cogs.reactionscog]
+[INFO] 21/10/24 20:56:42 Updating thread 1297258998692712548: old reactions count: 1, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 21/10/24 21:48:43 Updating thread 1297229654863908884: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 21/10/24 22:28:12 Please send cat message sent [cogs.catcog]
+[INFO] 21/10/24 23:28:12 Please send cat message sent [cogs.catcog]
+[INFO] 22/10/24 00:28:12 Please send cat message sent [cogs.catcog]
+[INFO] 22/10/24 01:01:42 Updating thread 1297545633489489994: old reactions count: 3, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 22/10/24 01:01:44 Updating thread 1297545633489489994: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 22/10/24 01:28:12 Please send cat message sent [cogs.catcog]
+[INFO] 22/10/24 01:51:09 Updating thread 1297911120576905316: old reactions count: 1, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 22/10/24 02:08:58 Updating thread 1296799898695499848: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 22/10/24 02:28:12 Please send cat message sent [cogs.catcog]
+[OUTPUT] 22/10/24 02:41:03 Cat image sent to .panzon [cogs.catcog]
+[INFO] 22/10/24 03:23:25 Updating thread 1296972812661031004: old reactions count: 4, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 22/10/24 05:06:25 Updating thread 1296972812661031004: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 22/10/24 05:06:25 Updating thread 1296972812661031004: old reactions count: 2, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 22/10/24 05:06:26 Updating thread 1296972812661031004: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[OUTPUT] 22/10/24 05:07:45 Cat image sent to black_shadow3581 [cogs.catcog]
+[OUTPUT] 22/10/24 05:08:08 Cat image sent to black_shadow3581 [cogs.catcog]
+[INFO] 22/10/24 05:38:06 Updating thread 1296972812661031004: old reactions count: 2, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 22/10/24 05:54:58 Message with ID 1298052448732053626 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 22/10/24 05:54:58 Message with ID 1298052448732053626 was added to admin featured messages [cogs.reactionscog]
+[INFO] 22/10/24 08:28:12 Please send cat message sent [cogs.catcog]
+[OUTPUT] 22/10/24 08:29:37 Cat image sent to tranzistor. [cogs.catcog]
+[INFO] 22/10/24 08:57:27 Message with ID 1297917880263905301 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 22/10/24 08:57:27 Message with ID 1297917880263905301 was added to admin featured messages [cogs.reactionscog]
+[INFO] 22/10/24 10:43:09 Updating thread 1297229654863908884: old reactions count: 5, new reaction count: 6 [cogs.weekthreadcog]
+[INFO] 22/10/24 12:17:24 Updating thread 1296972812661031004: old reactions count: 1, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 22/10/24 12:28:12 Please send cat message sent [cogs.catcog]
+[INFO] 22/10/24 13:28:12 Please send cat message sent [cogs.catcog]
+[OUTPUT] 22/10/24 13:28:55 Cat image sent to utkabob [cogs.catcog]
+[INFO] 22/10/24 13:31:21 Updating thread 1296972812661031004: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[OUTPUT] 22/10/24 16:06:44 Cat image sent to _loka_ [cogs.catcog]
+[INFO] 22/10/24 17:54:17 Updating thread 1297225280020287542: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 22/10/24 17:54:20 Thread added to archive: 1298294936877137951 [cogs.weekthreadcog]
+[INFO] 22/10/24 19:28:12 Please send cat message sent [cogs.catcog]
+[OUTPUT] 22/10/24 19:28:24 Cat image sent to tranzistor. [cogs.catcog]
+[INFO] 22/10/24 21:33:16 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 22/10/24 21:33:16 Cat cog is ready [cogs.catcog]
+[INFO] 22/10/24 21:33:16 Coup cog is ready [cogs.coupcog]
+[INFO] 22/10/24 21:33:16 GamesCog cog is ready [cogs.gamescog]
+[INFO] 22/10/24 21:33:16 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 22/10/24 21:33:16 Log cog is ready [cogs.logcog]
+[INFO] 22/10/24 21:33:16 Moderation cog is ready [cogs.moderationcog]
+[INFO] 22/10/24 21:33:16 Reactions cog is ready [cogs.reactionscog]
+[INFO] 22/10/24 21:33:16 Search cog is ready [cogs.searchcog]
+[SECURITY] 22/10/24 21:33:16 Security cog is ready [cogs.securitycog]
+[INFO] 22/10/24 21:33:16 Sex cog is ready [cogs.sexcog]
+[INFO] 22/10/24 21:33:16 Survey cog is ready [cogs.surveycog]
+[INFO] 22/10/24 21:33:16 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 22/10/24 21:33:16 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 22/10/24 21:33:16 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 22/10/24 21:33:16 Text cog is ready [__main__]
+[INFO] 22/10/24 21:33:16 DelCog cog is ready [cogs.delcog]
+[INFO] 22/10/24 21:33:17 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 22/10/24 22:33:16 Please send cat message sent [cogs.catcog]
+[OUTPUT] 22/10/24 22:33:24 Cat image sent to artem076187 [cogs.catcog]
+[INFO] 23/10/24 01:20:33 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 23/10/24 01:20:33 Cat cog is ready [cogs.catcog]
+[INFO] 23/10/24 01:20:33 Coup cog is ready [cogs.coupcog]
+[INFO] 23/10/24 01:20:33 GamesCog cog is ready [cogs.gamescog]
+[INFO] 23/10/24 01:20:33 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 23/10/24 01:20:33 Log cog is ready [cogs.logcog]
+[INFO] 23/10/24 01:20:33 Moderation cog is ready [cogs.moderationcog]
+[INFO] 23/10/24 01:20:33 Reactions cog is ready [cogs.reactionscog]
+[INFO] 23/10/24 01:20:33 Search cog is ready [cogs.searchcog]
+[SECURITY] 23/10/24 01:20:33 Security cog is ready [cogs.securitycog]
+[INFO] 23/10/24 01:20:33 Sex cog is ready [cogs.sexcog]
+[INFO] 23/10/24 01:20:33 Survey cog is ready [cogs.surveycog]
+[INFO] 23/10/24 01:20:33 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 23/10/24 01:20:33 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 23/10/24 01:20:33 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 23/10/24 01:20:33 Text cog is ready [__main__]
+[INFO] 23/10/24 01:20:33 DelCog cog is ready [cogs.delcog]
+[INFO] 23/10/24 01:20:33 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 23/10/24 02:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 23/10/24 02:31:06 Laid cat image sent to .panzon[31m (laid) [cogs.catcog]
+[INFO] 23/10/24 06:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 23/10/24 07:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 23/10/24 07:23:16 Cat image sent to revinesa [cogs.catcog]
+[OUTPUT] 23/10/24 07:46:17 Cat image sent to .panzon [cogs.catcog]
+[INFO] 23/10/24 11:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 23/10/24 11:20:42 Cat image sent to .panzon [cogs.catcog]
+[INFO] 23/10/24 14:57:30 Message with ID 1298572199946485841 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 23/10/24 14:57:30 Message with ID 1298572199946485841 was added to featured messages [cogs.reactionscog]
+[ERROR] 23/10/24 15:13:06 Failed to load extension anonmessagecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.anonmessagecog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension catcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.catcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension coupcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.coupcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension delcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.delcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension gamescog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.gamescog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension kamikazecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.kamikazecog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension logcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.logcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension moderationcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.moderationcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension reactionscog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.reactionscog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension searchcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.searchcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension securitycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.securitycog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension sexcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.sexcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension surveycog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.surveycog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension teammatecog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.teammatecog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension thechannelcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.thechannelcog' is already loaded.
+
+[ERROR] 23/10/24 15:13:06 Failed to load extension weekthreadcog.py [__main__]Traceback (most recent call last):
+  File "c:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\main.py", line 382, in load_cogs
+    await bot.load_extension(f"cogs.{filename[:-3]}")
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1023, in load_extension
+    raise errors.ExtensionAlreadyLoaded(name)
+discord.ext.commands.errors.ExtensionAlreadyLoaded: Extension 'cogs.weekthreadcog' is already loaded.
+
+[INFO] 23/10/24 15:13:09 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 23/10/24 15:13:09 Coup cog is ready [cogs.coupcog]
+[INFO] 23/10/24 15:13:09 GamesCog cog is ready [cogs.gamescog]
+[INFO] 23/10/24 15:13:09 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 23/10/24 15:13:09 Log cog is ready [cogs.logcog]
+[INFO] 23/10/24 15:13:09 Moderation cog is ready [cogs.moderationcog]
+[INFO] 23/10/24 15:13:09 Reactions cog is ready [cogs.reactionscog]
+[INFO] 23/10/24 15:13:09 Search cog is ready [cogs.searchcog]
+[SECURITY] 23/10/24 15:13:09 Security cog is ready [cogs.securitycog]
+[INFO] 23/10/24 15:13:09 Sex cog is ready [cogs.sexcog]
+[INFO] 23/10/24 15:13:09 Survey cog is ready [cogs.surveycog]
+[INFO] 23/10/24 15:13:09 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 23/10/24 15:13:09 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 23/10/24 15:13:09 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 23/10/24 15:13:09 Text cog is ready [__main__]
+[INFO] 23/10/24 15:13:09 DelCog cog is ready [cogs.delcog]
+[INFO] 23/10/24 15:13:10 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 23/10/24 15:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 23/10/24 16:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 23/10/24 16:55:30 Updating thread 1297225280020287542: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 23/10/24 17:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 23/10/24 17:42:33 Cat image sent to zadikommia [cogs.catcog]
+[OUTPUT] 23/10/24 18:57:10 Cat image sent to hamelonov [cogs.catcog]
+[INFO] 23/10/24 19:00:12 Thread added to archive: 1298673297680236585 [cogs.weekthreadcog]
+[INFO] 23/10/24 19:00:13 Thread added to archive: 1298676260460957717 [cogs.weekthreadcog]
+[INFO] 23/10/24 19:22:44 Updating thread 1298676260460957717: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 23/10/24 19:22:55 Updating thread 1298676260460957717: old reactions count: 2, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 23/10/24 20:45:56 Thread added to archive: 1298703944792408116 [cogs.weekthreadcog]
+[INFO] 23/10/24 20:49:05 Updating thread 1298703944792408116: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 23/10/24 21:09:26 Message with ID 1295950203618201612 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 23/10/24 21:09:26 Message with ID 1295950203618201612 was added to plus one messages [cogs.reactionscog]
+[ERROR] 23/10/24 21:19:15 REMOVE_FROM_F_FILE: Message with ID 1298709890318995519 was not found in featured messages [cogs.reactionscog]
+[INFO] 23/10/24 21:19:16 Message with ID 1298709890318995519 was removed from featured messages [cogs.reactionscog]
+[INFO] 23/10/24 22:15:35 Message with ID 1298555382540664852 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 23/10/24 22:15:35 Message with ID 1298555382540664852 was added to featured messages [cogs.reactionscog]
+[INFO] 23/10/24 22:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 23/10/24 22:21:33 Cat image sent to hollowlord. [cogs.catcog]
+[INFO] 23/10/24 22:30:18 Message with ID 1298686337460863078 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 23/10/24 22:30:18 Message with ID 1298686337460863078 was added to admin featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:45:42 Message with ID 1298484736150474813 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:45:42 Message with ID 1298484736150474813 was added to admin featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:46:52 Message with ID 1298653506529525834 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:46:52 Message with ID 1298653506529525834 was added to admin featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:51:31 Updating thread 1296972812661031004: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 24/10/24 00:51:39 Message with ID 1298048063566250014 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:51:39 Message with ID 1298048063566250014 was added to featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:52:31 Message with ID 1298295046977884230 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 24/10/24 00:52:31 Message with ID 1298295046977884230 was added to plus one messages [cogs.reactionscog]
+[INFO] 24/10/24 02:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 24/10/24 02:32:25 Cat image sent to oguzok3833 [cogs.catcog]
+[INFO] 24/10/24 06:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 07:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 07:36:03 Updating thread 1298673297680236585: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 07:36:04 Updating thread 1298673297680236585: old reactions count: 2, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 24/10/24 07:39:46 Updating thread 1298673297680236585: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 08:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 09:01:19 Updating thread 1298676260460957717: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 09:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 10:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 11:00:12 Updating thread 1298294936877137951: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 11:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 12:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 12:28:00 Thread added to archive: 1298785070538293289 [cogs.weekthreadcog]
+[INFO] 24/10/24 13:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 13:44:31 Updating thread 1298673297680236585: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 24/10/24 14:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 15:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 24/10/24 15:25:50 Cat image sent to bruh.0444 [cogs.catcog]
+[INFO] 24/10/24 15:39:29 Message with ID 1298984443473559573 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 24/10/24 15:39:29 Message with ID 1298984443473559573 was added to admin featured messages [cogs.reactionscog]
+[OUTPUT] 24/10/24 15:48:15 Cat image sent to cccvet4 [cogs.catcog]
+[OUTPUT] 24/10/24 16:28:32 Cat image sent to ventilator250 [cogs.catcog]
+[INFO] 24/10/24 18:37:09 Updating thread 1298785070538293289: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 19:42:36 Thread added to archive: 1299049661952294973 [cogs.weekthreadcog]
+[INFO] 24/10/24 19:45:21 Updating thread 1299049661952294973: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 24/10/24 19:54:46 Updating thread 1299049661952294973: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 24/10/24 19:55:09 Updating thread 1299049661952294973: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 24/10/24 20:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 24/10/24 21:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 24/10/24 21:20:42 Cat image sent to torenkred [cogs.catcog]
+[INFO] 24/10/24 21:28:05 Updating thread 1299049661952294973: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 24/10/24 21:29:15 Thread added to archive: 1299012763649310773 [cogs.weekthreadcog]
+[INFO] 25/10/24 00:28:17 Updating thread 1298785070538293289: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 25/10/24 00:43:33 Thread added to archive: 1299049331462111272 [cogs.weekthreadcog]
+[INFO] 25/10/24 01:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 02:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 03:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 25/10/24 03:24:06 Cat image sent to utkabob [cogs.catcog]
+[INFO] 25/10/24 03:45:03 Thread added to archive: 1299171814974423073 [cogs.weekthreadcog]
+[INFO] 25/10/24 05:52:43 Message with ID 1294998221638209568 was sent to forum featured messages [cogs.reactionscog]
+[INFO] 25/10/24 05:52:43 Message with ID 1294998221638209568 was added to plus one messages [cogs.reactionscog]
+[INFO] 25/10/24 07:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 08:20:33 Please send cat message sent [cogs.catcog]
+[OUTPUT] 25/10/24 08:23:18 Cat image sent to takumi_akutagawa [cogs.catcog]
+[OUTPUT] 25/10/24 08:54:39 Cat image sent to maninthemirror0604 [cogs.catcog]
+[INFO] 25/10/24 10:07:44 Thread added to archive: 1299267838825205790 [cogs.weekthreadcog]
+[INFO] 25/10/24 10:08:28 Updating thread 1299267838825205790: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 25/10/24 10:47:35 Thread added to archive: 1299277325258723349 [cogs.weekthreadcog]
+[INFO] 25/10/24 10:57:24 Updating thread 1299267838825205790: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 25/10/24 10:58:49 Updating thread 1299277325258723349: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 25/10/24 12:20:34 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 12:43:31 Message with ID 1291866716141518971 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 25/10/24 12:43:31 Message with ID 1291866716141518971 was added to admin featured messages [cogs.reactionscog]
+[INFO] 25/10/24 13:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 14:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 14:23:05 Updating thread 1299267838825205790: old reactions count: 3, new reaction count: 1 [cogs.weekthreadcog]
+[INFO] 25/10/24 14:39:13 Updating thread 1299171814974423073: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 25/10/24 14:51:14 Updating thread 1299171814974423073: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 25/10/24 14:53:29 Updating thread 1299267838825205790: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 25/10/24 14:56:49 Updating thread 1299171814974423073: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 25/10/24 15:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 16:12:12 Updating thread 1299012763649310773: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 25/10/24 16:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 17:20:33 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 17:30:23 Message with ID 1299301686237728798 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 25/10/24 17:30:23 Message with ID 1299301686237728798 was added to featured messages [cogs.reactionscog]
+[INFO] 25/10/24 17:30:26 Message with ID 1299301914466320445 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 25/10/24 17:30:26 Message with ID 1299301914466320445 was added to featured messages [cogs.reactionscog]
+[INFO] 25/10/24 18:20:35 Please send cat message sent [cogs.catcog]
+[INFO] 25/10/24 18:50:37 Thread added to archive: 1299394694274482289 [cogs.weekthreadcog]
+[INFO] 25/10/24 18:51:21 Updating thread 1299394694274482289: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 26/10/24 18:00:28 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 26/10/24 18:00:28 Cat cog is ready [cogs.catcog]
+[INFO] 26/10/24 18:00:28 Coup cog is ready [cogs.coupcog]
+[INFO] 26/10/24 18:00:28 GamesCog cog is ready [cogs.gamescog]
+[INFO] 26/10/24 18:00:28 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 26/10/24 18:00:28 Log cog is ready [cogs.logcog]
+[INFO] 26/10/24 18:00:28 Moderation cog is ready [cogs.moderationcog]
+[INFO] 26/10/24 18:00:28 Reactions cog is ready [cogs.reactionscog]
+[INFO] 26/10/24 18:00:28 Search cog is ready [cogs.searchcog]
+[SECURITY] 26/10/24 18:00:28 Security cog is ready [cogs.securitycog]
+[INFO] 26/10/24 18:00:28 Sex cog is ready [cogs.sexcog]
+[INFO] 26/10/24 18:00:28 Survey cog is ready [cogs.surveycog]
+[INFO] 26/10/24 18:00:28 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 26/10/24 18:00:28 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 26/10/24 18:00:28 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 26/10/24 18:00:28 Text cog is ready [__main__]
+[INFO] 26/10/24 18:00:29 DelCog cog is ready [cogs.delcog]
+[INFO] 26/10/24 18:00:29 Please send cat message sent [cogs.catcog]
+[INFO] 26/10/24 18:00:29 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 26/10/24 18:00:35 Message with ID 1299480041083764909 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:00:35 Message with ID 1299480041083764909 was added to featured messages [cogs.reactionscog]
+[ERROR] 26/10/24 18:00:41 REMOVE_FROM_F_FILE: Message with ID 1299379558134448198 was not found in featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:00:41 Message with ID 1299379558134448198 was removed from featured messages [cogs.reactionscog]
+[ERROR] 26/10/24 18:00:44 REMOVE_FROM_F_FILE: Message with ID 1299379545412993165 was not found in featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:00:44 Message with ID 1299379545412993165 was removed from featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:01:20 Message with ID 1299426753667661835 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:01:20 Message with ID 1299426753667661835 was added to featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:03:34 Message with ID 1299302365098283050 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 26/10/24 18:03:34 Message with ID 1299302365098283050 was added to featured messages [cogs.reactionscog]
+[INFO] 26/10/24 19:00:32 Please send cat message sent [cogs.catcog]
+[INFO] 26/10/24 20:00:29 Please send cat message sent [cogs.catcog]
+[INFO] 26/10/24 21:00:29 Please send cat message sent [cogs.catcog]
+[INFO] 26/10/24 21:08:07 Thread added to archive: 1299522002360729651 [cogs.weekthreadcog]
+[INFO] 26/10/24 21:08:17 Updating thread 1299522002360729651: old reactions count: 5, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 26/10/24 21:08:19 Updating thread 1299522002360729651: old reactions count: 4, new reaction count: 5 [cogs.weekthreadcog]
+[INFO] 26/10/24 21:52:00 Thread added to archive: 1299801815864311938 [cogs.weekthreadcog]
+[INFO] 26/10/24 21:54:19 Updating thread 1299801815864311938: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 26/10/24 22:00:29 Please send cat message sent [cogs.catcog]
+[OUTPUT] 26/10/24 22:00:52 Cat image sent to maninthemirror0604 [cogs.catcog]
+[INFO] 26/10/24 22:19:44 Survey 1294371853023838302 updated [cogs.surveycog]
+[INFO] 26/10/24 23:46:46 Updating thread 1296972812661031004: old reactions count: 5, new reaction count: 6 [cogs.weekthreadcog]
+[INFO] 26/10/24 23:49:06 Updating thread 1299801815864311938: old reactions count: 2, new reaction count: 3 [cogs.weekthreadcog]
+[INFO] 27/10/24 02:00:29 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 16:44:37 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 27/10/24 16:44:37 Cat cog is ready [cogs.catcog]
+[INFO] 27/10/24 16:44:37 Coup cog is ready [cogs.coupcog]
+[INFO] 27/10/24 16:44:37 GamesCog cog is ready [cogs.gamescog]
+[INFO] 27/10/24 16:44:37 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 27/10/24 16:44:37 Log cog is ready [cogs.logcog]
+[INFO] 27/10/24 16:44:37 Moderation cog is ready [cogs.moderationcog]
+[INFO] 27/10/24 16:44:37 Reactions cog is ready [cogs.reactionscog]
+[INFO] 27/10/24 16:44:37 Search cog is ready [cogs.searchcog]
+[SECURITY] 27/10/24 16:44:37 Security cog is ready [cogs.securitycog]
+[INFO] 27/10/24 16:44:37 Sex cog is ready [cogs.sexcog]
+[INFO] 27/10/24 16:44:37 Survey cog is ready [cogs.surveycog]
+[INFO] 27/10/24 16:44:37 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 27/10/24 16:44:37 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 27/10/24 16:44:37 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 27/10/24 16:44:37 Text cog is ready [__main__]
+[INFO] 27/10/24 16:44:38 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 16:44:38 DelCog cog is ready [cogs.delcog]
+[INFO] 27/10/24 16:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 17:44:39 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 17:44:39 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 18:44:38 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 18:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 19:44:38 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 19:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 20:44:38 Please send cat message sent [cogs.catcog]
+[INFO] 27/10/24 20:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 27/10/24 20:50:55 Cat image sent to maninthemirror0604 [cogs.catcog]
+[INFO] 27/10/24 20:56:28 Message with ID 1299980836984066059 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 27/10/24 20:56:28 Message with ID 1299980836984066059 was added to admin featured messages [cogs.reactionscog]
+[INFO] 27/10/24 21:29:14 『💻』команды-для-ботов: Russian Roulette:  Russian_rouletteed [cogs.gamescog]
+[INFO] 27/10/24 21:40:39 Message with ID 1285302586034884680 was added to featured messages [cogs.reactionscog]
+[INFO] 27/10/24 21:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 22:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 27/10/24 23:44:38 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 28/10/24 18:02:00 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 28/10/24 18:02:00 Cat cog is ready [cogs.catcog]
+[INFO] 28/10/24 18:02:00 Coup cog is ready [cogs.coupcog]
+[INFO] 28/10/24 18:02:00 GamesCog cog is ready [cogs.gamescog]
+[INFO] 28/10/24 18:02:00 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 28/10/24 18:02:00 Log cog is ready [cogs.logcog]
+[INFO] 28/10/24 18:02:00 Moderation cog is ready [cogs.moderationcog]
+[INFO] 28/10/24 18:02:00 Reactions cog is ready [cogs.reactionscog]
+[INFO] 28/10/24 18:02:00 Search cog is ready [cogs.searchcog]
+[SECURITY] 28/10/24 18:02:00 Security cog is ready [cogs.securitycog]
+[INFO] 28/10/24 18:02:00 Sex cog is ready [cogs.sexcog]
+[INFO] 28/10/24 18:02:00 Survey cog is ready [cogs.surveycog]
+[INFO] 28/10/24 18:02:00 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 28/10/24 18:02:00 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 28/10/24 18:02:00 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 28/10/24 18:02:00 Text cog is ready [__main__]
+[INFO] 28/10/24 18:02:00 DelCog cog is ready [cogs.delcog]
+[INFO] 28/10/24 18:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 28/10/24 18:02:01 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 28/10/24 18:03:14 Embed message sent with title Какая тема вам наиболее интересна для обсуждения на следующей сходке? and color #9b59b6 [__main__]
+[OUTPUT] 28/10/24 18:05:25 Cat image sent to utkabob [cogs.catcog]
+[INFO] 28/10/24 19:02:01 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 28/10/24 19:17:00 Thread added to archive: 1300477838218104973 [cogs.weekthreadcog]
+[INFO] 28/10/24 19:34:15 Message with ID 1300435673446223944 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 28/10/24 19:34:15 Message with ID 1300435673446223944 was added to featured messages [cogs.reactionscog]
+[INFO] 28/10/24 19:57:41 Message with ID 1300050700658671706 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 28/10/24 19:57:41 Message with ID 1300050700658671706 was added to featured messages [cogs.reactionscog]
+[INFO] 28/10/24 19:57:44 Message with ID 1300107762386206763 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 28/10/24 19:57:44 Message with ID 1300107762386206763 was added to featured messages [cogs.reactionscog]
+[INFO] 28/10/24 20:02:01 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 28/10/24 22:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 28/10/24 23:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 00:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 00:06:03 Thread added to archive: 1300546519195193384 [cogs.weekthreadcog]
+[INFO] 29/10/24 01:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 02:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 03:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 04:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 05:02:01 Please send cat message sent [cogs.catcog]
+[OUTPUT] 29/10/24 05:47:44 Cat image sent to ftmxapek [cogs.catcog]
+[OUTPUT] 29/10/24 05:49:10 Cat image sent to ftmxapek [cogs.catcog]
+[INFO] 29/10/24 07:24:48 Updating thread 1300477838218104973: old reactions count: 3, new reaction count: 4 [cogs.weekthreadcog]
+[INFO] 29/10/24 08:13:52 Thread added to archive: 1300595254650732625 [cogs.weekthreadcog]
+[INFO] 29/10/24 09:02:00 Please send cat message sent [cogs.catcog]
+[ERROR] 29/10/24 09:11:35 Command '?perchik-kapusta' not find. Channel: 『🌐』основной [discord.client]
+[INFO] 29/10/24 10:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 11:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 12:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 13:02:00 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 14:02:00 Please send cat message sent [cogs.catcog]
+[OUTPUT] 29/10/24 14:22:15 Cat image sent to aliveinlife [cogs.catcog]
+[INFO] 29/10/24 14:31:23 Thread added to archive: 1300568350459564122 [cogs.weekthreadcog]
+[INFO] 29/10/24 15:02:33 Updating thread 1300568350459564122: old reactions count: 1, new reaction count: 2 [cogs.weekthreadcog]
+[INFO] 29/10/24 16:09:40 Message with ID 1300810095701262356 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 16:09:40 Message with ID 1300810095701262356 was added to admin featured messages [cogs.reactionscog]
+[INFO] 29/10/24 18:12:12 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 29/10/24 18:12:12 Cat cog is ready [cogs.catcog]
+[INFO] 29/10/24 18:12:12 Coup cog is ready [cogs.coupcog]
+[INFO] 29/10/24 18:12:12 GamesCog cog is ready [cogs.gamescog]
+[INFO] 29/10/24 18:12:12 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 29/10/24 18:12:12 Log cog is ready [cogs.logcog]
+[INFO] 29/10/24 18:12:12 Moderation cog is ready [cogs.moderationcog]
+[INFO] 29/10/24 18:12:12 Reactions cog is ready [cogs.reactionscog]
+[INFO] 29/10/24 18:12:12 Search cog is ready [cogs.searchcog]
+[SECURITY] 29/10/24 18:12:12 Security cog is ready [cogs.securitycog]
+[INFO] 29/10/24 18:12:12 Sex cog is ready [cogs.sexcog]
+[INFO] 29/10/24 18:12:12 Survey cog is ready [cogs.surveycog]
+[INFO] 29/10/24 18:12:12 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 29/10/24 18:12:12 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 29/10/24 18:12:12 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 29/10/24 18:12:12 Text cog is ready [__main__]
+[INFO] 29/10/24 18:12:13 DelCog cog is ready [cogs.delcog]
+[INFO] 29/10/24 18:12:13 Please send cat message sent [cogs.catcog]
+[INFO] 29/10/24 18:12:13 WeekThread date was checked [cogs.weekthreadcog]
+[OUTPUT] 29/10/24 18:12:42 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:15:14 Cat image sent to kikodoo [cogs.catcog]
+[OUTPUT] 29/10/24 18:15:51 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:20:58 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:21:09 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:21:18 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:21:48 Cat image sent to gentelmann [cogs.catcog]
+[OUTPUT] 29/10/24 18:28:20 Cat image sent to kikodoo [cogs.catcog]
+[INFO] 29/10/24 18:29:13 Message with ID 1291609245363605514 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 18:29:13 Message with ID 1291609245363605514 was added to featured messages [cogs.reactionscog]
+[INFO] 29/10/24 20:08:21 Message with ID 1300823580845670400 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 20:08:21 Message with ID 1300823580845670400 was added to plus one messages [cogs.reactionscog]
+[INFO] 29/10/24 22:12:13 Please send cat message sent [cogs.catcog]
+[OUTPUT] 29/10/24 22:12:27 Cat image sent to hollowlord. [cogs.catcog]
+[OUTPUT] 29/10/24 22:16:53 Cat image sent to bruh.0444 [cogs.catcog]
+[OUTPUT] 29/10/24 22:39:04 Cat image sent to gentelmann [cogs.catcog]
+[INFO] 29/10/24 22:51:55 search_by_reactions was called [cogs.searchcog]
+[ERROR] 29/10/24 22:51:55 Ignoring exception in command' sbr'. Channel: 『💎』лучшее-с-мемов [discord.client]
+[INFO] 29/10/24 22:52:17 search_by_reactions was called [cogs.searchcog]
+[ERROR] 29/10/24 22:53:22 `atrys` error: [_discord_functions_base]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_discord_functions_base.py", line 241, in paginate
+    reaction, user = await self.ctx.bot.wait_for('reaction_add', timeout=self.timeout, check=self.check_reaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_functions_base.py", line 135, in atrys
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\message.py", line 1352, in clear_reactions
+    await self._state.http.clear_reactions(self.channel.id, self.id)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+[INFO] 29/10/24 22:57:21 Message with ID 1300500205048958997 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 22:57:21 Message with ID 1300500205048958997 was added to admin featured messages [cogs.reactionscog]
+[INFO] 29/10/24 22:59:13 Message with ID 1293923527187238912 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 22:59:13 Message with ID 1293923527187238912 was added to admin featured messages [cogs.reactionscog]
+[INFO] 29/10/24 23:07:08 Message with ID 1274854876714635337 was sent to meme featured messages [cogs.reactionscog]
+[INFO] 29/10/24 23:07:08 Message with ID 1274854876714635337 was added to admin featured messages [cogs.reactionscog]
+[INFO] 30/10/24 09:31:26 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 30/10/24 09:31:26 Cat cog is ready [cogs.catcog]
+[INFO] 30/10/24 09:31:26 Coup cog is ready [cogs.coupcog]
+[INFO] 30/10/24 09:31:26 GamesCog cog is ready [cogs.gamescog]
+[INFO] 30/10/24 09:31:26 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 30/10/24 09:31:26 Log cog is ready [cogs.logcog]
+[INFO] 30/10/24 09:31:26 Moderation cog is ready [cogs.moderationcog]
+[INFO] 30/10/24 09:31:26 Reactions cog is ready [cogs.reactionscog]
+[INFO] 30/10/24 09:31:26 Search cog is ready [cogs.searchcog]
+[SECURITY] 30/10/24 09:31:26 Security cog is ready [cogs.securitycog]
+[INFO] 30/10/24 09:31:26 Sex cog is ready [cogs.sexcog]
+[INFO] 30/10/24 09:31:26 Survey cog is ready [cogs.surveycog]
+[INFO] 30/10/24 09:31:26 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 30/10/24 09:31:26 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 30/10/24 09:31:26 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 30/10/24 09:31:26 Text cog is ready [__main__]
+[INFO] 30/10/24 09:31:27 DelCog cog is ready [cogs.delcog]
+[INFO] 30/10/24 09:31:27 Please send cat message sent [cogs.catcog]
+[INFO] 30/10/24 09:31:27 WeekThread date was checked [cogs.weekthreadcog]

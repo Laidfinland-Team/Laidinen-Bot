@@ -15,7 +15,6 @@ DB_DIR = r"light_databases\week_thread.json"
 
 WEEK_AUTHOR_ROLE = 1290267074945486868
 # ID категории форумов и эмодзи для голосования
-FORUM_CATEGORY = 1180846730602889236  # ID категории форумов 
 EMOJI = "🏅"  # Эмодзи для голосования за тред
 ALTERNATIVE_EMOJI = "🔥"  # Альтернативное эмодзи для голосования за тред
 
@@ -212,7 +211,7 @@ class WeekThreadCog(commands.Cog):
                 if role.members:
                     if role.members[0] != author:
                         await role.members[0].remove_roles(role)
-                if role.members[0] != author:
+                else:
                     await author.add_roles(role)
                 
                 end_time = time.perf_counter()
@@ -243,7 +242,7 @@ class WeekThreadCog(commands.Cog):
         thread = self.bot.get_channel(payload.channel_id)
         message = await thread.fetch_message(payload.message_id)
         
-        if thread.category_id != FORUM_CATEGORY:
+        if thread.category_id != FORUM_CATEGORY_ID:
             return
         
         

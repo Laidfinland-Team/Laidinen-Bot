@@ -15,6 +15,7 @@ from functools import wraps
 import discord
 import discord.ext
 import discord.ext.commands
+import discord.types
 import psycopg2
 import pytz
 import colorama
@@ -39,9 +40,12 @@ from bot_params import (
     DEBUG_MODE, 
     PROTECTED_MEMBERS_IDS,
     GUILD_ID,
+    FORUM_CATEGORY_ID,
     HELLCAT_ID, 
     LAIDFIN_YOUTUBE_URL, 
-    jerusalem_tz
+    jerusalem_tz,
+    
+    MODERATOR_ROLE_ID
 )
 
 
@@ -52,6 +56,13 @@ from bot_params import (
 
 # Инициализация colorama
 colorama.init(autoreset=True)
+
+# Инициализация get_member (_ds_func_base.py)
+def fetch_member(member_id: int) -> discord.Member:
+    ...
+    
+fetch_member = Fetch_member()
+
 
 # Инициализация intents
 intents = discord.Intents.default()
@@ -83,8 +94,49 @@ def output(channel, message):
     log.output(channel, message)
 
 
+from discord.types.member import UserWithMember as __UserWithMember
 
+def member_to_data(self) -> __UserWithMember:
+    data = {
+        'avatar': self.avatar,
+        'nick': self.nick,
+        'premium_since': self.premium_since.isoformat() if self.premium_since else None,
+        'pending': self.pending,
+        'permissions': self.permissions.value,
+        'communication_disabled_until': self.communication_disabled_until.isoformat() if self.communication_disabled_until else None,
+        'avatar_decoration_data': self.avatar_decoration_data.to_data() if self.avatar_decoration_data else None,
+    }
 
+    return data
+
+#discord.Member.to_data = member_to_data
+
+#from discord.types.threads import Thread as __ThreadPayload
+
+def thread_to_data(self):
+    data = {
+        'id': self.id,
+        'parent_id': self.parent_id,
+        'owner_id': self.owner_id,
+        'name': self.name,
+        'type': self._type.value if self._type else None,
+        'last_message_id': self.last_message_id,
+        'rate_limit_per_user': self.slowmode_delay,
+        'message_count': self.message_count,
+        'member_count': self.member_count,
+        'flags': self._flags,
+        'applied_tags': list(self._applied_tags),  # Преобразуем array.array в список
+        'thread_metadata': self._get_thread_metadata(),  # Предполагаем, что у вас есть метод для получения метаданных
+    }
+
+    if self.me is not None:
+        data['member'] = self.me.to_data()  # Предполагаем, что у ThreadMember есть метод to_data
+    else:
+        data['member'] = None
+
+    return data
+
+discord.Thread.to_data = thread_to_data
 
 
 """Инициализация бота"""

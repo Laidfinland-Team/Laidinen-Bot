@@ -1,7 +1,6 @@
 import discord.types
-import discord.types
-import discord.types
 from __init__ import *
+from datetime import datetime
 import PIL
 import random
 

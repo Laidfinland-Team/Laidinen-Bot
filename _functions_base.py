@@ -23,26 +23,6 @@ class Cog(commands.Cog):
     pass
 Cog = commands.Cog
 
-class FormatEmbed(Embed):
-    def __init__(self, title, description=None, color=None):
-        super().__init__(title=title, description=description, color=color)  
-        
-    def format(self, *args, **kwargs):
-        # Количество подстановочных мест в заголовке
-        title_args_count = self.title.count('{}')
-        
-        # Форматируем заголовок, передавая соответствующее количество аргументов
-        if title_args_count > 0:
-            self.title = self.title.format(*args[:title_args_count])
-
-        # Количество подстановочных мест в описании
-        description_args_count = self.description.count('{}')
-        
-        # Форматируем описание, передавая оставшиеся аргументы
-        if description_args_count > 0:
-            self.description = self.description.format(*args[title_args_count:title_args_count + description_args_count])
-        
-        return self
 class Diapason:
     def __init__(self, diapason_str):
         self.diapason_str = diapason_str
