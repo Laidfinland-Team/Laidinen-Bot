@@ -13081,3 +13081,57 @@ discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
 [INFO] 30/10/24 09:31:27 DelCog cog is ready [cogs.delcog]
 [INFO] 30/10/24 09:31:27 Please send cat message sent [cogs.catcog]
 [INFO] 30/10/24 09:31:27 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 30/10/24 09:36:06 Anon cog is ready [cogs.anonmessagecog]
+[INFO] 30/10/24 09:36:06 Cat cog is ready [cogs.catcog]
+[INFO] 30/10/24 09:36:06 Coup cog is ready [cogs.coupcog]
+[INFO] 30/10/24 09:36:06 GamesCog cog is ready [cogs.gamescog]
+[INFO] 30/10/24 09:36:06 Kamikaze cog is ready [cogs.kamikazecog]
+[INFO] 30/10/24 09:36:06 Log cog is ready [cogs.logcog]
+[INFO] 30/10/24 09:36:06 Moderation cog is ready [cogs.moderationcog]
+[INFO] 30/10/24 09:36:06 Reactions cog is ready [cogs.reactionscog]
+[INFO] 30/10/24 09:36:06 Search cog is ready [cogs.searchcog]
+[SECURITY] 30/10/24 09:36:06 Security cog is ready [cogs.securitycog]
+[INFO] 30/10/24 09:36:06 Sex cog is ready [cogs.sexcog]
+[INFO] 30/10/24 09:36:06 Survey cog is ready [cogs.surveycog]
+[INFO] 30/10/24 09:36:06 TeammateCog cog is ready [cogs.teammatecog]
+[INFO] 30/10/24 09:36:06 TheBestChannelCog cog is ready [cogs.thechannelcog]
+[INFO] 30/10/24 09:36:06 WeekThread cog is ready [cogs.weekthreadcog]
+[INFO] 30/10/24 09:36:06 Text cog is ready [__main__]
+[INFO] 30/10/24 09:36:07 Please send cat message sent [cogs.catcog]
+[INFO] 30/10/24 09:36:07 DelCog cog is ready [cogs.delcog]
+[INFO] 30/10/24 09:36:07 WeekThread date was checked [cogs.weekthreadcog]
+[INFO] 30/10/24 09:36:08 Thread of the week was chosen in 0.89 seconds [cogs.weekthreadcog]
+[OUTPUT] 30/10/24 09:36:55 Cat image sent to gentelmann [cogs.catcog]
+[ERROR] 30/10/24 09:42:39 `atrys` error: [_discord_functions_base]Traceback (most recent call last):
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_discord_functions_base.py", line 241, in paginate
+    reaction, user = await self.ctx.bot.wait_for('reaction_add', timeout=self.timeout, check=self.check_reaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ponom\Desktop\Laidfinland\Laidinen-Bot\_functions_base.py", line 135, in atrys
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\message.py", line 1352, in clear_reactions
+    await self._state.http.clear_reactions(self.channel.id, self.id)
+  File "C:\Users\ponom\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+[ERROR] 30/10/24 09:42:46 Command '?stauts' not find. Channel: Обсуждение [discord.client]
+[INFO] 30/10/24 09:43:09 Bot status requested by utkabob[31m (Enabled) [__main__]
