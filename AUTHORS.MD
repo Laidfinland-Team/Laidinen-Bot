@@ -10,7 +10,7 @@
 
 ## Сеньоры 
 ---
-- [@sokol](https://github.com/ssokkol) - ~~Сучка~~ Разработчик базы данных 
+- [@sokol](https://github.com/ssokkol) - Разработчик базы данных 
 ## Мидлы
 ---
 ## Джуны
