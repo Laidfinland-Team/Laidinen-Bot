@@ -2,7 +2,7 @@
 Сначала прочти [Наши конвенции](https://github.com/Laidfinland-Team/Laidinen-Bot/blob/master/.github/CONVENTION.md)
 Если что то не понял - **гугли**, если всё ещё не понял спроси у **ChatGPT**, если всё ещё не понятно контакты связи внизу:
 
-Дискорд главного разраба: **hellsas**
+Дискорд главного разраба: **utkabob**
 Форум разработки бота: https://discord.gg/yycb4pSRu5
 Почта: [thehellsas@gmail.com](thehellsas@gmail.com)
 ## Начало работы
